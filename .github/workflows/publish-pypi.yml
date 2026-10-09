@@ -141,7 +141,7 @@ jobs:
           sha256sum dist/* | tee SHA256SUMS
 
       - name: Retain canonical distributions
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: python-package-distributions
           path: dist/
