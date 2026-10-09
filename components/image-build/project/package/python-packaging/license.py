@@ -1,0 +1,30 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'python-packaging',
+ 'version': '26.3',
+ 'source': {'url': 'https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz',
+            'sha256': '94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79'},
+ 'status': 'declared',
+ 'expression': 'Apache-2.0 OR BSD-2-Clause',
+ 'scope': 'Version-bound upstream distribution notices; full bundled-component release review '
+          'incomplete.',
+ 'evidence': [{'path': 'packaging-26.3/LICENSE',
+               'sha256': 'cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48',
+               'source_sha256': '94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79'},
+              {'path': 'packaging-26.3/LICENSE.APACHE',
+               'sha256': '0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594',
+               'source_sha256': '94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79'},
+              {'path': 'packaging-26.3/LICENSE.BSD',
+               'sha256': 'b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5',
+               'source_sha256': '94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79'},
+              {'path': 'packaging-26.3/docs/licenses.rst',
+               'sha256': '763abb29c53e906e1e8d839deff7cca19c98d1c6c2bbf576ddc7394baeacf9c3',
+               'source_sha256': '94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79'}],
+ 'components': [{'scope': 'Bundled dependencies, documentation and generated files',
+                 'expression': None,
+                 'status': 'unresolved',
+                 'notes': 'Full per-component release review required before public '
+                          'redistribution.'}],
+ 'patches': [],
+ 'notes': ['Publisher source archive and included licensing notices hash verified. No downstream '
+           'patches.']}

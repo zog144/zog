@@ -1,0 +1,23 @@
+[Unit]
+Description=Read-only Zog installer admission observations
+# Admission starts after normal bootstrap services, not before sockets.target.
+DefaultDependencies=no
+Conflicts=shutdown.target
+Before=shutdown.target
+Requires=host-install-identity.service
+After=sysinit.target state.mount host-install-identity.service
+BindsTo=state.mount
+
+[Socket]
+ListenStream=/run/host-install/admission.sock
+SocketUser=root
+SocketGroup=host-discover
+SocketMode=0660
+DirectoryMode=0755
+Accept=yes
+MaxConnections=4
+MaxConnectionsPerSource=2
+RemoveOnStop=yes
+
+[Install]
+WantedBy=multi-user.target

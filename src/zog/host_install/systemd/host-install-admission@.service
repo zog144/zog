@@ -1,0 +1,20 @@
+[Unit]
+Description=Read one protected Zog installer transaction
+After=state.mount
+BindsTo=state.mount
+
+[Service]
+Type=exec
+User=root
+Group=root
+ExecStart=/usr/bin/host-install state-admission-serve
+StandardInput=socket
+StandardOutput=socket
+StandardError=journal
+RuntimeMaxSec=10
+TimeoutStopSec=2
+NoNewPrivileges=yes
+UMask=0077
+Restart=no
+# No filesystem namespace overrides: inspect the same STATE topology as startup.
+# Read-only implementation; no authorization, initialization, reset or key access.

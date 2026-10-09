@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component_dependencies": [],
+      "component_version": "0.4.2",
+      "program": "archive-mirror",
+      "python_package": "zog.archive_mirror",
+      "repository": "zog144/archive-mirror",
+      "revision": "648691fecc22494dc1aaf8dbe8b2f21b2ed67af3"
+    },
+    {
+      "component_dependencies": [
+        "image-build"
+      ],
+      "component_version": "0.1.0",
+      "program": "box-control",
+      "python_package": "zog.box_control",
+      "repository": "zog144/box-control",
+      "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a"
+    },
+    {
+      "component_dependencies": [],
+      "component_version": "0.7.2",
+      "program": "build-record",
+      "python_package": "zog.build_record",
+      "repository": "zog144/build-record",
+      "revision": "60631ae4c6904e4812bf0d38f8703a6123935aa1"
+    },
+    {
+      "component_dependencies": [
+        "box-control",
+        "build-record"
+      ],
+      "component_version": "0.12.0",
+      "program": "build-trace",
+      "python_package": "zog.build_trace",
+      "repository": "zog144/build-trace",
+      "revision": "1158030d0a8461554ebeda42ea095b25c10133dc"
+    },
+    {
+      "component_dependencies": [],
+      "component_version": "0.10.6",
+      "program": "host-deploy",
+      "python_package": "zog.host_deploy",
+      "repository": "zog144/host-deploy",
+      "revision": "21d5368398b9765357fcc180ca037c6c2279f24f"
+    },
+    {
+      "component_dependencies": [
+        "host-identify",
+        "host-install"
+      ],
+      "component_version": "0.4.6",
+      "program": "host-discover",
+      "python_package": "zog.host_discover",
+      "repository": "zog144/host-discover",
+      "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1"
+    },
+    {
+      "component_dependencies": [],
+      "component_version": "0.3.4",
+      "program": "host-identify",
+      "python_package": "zog.host_identify",
+      "repository": "zog144/host-identify",
+      "revision": "40fd8d901e0434ba4f819a03fa3dc71f9767da64"
+    },
+    {
+      "component_dependencies": [],
+      "component_version": "0.4.4",
+      "program": "host-install",
+      "python_package": "zog.host_install",
+      "repository": "zog144/host-install",
+      "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17"
+    },
+    {
+      "component_dependencies": [
+        "box-control",
+        "build-record",
+        "host-identify"
+      ],
+      "component_version": "0.2.0.dev5",
+      "program": "image-build",
+      "python_package": "zog.image_build",
+      "repository": "zog144/image-build",
+      "revision": "004bf0eae67a220348926248a06fa6447070cbfb"
+    },
+    {
+      "component_dependencies": [
+        "build-trace"
+      ],
+      "component_version": "0.2.0",
+      "program": "integrate-observe",
+      "python_package": "zog.integrate_observe",
+      "repository": "zog144/integrate-observe",
+      "revision": "d20e0ef972ea6f454b7de18f2e541b40e40e32a1"
+    },
+    {
+      "component_dependencies": [],
+      "component_version": "0.12.0",
+      "program": "network-register",
+      "python_package": "zog.network_register",
+      "repository": "zog144/network-register",
+      "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b"
+    },
+    {
+      "component_dependencies": [
+        "box-control"
+      ],
+      "component_version": "0.1.0",
+      "program": "root-control",
+      "python_package": "zog.root_control",
+      "repository": "zog144/root-control",
+      "revision": "3cc6cdc2c5e49232318d82797d3228c6072b9bdc"
+    },
+    {
+      "component_dependencies": [
+        "archive-mirror",
+        "box-control",
+        "host-deploy",
+        "host-identify",
+        "network-register"
+      ],
+      "component_version": "0.4.29",
+      "program": "station-access",
+      "python_package": "zog.station_access",
+      "repository": "zog144/station-access",
+      "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460"
+    },
+    {
+      "component_dependencies": [],
+      "component_version": "0.4.0",
+      "program": "version-share",
+      "python_package": "zog.version_share",
+      "repository": "zog144/version-share",
+      "revision": "5bb90786a46c489abb542ddb80bb2b7a7c8dc218"
+    }
+  ],
+  "distribution": "zog",
+  "license_expression": "BSD-3-Clause OR GPL-3.0-only",
+  "schema": 1,
+  "version": "0.1.0"
+}

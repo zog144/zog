@@ -1,0 +1,16 @@
+[Unit]
+Description=Consume an explicitly authorized Zog identity transaction
+Requires=host-install-prepare.service
+After=state.mount host-install-prepare.service
+BindsTo=state.mount
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=/usr/bin/host-install state-initialize
+RemainAfterExit=yes
+Restart=no
+UMask=0077
+# Root coordinator launches the key worker with UID/GID 970 and groups 972/973.
+# No ExecStart calls state-authorize. No daemon transport is started here.

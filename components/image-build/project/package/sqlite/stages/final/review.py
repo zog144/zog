@@ -1,0 +1,25 @@
+# Data only; parsed with ast.literal_eval.
+{'configure_options': ['--prefix=/usr',
+                       '--libdir=/usr/lib',
+                       '--disable-static',
+                       '--soname=legacy',
+                       '--enable-threadsafe',
+                       '--enable-load-extension',
+                       '--enable-readline',
+                       '--fts3',
+                       '--fts4',
+                       '--fts5',
+                       '--rtree',
+                       '--session',
+                       '--dbstat'],
+ 'compiler_flags': '-O2 -g -fstack-protector-strong -D_FORTIFY_SOURCE=3 -fno-omit-frame-pointer',
+ 'sqlite_macros': ['SQLITE_ENABLE_API_ARMOR',
+                   'SQLITE_ENABLE_COLUMN_METADATA',
+                   'SQLITE_ENABLE_UNLOCK_NOTIFY',
+                   'SQLITE_SECURE_DELETE',
+                   'SQLITE_ENABLE_FTS3_PARENTHESIS',
+                   'SQLITE_STRICT_SUBTYPE=1'],
+ 'reviewed_on': '2026-10-03',
+ 'patch_policy': 'No distro patches applied; downstream FIPS/crypto-policies integration '
+                 'intentionally deferred. SQLite runs direct tcltest, not affected multiworker '
+                 'testrunner.'}

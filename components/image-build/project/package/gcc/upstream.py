@@ -1,0 +1,15 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'version': '16.2.0',
+ 'homepage': 'https://gcc.gnu.org/',
+ 'repository_url': None,
+ 'repository_status': 'not-recorded',
+ 'release_url': 'https://ftp.gnu.org/gnu/gcc/gcc-16.2.0/gcc-16.2.0.tar.xz',
+ 'sha256': 'e6738e29597f733270731aa90600f37ffdc045079dfc27ec7e8192cc81085c3e',
+ 'verification_status': 'https-download-and-lfs-md5-compared',
+ 'reference': 'https://www.linuxfromscratch.org/lfs/view/13.1-systemd/chapter03/packages.html',
+ 'secondary_mirrors': [{'url': 'https://github.com/gcc-mirror/gcc',
+                        'kind': 'git-repository',
+                        'automatic_fallback': False,
+                        'release_archive_equivalence': 'not-asserted'}],
+ 'mirror_status': 'listed'}

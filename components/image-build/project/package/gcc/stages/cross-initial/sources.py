@@ -1,0 +1,17 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://ftp.gnu.org/gnu/gcc/gcc-16.2.0/gcc-16.2.0.tar.xz',
+  'sha256': 'e6738e29597f733270731aa90600f37ffdc045079dfc27ec7e8192cc81085c3e',
+  'destination': 'upstream',
+  'archive': True},
+ {'url': 'https://ftp.gnu.org/gnu/gmp/gmp-6.3.0.tar.xz',
+  'sha256': 'a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898',
+  'destination': 'gmp-source',
+  'archive': True},
+ {'url': 'https://ftp.gnu.org/gnu/mpfr/mpfr-4.2.2.tar.xz',
+  'sha256': 'b67ba0383ef7e8a8563734e2e889ef5ec3c3b898a01d00fa0a6869ad81c6ce01',
+  'destination': 'mpfr-source',
+  'archive': True},
+ {'url': 'https://ftp.gnu.org/gnu/mpc/mpc-1.4.1.tar.xz',
+  'sha256': '91204cd32f164bd3b7c992d4a6a8ce6519511aadab30f78b6982d0bf8d73e931',
+  'destination': 'mpc-source',
+  'archive': True}]

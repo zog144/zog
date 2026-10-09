@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://distfiles.ariadne.space/pkgconf/pkgconf-3.0.5.tar.xz',
+  'sha256': '3acd3a8a3cce65a8d620321855d92fb602e026cbe8e13ee36bdec58483b59ace',
+  'destination': 'upstream',
+  'archive': True}]

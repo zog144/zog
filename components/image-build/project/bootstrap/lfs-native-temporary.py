@@ -1,0 +1,18 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'lfs_edition': '13.1-systemd',
+ 'architecture': 'x86_64',
+ 'target': 'x86_64-zog-linux-gnu',
+ 'stages': [{'id': 'bash-temporary-cwd',
+             'project': 'bash',
+             'stage': 'temporary-cwd',
+             'recipe': 'bash/stages/temporary-cwd'},
+            {'id': 'binutils-native-temporary',
+             'project': 'binutils',
+             'stage': 'native-temporary',
+             'recipe': 'binutils/stages/native-temporary'},
+            {'id': 'gcc-native-temporary',
+             'project': 'gcc',
+             'stage': 'native-temporary',
+             'recipe': 'gcc/stages/native-temporary'}],
+ 'targets': ['bash-temporary-cwd', 'binutils-native-temporary', 'gcc-native-temporary']}

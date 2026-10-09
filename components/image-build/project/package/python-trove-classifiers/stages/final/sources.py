@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://files.pythonhosted.org/packages/bf/93/af436dfaa845cab5d96f0adbc1e4f3730532d37fa249e4eb796fb1d7fc82/trove_classifiers-2026.9.21.13.tar.gz',
+  'sha256': '0a9ebc8d4e2f3e8a22848c5258033035bec17a3012ac3fea16dbaa764489eb71',
+  'destination': 'upstream',
+  'archive': True}]

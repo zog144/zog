@@ -1,0 +1,16 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'architecture': 'x86_64',
+ 'stages': [{'id': 'gperf-final',
+             'project': 'gperf',
+             'stage': 'final',
+             'recipe': 'gperf/stages/final'},
+            {'id': 'python-markupsafe-final',
+             'project': 'python-markupsafe',
+             'stage': 'final',
+             'recipe': 'python-markupsafe/stages/final'},
+            {'id': 'python-jinja2-final',
+             'project': 'python-jinja2',
+             'stage': 'final',
+             'recipe': 'python-jinja2/stages/final'}],
+ 'targets': ['gperf-final', 'python-jinja2-final']}

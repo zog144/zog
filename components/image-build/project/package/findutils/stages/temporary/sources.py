@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://ftp.gnu.org/gnu/findutils/findutils-4.11.0.tar.xz',
+  'sha256': 'bfd19cb06cc71f3352d567e90284d8cdac02ac89774bbeadf0b533b0c11432fd',
+  'destination': 'upstream',
+  'archive': True}]

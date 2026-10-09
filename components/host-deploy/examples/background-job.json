@@ -1,0 +1,6 @@
+{
+  "command": ["bash", "build.sh"],
+  "timeout_seconds": 3600,
+  "outputs": ["build"],
+  "environment": {}
+}

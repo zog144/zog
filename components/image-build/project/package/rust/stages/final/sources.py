@@ -1,0 +1,17 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://static.rust-lang.org/dist/rustc-1.99.0-src.tar.xz',
+  'sha256': 'cc41916a8c84f5d9ec4f55561b44e39f43b647b133f8a6f51be9ea13c83f7036',
+  'destination': 'upstream',
+  'archive': True},
+ {'url': 'https://static.rust-lang.org/dist/2026-08-20/rustc-1.98.0-x86_64-unknown-linux-gnu.tar.xz',
+  'sha256': '0e37cb339f447fc44d6d781073bacacebfdc5612f2600e4c7e84c266f5f3aced',
+  'destination': 'seed-rustc',
+  'archive': True},
+ {'url': 'https://static.rust-lang.org/dist/2026-08-20/rust-std-1.98.0-x86_64-unknown-linux-gnu.tar.xz',
+  'sha256': 'f5022e6c95a5ad23cca2513dc8281200f585fa188de6370aa37b128a43f876a3',
+  'destination': 'seed-rust-std',
+  'archive': True},
+ {'url': 'https://static.rust-lang.org/dist/2026-08-20/cargo-1.98.0-x86_64-unknown-linux-gnu.tar.xz',
+  'sha256': '2f512d170d3dd23e16ababcda32ee2e6d5172d861a7af1f504e0b1e270cafab9',
+  'destination': 'seed-cargo',
+  'archive': True}]

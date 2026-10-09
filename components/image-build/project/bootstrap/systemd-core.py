@@ -1,0 +1,16 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'architecture': 'x86_64',
+ 'stages': [{'id': 'tzdata-final',
+             'project': 'tzdata',
+             'stage': 'final',
+             'recipe': 'tzdata/stages/final'},
+            {'id': 'systemd-test-environment',
+             'project': 'build-environment',
+             'stage': 'systemd-test',
+             'recipe': 'build-environment/stages/systemd-test'},
+            {'id': 'systemd-final',
+             'project': 'systemd',
+             'stage': 'final',
+             'recipe': 'systemd/stages/final'}],
+ 'targets': ['systemd-final']}

@@ -1,0 +1,17 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://raw.githubusercontent.com/nss-dev/nss/8571d2bf95b5003535a7ecf6b1e27ef0102aaeeb/lib/ckfw/builtins/certdata.txt',
+  'sha256': 'beb7e6dfe6499926e52c075c27bcfbe4c957f8609c575b3860273ae2806f63eb',
+  'destination': 'certdata.txt',
+  'archive': False},
+ {'url': 'https://raw.githubusercontent.com/nss-dev/nss/8571d2bf95b5003535a7ecf6b1e27ef0102aaeeb/COPYING',
+  'sha256': 'a20c1a32d1f8102432360b42e932869f7c11c7cdbacf9cac554c422132af47f4',
+  'destination': 'NSS-COPYING',
+  'archive': False},
+ {'url': 'https://raw.githubusercontent.com/curl/curl/39ad9b0771708c5aff20663a7ef3704bc55510d7/scripts/mk-ca-bundle.pl',
+  'sha256': '8e278f4982210b37e4f9a048bd6ed23df41e4a054085bd73f8242628f03d09ca',
+  'destination': 'mk-ca-bundle.pl',
+  'archive': False},
+ {'url': 'https://raw.githubusercontent.com/curl/curl/39ad9b0771708c5aff20663a7ef3704bc55510d7/COPYING',
+  'sha256': '82f2f4427d6545ee5aaac4f0b80428da6cc8ba41c2cf5da3a03680ec327b9681',
+  'destination': 'CURL-COPYING',
+  'archive': False}]

@@ -1,0 +1,16 @@
+{'build': None,
+ 'build_dependencies': None,
+ 'configure': None,
+ 'install': None,
+ 'notes': 'Catalogue plan remains non-executable; reviewed final-stage recipe '
+          'is in stages/final. Live acceptance pending.',
+ 'outputs': None,
+ 'prepare': None,
+ 'reference': 'https://www.linuxfromscratch.org/lfs/view/13.1-systemd/appendices/dependencies.html',
+ 'reviewed_stages': {'final': 'stages/final'},
+ 'runtime_dependencies': None,
+ 'schema': 1,
+ 'stages': ['native'],
+ 'status': 'not-authored',
+ 'test': None,
+ 'test_dependencies': None}

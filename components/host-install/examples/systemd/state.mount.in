@@ -1,0 +1,14 @@
+# Render @STATE_PARTUUID@ from the validated installation binding.
+# Install only after a disposable-host review; this file is not auto-installed.
+[Unit]
+Description=Zog persistent STATE
+Before=host-install-prepare.service
+
+[Mount]
+What=/dev/disk/by-partuuid/@STATE_PARTUUID@
+Where=/state
+Type=ext4
+Options=rw,nodev,nosuid
+
+[Install]
+WantedBy=local-fs.target

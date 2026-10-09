@@ -1,0 +1,23 @@
+# Review executable path before explicit installation. Never auto-installed.
+# Narrow diagnostic only: no mutable journal or identity creation.
+[Unit]
+Description=Zog managed host discovery
+Requires=host-install-admission.socket
+After=state.mount host-install-admission.socket
+BindsTo=state.mount
+
+[Service]
+Type=oneshot
+User=host-discover
+Group=host-discover
+SupplementaryGroups=archive-consumers host-control
+ExecStart=/usr/bin/host-discover --managed-state
+Restart=no
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+# Do not use StateDirectory or unconditional identity/journal creation.
+# Per-directory bind mounts under STATE fail the current nested-mount checks.
+
+[Install]
+WantedBy=multi-user.target

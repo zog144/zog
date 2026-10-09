@@ -1,0 +1,19 @@
+[Unit]
+Description=Reconcile verified host addresses with owned Cloudflare DNS records
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=oneshot
+User=station-access
+Group=station-access
+WorkingDirectory=/var/lib/station-access
+EnvironmentFile=/etc/station-access/environment
+Environment=HOST_DNS_CONFIGURATION=/etc/station-access/host-dns.json
+ExecStart=/opt/station-access/venv/bin/python -m django reconcile_host_dns
+TimeoutStartSec=10min
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/station-access
+ProtectHome=true
+PrivateTmp=true

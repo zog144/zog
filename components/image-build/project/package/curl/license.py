@@ -1,0 +1,18 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'curl',
+ 'version': '8.22.0',
+ 'source': {'url': 'https://curl.se/download/curl-8.22.0.tar.xz',
+            'sha256': 'f7ef3ae8a22e521f289803fe93543eb64c329b58aa73a9e224dfd915a2a5f4f7'},
+ 'status': 'declared',
+ 'expression': 'curl',
+ 'scope': 'Version-bound upstream notices; bundled-component review incomplete.',
+ 'evidence': [{'path': 'curl-8.22.0/COPYING',
+               'sha256': '82f2f4427d6545ee5aaac4f0b80428da6cc8ba41c2cf5da3a03680ec327b9681',
+               'source_sha256': 'f7ef3ae8a22e521f289803fe93543eb64c329b58aa73a9e224dfd915a2a5f4f7'}],
+ 'components': [{'scope': 'Bundled libraries and test fixtures',
+                 'expression': None,
+                 'status': 'unresolved',
+                 'notes': 'Per-component release review remains required.'}],
+ 'patches': [],
+ 'notes': ['No downstream patches. Source bytes and included notice hashes retained.']}

@@ -1,0 +1,2 @@
+# Data only; parsed with ast.literal_eval.
+{'build': ['python-flit-core-final'], 'runtime': []}

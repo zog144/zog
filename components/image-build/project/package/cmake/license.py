@@ -1,0 +1,18 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'cmake',
+ 'version': '4.4.4',
+ 'source': {'url': 'https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4.tar.gz',
+            'sha256': 'bd24c30d80a7744ae84b845ff080cc8453b06c622ef01066564108e9cefc44cf'},
+ 'status': 'declared',
+ 'expression': 'BSD-3-Clause',
+ 'scope': 'Version-bound upstream notices; bundled-component review incomplete.',
+ 'evidence': [{'path': 'cmake-4.4.4/LICENSE.rst',
+               'sha256': '4382e7c1879ac90e3f101a395d23846fa4dbcaa1eed7265b43681e348754825d',
+               'source_sha256': 'bd24c30d80a7744ae84b845ff080cc8453b06c622ef01066564108e9cefc44cf'}],
+ 'components': [{'scope': 'Bundled libraries and test fixtures',
+                 'expression': None,
+                 'status': 'unresolved',
+                 'notes': 'Per-component release review remains required.'}],
+ 'patches': [],
+ 'notes': ['No downstream patches. Source bytes and included notice hashes retained.']}

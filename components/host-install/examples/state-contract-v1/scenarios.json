@@ -1,0 +1,1154 @@
+[
+  {
+    "name": "completed",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "load-existing",
+      "code": "ready",
+      "control_allowed": true
+    }
+  },
+  {
+    "name": "ordinary-directory",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "mount-unverified",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "wrong-filesystem",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000010-0010-4010-8010-000000000010",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "mount-unverified",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "duplicate-volume",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      },
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "mount-unverified",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "read-only",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "ro"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "mount-unverified",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "failed-fsync",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "failed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "storage-not-healthy",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "missing-key-old-fresh",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "absent",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 0,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "initialization-not-authorized",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "wrong-accounts",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": false,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "account-mismatch",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "newer-schema",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 2,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "unsupported-state-schema",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "restored-hold",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": true,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "recovery-only",
+      "code": "reconciliation-required",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "stale-checkpoint",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "stale-checkpoint",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "recovery-only",
+      "code": "reconciliation-required",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "stale-trust",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "stale-trust",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "recovery-only",
+      "code": "reconciliation-required",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "cached-session",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "cached",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "load-existing",
+      "code": "fresh-session-required",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "station-unavailable",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "unavailable",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "load-existing",
+      "code": "fresh-session-required",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "observer-control",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "complete",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "none"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "observer"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "load-existing",
+      "code": "wrong-control-registry",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "resume-prepared",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "prepared",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 1,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": true,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "initialize"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "resume-prepared",
+      "code": "same-transaction-only",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "fresh-authorized",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "absent",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 0,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": true,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "initialize"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "initialize-once",
+      "code": "explicit-transaction-only",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "fresh-flag-only",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "absent",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 0,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": false,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "initialize"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "initialization-not-authorized",
+      "control_allowed": false
+    }
+  },
+  {
+    "name": "competing-prepared",
+    "evidence": {
+      "mount_verified": true,
+      "accounts_verified": true,
+      "storage_probe": "passed",
+      "identity": {
+        "status": "prepared",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "candidates": 2,
+        "matches_expected": true
+      },
+      "authorization": {
+        "verified_current_transaction": true,
+        "installation_id": "00000001-0001-4001-8001-000000000001",
+        "state_volume_id": "00000002-0002-4002-8002-000000000002",
+        "initialization_id": "00000006-0006-4006-8006-000000000006",
+        "action": "initialize"
+      },
+      "schemas": {
+        "identity": 1,
+        "trust": 1,
+        "control": 1,
+        "controller": 1
+      },
+      "recovery_hold": false,
+      "station": {
+        "status": "fresh",
+        "registry_id": "primary"
+      }
+    },
+    "mounts": [
+      {
+        "id": "42",
+        "device": "8:3",
+        "root": "/",
+        "target": "/state",
+        "options": [
+          "rw"
+        ],
+        "type": "ext4",
+        "super_options": [
+          "rw"
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "maj:min": "8:3",
+        "type": "part",
+        "partuuid": "00000003-0003-4003-8003-000000000003",
+        "uuid": "00000004-0004-4004-8004-000000000004",
+        "fstype": "ext4"
+      }
+    ],
+    "expected": {
+      "identity_action": "block",
+      "code": "identity-inconsistent",
+      "control_allowed": false
+    }
+  }
+]

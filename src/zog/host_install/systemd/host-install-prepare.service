@@ -1,0 +1,16 @@
+[Unit]
+Description=Verify and prepare existing Zog STATE
+Requires=state.mount
+After=state.mount
+BindsTo=state.mount
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=/usr/bin/host-install state-prepare
+RemainAfterExit=yes
+Restart=no
+UMask=0077
+# Do not use StateDirectory or a condition that silently skips missing STATE.
+# First volume marking is an explicit installer operation, never a boot flag.

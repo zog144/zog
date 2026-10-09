@@ -1,0 +1,7 @@
+{
+  "preparation": {"command": ["python3", "prepare.py"], "timeout_seconds": 120},
+  "verification": {"command": ["python3", "verify.py"], "timeout_seconds": 120},
+  "reboot_timeout_seconds": 600,
+  "outputs": ["."],
+  "environment": {}
+}

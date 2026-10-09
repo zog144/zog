@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://files.pythonhosted.org/packages/f6/97/b5312f01a8c6daf729a9d272dd442e0c546dbcc630495788786c4b567ed0/hatchling-1.32.4.tar.gz',
+  'sha256': 'c4468f73144c054d2aab4ef0f0378c43b9878bf07f8ffd6b79690e970d375f07',
+  'destination': 'upstream',
+  'archive': True}]

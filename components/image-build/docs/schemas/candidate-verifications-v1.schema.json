@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "candidate-verifications-v1",
+  "type": "object",
+  "required": [
+    "schema",
+    "generation_id",
+    "results",
+    "coverage"
+  ],
+  "properties": {
+    "schema": {
+      "const": "image-build-candidate-verifications-v1"
+    },
+    "generation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "schema",
+          "id",
+          "check_id",
+          "definition_digest",
+          "subject",
+          "attempt_id",
+          "sequence",
+          "outcome",
+          "execution",
+          "environment_digest",
+          "evidence",
+          "granularity",
+          "timing",
+          "producer"
+        ],
+        "properties": {
+          "schema": {
+            "const": "image-build-verification-observation-v1"
+          },
+          "id": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "check_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "definition_digest": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "subject": {
+            "type": "object",
+            "required": [
+              "kind",
+              "generation_id",
+              "root_inventory_digest"
+            ],
+            "properties": {
+              "kind": {
+                "const": "generation-candidate"
+              },
+              "generation_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "root_inventory_digest": {
+                "type": "string",
+                "pattern": "^sha256:[0-9a-f]{64}$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "attempt_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sequence": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "outcome": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "ERROR",
+              "SKIP"
+            ]
+          },
+          "execution": {
+            "type": "object"
+          },
+          "environment_digest": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            },
+            "minItems": 1
+          },
+          "granularity": {
+            "const": "command"
+          },
+          "timing": {
+            "type": "object",
+            "required": [
+              "started_at",
+              "finished_at",
+              "observed_at"
+            ],
+            "properties": {
+              "started_at": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "finished_at": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "observed_at": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "producer": {
+            "type": "object",
+            "required": [
+              "name",
+              "contract"
+            ],
+            "properties": {
+              "name": {
+                "const": "image-build"
+              },
+              "contract": {
+                "const": "image-build-verification-observation-v1"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "coverage": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

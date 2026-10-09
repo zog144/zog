@@ -1,0 +1,4 @@
+NAME="Zog build environment"
+ID=zog
+PRETTY_NAME="Zog systemd test environment"
+BUILD_ID=systemd-261.2-test

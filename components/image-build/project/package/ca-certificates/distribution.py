@@ -1,0 +1,13 @@
+{'schema': 1,
+ 'profiles': {'amazon-linux-2023': {'related_packages': ['ca-certificates'],
+                                    'seed_required': False,
+                                    'seed_packages': [],
+                                    'status': 'unreviewed'},
+              'fedora-rawhide': {'related_packages': ['ca-certificates'],
+                                 'seed_required': False,
+                                 'seed_packages': [],
+                                 'status': 'unreviewed'},
+              'opensuse-tumbleweed': {'related_packages': ['ca-certificates'],
+                                      'seed_required': False,
+                                      'seed_packages': [],
+                                      'status': 'unreviewed'}}}

@@ -1,0 +1,57 @@
+# Upstream licensing data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'glibc',
+ 'version': '2.44',
+ 'source': {'url': 'https://ftp.gnu.org/gnu/glibc/glibc-2.44.tar.xz',
+            'sha256': '37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667'},
+ 'status': 'declared',
+ 'expression': 'LGPL-2.1-or-later',
+ 'scope': 'Primary upstream declaration or retained top-level terms only; see component scopes and '
+          'unresolved review notes.',
+ 'evidence': [{'path': 'glibc-2.44/COPYING.LESSERv2',
+               'sha256': '20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95',
+               'source_sha256': '37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667'},
+              {'path': 'glibc-2.44/COPYINGv2',
+               'sha256': 'edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6',
+               'source_sha256': '37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667'},
+              {'path': 'glibc-2.44/COPYINGv3',
+               'sha256': '3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986',
+               'source_sha256': '37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667'},
+              {'path': 'glibc-2.44/LICENSES',
+               'sha256': 'b22a69aa3f80a5201818c66cb0df0f25f9fa13cf5861b0093a058dbd12d50dce',
+               'source_sha256': '37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667'},
+              {'path': 'glibc-2.44/README',
+               'sha256': '50d8e74d8294710f19b1ca014afc6c57005517bae7bd111cd71c78e7f0c8faa2',
+               'source_sha256': '37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667'},
+              {'path': 'glibc-2.44/misc/syslog.c',
+               'sha256': 'bd0a6479d3259828bba56e3a819064df05b6129b124e93633f858de7ccc9311f',
+               'source_sha256': '37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667'},
+              {'path': 'glibc-2.44/csu/libc-start.c',
+               'sha256': 'c37ed931938c3e0f4cbd3633c207df468e72ebfc3bed17145cfb77f1ae54d783',
+               'source_sha256': '37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667'}],
+ 'components': [{'scope': 'misc/syslog.c',
+                 'expression': 'BSD-3-Clause',
+                 'status': 'declared',
+                 'notes': 'The retained source header has three operative redistribution conditions; '
+                          'LICENSES lists additional contributions.'},
+                {'scope': 'Other included files, documentation, generated code and bundled subprojects',
+                 'expression': None,
+                 'status': 'unresolved',
+                 'notes': 'Complete per-file/stage scope review remains required; primary declaration '
+                          'is not a blanket grant.'}],
+ 'patches': [{'scope': 'https://www.linuxfromscratch.org/patches/lfs/13.1/glibc-fhs-1.patch',
+              'expression': None,
+              'status': 'unresolved',
+              'notes': 'Source SHA256 643552db030e2f2d7ffde4f558e0f5f83d3fabf34a2e0e56ebdb49750ac27b0d; '
+                       'exact patch provenance retained, licensing review pending.'},
+             {'scope': 'https://www.linuxfromscratch.org/patches/lfs/13.1/glibc-2.44-upstream_fixes-1.patch',
+              'expression': None,
+              'status': 'unresolved',
+              'notes': 'Source SHA256 500567ff0a22e295bfe3b55e9b397796f71a19f01e1ff7fb29c9189482ee1809; '
+                       'exact patch provenance retained, licensing review pending.'}],
+ 'notes': ['Inspected exact release archive on 2026-09-27; source and evidence hashes are bound to this '
+           'version.',
+           'Declared is not release-reviewed. Per-component notices, exceptions and '
+           'corresponding-source obligations require final review.',
+           'LicenseRef denotes the retained upstream terms without claiming SPDX equivalence; it never '
+           'denotes Zog first-party licensing.']}

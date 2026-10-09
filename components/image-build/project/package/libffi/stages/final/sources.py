@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://github.com/libffi/libffi/releases/download/v3.8.0/libffi-3.8.0.tar.gz',
+  'sha256': '7da3e2d9a171eb0a038f592ecad3ff2bb2550f3496d87b3b29ad0cf4430c0db4',
+  'destination': 'upstream',
+  'archive': True}]

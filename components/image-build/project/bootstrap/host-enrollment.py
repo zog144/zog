@@ -1,0 +1,16 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'architecture': 'x86_64',
+ 'stages': [{'id': 'host-identify-final',
+             'project': 'host-identify',
+             'stage': 'final',
+             'recipe': 'host-identify/stages/final'},
+            {'id': 'host-install-final',
+             'project': 'host-install',
+             'stage': 'final',
+             'recipe': 'host-install/stages/final'},
+            {'id': 'host-discover-final',
+             'project': 'host-discover',
+             'stage': 'final',
+             'recipe': 'host-discover/stages/final'}],
+ 'targets': ['host-discover-final']}

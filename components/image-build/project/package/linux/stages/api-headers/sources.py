@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://www.kernel.org/pub/linux/kernel/v7.x/linux-7.1.8.tar.xz',
+  'sha256': 'ff01dcb449279d5b4cfccdb01fee639cf5ff1803f1749a77844dd33915422c49',
+  'destination': 'upstream',
+  'archive': True}]

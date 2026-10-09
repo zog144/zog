@@ -1,0 +1,18 @@
+[Unit]
+Description=Process explicitly confirmed station deployment jobs
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=oneshot
+User=station-access
+Group=station-access
+WorkingDirectory=/var/lib/station-access
+EnvironmentFile=/etc/station-access/environment
+ExecStart=/opt/station-access/venv/bin/python -m django run_deployment_jobs
+TimeoutStartSec=30min
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/station-access
+ProtectHome=true
+PrivateTmp=true

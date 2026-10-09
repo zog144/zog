@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "kind": "zog-state-volume",
+  "installation_id": "00000001-0001-4001-8001-000000000001",
+  "state_volume_id": "00000002-0002-4002-8002-000000000002",
+  "partition_partuuid": "00000003-0003-4003-8003-000000000003",
+  "filesystem_uuid": "00000004-0004-4004-8004-000000000004",
+  "account_profile": "zog-host-accounts-v1"
+}

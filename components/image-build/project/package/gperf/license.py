@@ -1,0 +1,18 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'gperf',
+ 'version': '3.3',
+ 'source': {'url': 'https://ftp.gnu.org/gnu/gperf/gperf-3.3.tar.gz',
+            'sha256': 'fd87e0aba7e43ae054837afd6cd4db03a3f2693deb3619085e6ed9d8d9604ad8'},
+ 'status': 'declared',
+ 'expression': 'GPL-3.0-or-later',
+ 'scope': 'Top-level project terms; not blanket per-file release clearance.',
+ 'evidence': [{'path': 'gperf-3.3/COPYING',
+               'sha256': '8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903',
+               'source_sha256': 'fd87e0aba7e43ae054837afd6cd4db03a3f2693deb3619085e6ed9d8d9604ad8'}],
+ 'components': [{'scope': 'Bundled tests, documentation and auxiliary files',
+                 'expression': None,
+                 'status': 'unresolved',
+                 'notes': 'Complete per-file review pending; archive retained.'}],
+ 'patches': [],
+ 'notes': ['Original upstream notices retained; no Zog relicensing.']}

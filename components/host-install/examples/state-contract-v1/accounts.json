@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "kind": "zog-host-accounts",
+  "profile": "zog-host-accounts-v1",
+  "users": {
+    "host-discover": {
+      "uid": 970,
+      "gid": 970,
+      "groups": [
+        972,
+        973
+      ]
+    },
+    "box-control": {
+      "uid": 971,
+      "gid": 971,
+      "groups": [
+        972
+      ]
+    }
+  },
+  "groups": {
+    "host-discover": 970,
+    "box-control": 971,
+    "archive-consumers": 972,
+    "host-control": 973
+  }
+}

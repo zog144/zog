@@ -1,0 +1,15 @@
+# Data only; parsed with ast.literal_eval.
+{'environment': {'CONFIG_SITE': '/dev/null'},
+ 'build': [['/bin/bash',
+            '-eu',
+            '-o',
+            'pipefail',
+            '-c',
+            'cd upstream/zstd-1.5.7; make -j4 prefix=/usr']],
+ 'test': [['/bin/bash', '-eu', '-o', 'pipefail', '-c', 'cd upstream/zstd-1.5.7; make -j4 check']],
+ 'install': [['/bin/bash',
+              '-eu',
+              '-o',
+              'pipefail',
+              '-c',
+              'cd upstream/zstd-1.5.7; make prefix=/usr DESTDIR="$DESTDIR" install']]}

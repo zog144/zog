@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "packages": {
+    "react@19.2.0": {
+      "name": "react",
+      "version": "19.2.0",
+      "declared_license": "MIT",
+      "reviewed_terms": "MIT",
+      "status": "reviewed",
+      "reviewed_on": "2026-09-30",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/react/-/react-19.2.0.tgz",
+      "integrity": "sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ==",
+      "tarball_sha256": "4de5ae8fd4773b2356f95a22e58cb154a161c35376aef7c006490fb964556d66",
+      "repository": {
+        "url": "git+https://github.com/facebook/react.git",
+        "type": "git",
+        "directory": "packages/react"
+      },
+      "registry_git_head": "861811347b8fa936b4a114fc022db9b8253b3d86",
+      "published_file_count": 27,
+      "published_files_sha256": "81dc648bed48f8234d981e14d439edddaf69518eb9381c06e7398cea75468ad0",
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "scope": "Published npm artifact and supplied legal text compared with installed bytes; no independent source rebuild or registry-signature verification."
+    },
+    "react-dom@19.2.0": {
+      "name": "react-dom",
+      "version": "19.2.0",
+      "declared_license": "MIT",
+      "reviewed_terms": "MIT",
+      "status": "reviewed",
+      "reviewed_on": "2026-09-30",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz",
+      "integrity": "sha512-UlbRu4cAiGaIewkPyiRGJk0imDN2T3JjieT6spoL2UeSf5od4n5LB/mQ4ejmxhCFT1tYe8IvaFulzynWovsEFQ==",
+      "tarball_sha256": "6c47e801364162210540ccee8bc5d813e032ae361ba4e2be72102e76093ecf5b",
+      "repository": {
+        "url": "git+https://github.com/facebook/react.git",
+        "type": "git",
+        "directory": "packages/react-dom"
+      },
+      "registry_git_head": "861811347b8fa936b4a114fc022db9b8253b3d86",
+      "published_file_count": 43,
+      "published_files_sha256": "3f2db655ac22ea1ddf1e9c94ebd2ab7562a641452b100e1d4022a3cfe938ddac",
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "scope": "Published npm artifact and supplied legal text compared with installed bytes; no independent source rebuild or registry-signature verification."
+    },
+    "react-router@7.18.4": {
+      "name": "react-router",
+      "version": "7.18.4",
+      "declared_license": "MIT",
+      "reviewed_terms": "MIT",
+      "status": "reviewed",
+      "reviewed_on": "2026-09-30",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/react-router/-/react-router-7.18.4.tgz",
+      "integrity": "sha512-PUPQcMhMGRAslLcvtlPz/kmzBEWPhLdgLFrL7pLNepBL6dX0lWj4WD2cUYVgYCuT3jxvghYFg81cDTj44DhetQ==",
+      "tarball_sha256": "b94544d8041d1588f7f4b93861bfce5c6489c2cb26af0dd797137f2a54faba2d",
+      "repository": {
+        "url": "git+https://github.com/remix-run/react-router.git",
+        "type": "git",
+        "directory": "packages/react-router"
+      },
+      "registry_git_head": null,
+      "published_file_count": 159,
+      "published_files_sha256": "09183d493e57bac1577aa396a4fd0165e7b3707140f541b88ef1fba99a82d5eb",
+      "notices": [
+        {
+          "path": "LICENSE.md",
+          "sha256": "77c9ee6a9c5d5782fb0c50b50d101189116314c14f7df0a1b0d385fc96a7ba49"
+        }
+      ],
+      "scope": "Published npm artifact and supplied legal text compared with installed bytes; no independent source rebuild or registry-signature verification."
+    },
+    "scheduler@0.27.0": {
+      "name": "scheduler",
+      "version": "0.27.0",
+      "declared_license": "MIT",
+      "reviewed_terms": "MIT",
+      "status": "reviewed",
+      "reviewed_on": "2026-09-30",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz",
+      "integrity": "sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==",
+      "tarball_sha256": "ab26ce35ce4032f04b78cfc5bbb4cfe13358e9fe7a5433a8aa6315c3debc5095",
+      "repository": {
+        "url": "git+https://github.com/facebook/react.git",
+        "type": "git",
+        "directory": "packages/scheduler"
+      },
+      "registry_git_head": "861811347b8fa936b4a114fc022db9b8253b3d86",
+      "published_file_count": 15,
+      "published_files_sha256": "b38956a7c81ba2a3b9418531841bcc8166fa8cb79e6f2542f46dd3e910c04259",
+      "notices": [
+        {
+          "path": "LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "scope": "Published npm artifact and supplied legal text compared with installed bytes; no independent source rebuild or registry-signature verification."
+    },
+    "vite@7.3.6": {
+      "name": "vite",
+      "version": "7.3.6",
+      "declared_license": "MIT",
+      "reviewed_terms": "MIT core/helper code; full upstream bundled notices retained (MIT, BSD-2-Clause, CC0-1.0, ISC).",
+      "status": "reviewed",
+      "reviewed_on": "2026-09-30",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/vite/-/vite-7.3.6.tgz",
+      "integrity": "sha512-4XP60spRGjSZFf1qYH+dJIkK2znL3zQfl9KkOV9MkkRR/3Dls0dxaBsQPTloEc5BLXWPL9vsOxopxyKoMmDueg==",
+      "tarball_sha256": "c90bd3ea5e6a301d6aac20d22b314fad893a7ac7b010b91a4ac65bb68dd947a6",
+      "repository": {
+        "url": "git+https://github.com/vitejs/vite.git",
+        "type": "git",
+        "directory": "packages/vite"
+      },
+      "registry_git_head": null,
+      "published_file_count": 39,
+      "published_files_sha256": "f4e964cc5ee1cc43e2837965ed40038953b5ab9ff9a7c5b12a9a60fa26d23239",
+      "notices": [
+        {
+          "path": "LICENSE.md",
+          "sha256": "a77a1c089806b39ad339535bdf3677f636c91d96693e8ad7b11fe733f650ea64"
+        }
+      ],
+      "scope": "Published npm artifact and supplied legal text compared with installed bytes; no independent source rebuild or registry-signature verification."
+    }
+  }
+}

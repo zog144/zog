@@ -1,0 +1,26 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'lz4',
+ 'version': '1.10.0',
+ 'source': {'url': 'https://github.com/lz4/lz4/releases/download/v1.10.0/lz4-1.10.0.tar.gz',
+            'sha256': '537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b'},
+ 'status': 'declared',
+ 'expression': 'BSD-2-Clause AND GPL-2.0-or-later',
+ 'scope': 'Primary project/library/tool terms; component detail remains subject to release review.',
+ 'evidence': [{'path': 'lz4-1.10.0/LICENSE',
+               'sha256': '4bc9c403f6b679cc076dee210e0e21c27b4e8f6d3fb43d85364c76657bfaaac5',
+               'source_sha256': '537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b'},
+              {'path': 'lz4-1.10.0/lib/LICENSE',
+               'sha256': '8b58c446121a109ccf32edc094bba3010a3d85e4ee3702950db55e4d3e87736c',
+               'source_sha256': '537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b'},
+              {'path': 'lz4-1.10.0/programs/COPYING',
+               'sha256': '609b910ef05c9c855ecc1da155a36ed0f57514eac452cf93446530b5ea4b3bc3',
+               'source_sha256': '537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b'}],
+ 'components': [{'scope': 'Auxiliary files, bundled tests and licensing exceptions',
+                 'expression': None,
+                 'status': 'unresolved',
+                 'notes': 'Retained archive and source notices; complete per-file review pending. '
+                          'libxcrypt LICENSING enumerates additional terms; PCRE2 terms retained '
+                          'without blanket SPDX simplification.'}],
+ 'patches': [],
+ 'notes': ['No source patch; exact release archive and notices inspected 2026-10-07.']}

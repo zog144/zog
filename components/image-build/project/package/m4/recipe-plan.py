@@ -1,0 +1,16 @@
+{'schema': 1,
+ 'status': 'not-authored',
+ 'stages': ['temporary', 'native'],
+ 'build_dependencies': None,
+ 'runtime_dependencies': None,
+ 'test_dependencies': None,
+ 'prepare': None,
+ 'configure': None,
+ 'build': None,
+ 'test': None,
+ 'install': None,
+ 'outputs': None,
+ 'reference': 'https://www.linuxfromscratch.org/lfs/view/13.1-systemd/appendices/dependencies.html',
+ 'notes': 'Native seed-check stage authored. Other bootstrap stages remain '
+          'unreviewed.',
+ 'reviewed_stages': {'native-seed': 'stages/native-seed'}}

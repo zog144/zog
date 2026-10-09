@@ -1,0 +1,22 @@
+# Review executable paths and explicitly provision supervisor before enabling.
+[Unit]
+Description=Supervised Zog managed beacon
+Requires=host-install-admission.socket host-discover-supervisor.socket
+After=state.mount host-install-admission.socket host-discover-supervisor.socket network-online.target
+Wants=network-online.target
+BindsTo=state.mount
+
+[Service]
+Type=exec
+User=host-discover
+Group=host-discover
+SupplementaryGroups=archive-consumers host-control
+ExecStart=/usr/bin/host-discover --managed-beacon
+Restart=no
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

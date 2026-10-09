@@ -1,0 +1,1 @@
+{'schema': 1, 'name': 'flex', 'display_name': 'Flex', 'status': 'catalogue-only', 'role': 'Native compiler/linker rebuild and test support (additional projects)', 'reference': 'https://www.linuxfromscratch.org/lfs/view/13.1-systemd/', 'recipe_status': 'final-authored'}

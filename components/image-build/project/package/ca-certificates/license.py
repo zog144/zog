@@ -1,0 +1,20 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'ca-certificates',
+ 'version': '2026-10-01',
+ 'source': {'url': 'https://raw.githubusercontent.com/nss-dev/nss/8571d2bf95b5003535a7ecf6b1e27ef0102aaeeb/lib/ckfw/builtins/certdata.txt',
+            'sha256': 'beb7e6dfe6499926e52c075c27bcfbe4c957f8609c575b3860273ae2806f63eb'},
+ 'status': 'declared',
+ 'expression': 'MPL-2.0 AND curl',
+ 'scope': 'Mozilla certdata MPL-2.0; curl converter under curl license; upstream notices retained.',
+ 'evidence': [{'path': 'NSS-COPYING',
+               'sha256': 'a20c1a32d1f8102432360b42e932869f7c11c7cdbacf9cac554c422132af47f4',
+               'source_sha256': 'a20c1a32d1f8102432360b42e932869f7c11c7cdbacf9cac554c422132af47f4'},
+              {'path': 'CURL-COPYING',
+               'sha256': '82f2f4427d6545ee5aaac4f0b80428da6cc8ba41c2cf5da3a03680ec327b9681',
+               'source_sha256': '82f2f4427d6545ee5aaac4f0b80428da6cc8ba41c2cf5da3a03680ec327b9681'}],
+ 'components': [],
+ 'patches': [],
+ 'notes': ['NSS top-level notice covers the distribution and includes other historical licenses; '
+           'certdata.txt itself declares MPL-2.0.',
+           'No downstream patch to the converter or trust source.']}

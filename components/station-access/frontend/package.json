@@ -1,0 +1,29 @@
+{
+  "name": "station-access-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.mjs",
+    "test": "vitest run",
+    "test:licenses": "node --test scripts/license-evidence.node.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "5.0.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-router-dom": "7.18.4",
+    "typescript": "5.9.2",
+    "vite": "7.3.6"
+  },
+  "devDependencies": {
+    "@testing-library/react": "16.3.0",
+    "@testing-library/user-event": "14.6.1",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "jsdom": "26.1.0",
+    "vitest": "latest"
+  },
+  "license": "BSD-3-Clause OR GPL-3.0-only"
+}

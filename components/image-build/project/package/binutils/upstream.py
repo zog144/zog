@@ -1,0 +1,15 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'version': '2.47',
+ 'homepage': 'https://www.gnu.org/software/binutils/',
+ 'repository_url': None,
+ 'repository_status': 'not-recorded',
+ 'release_url': 'https://sourceware.org/pub/binutils/releases/binutils-2.47.tar.xz',
+ 'sha256': '154ab23b60070e8f27013c22977f1129425d67d1e8acd6e13010e617811e4cff',
+ 'verification_status': 'https-download-and-lfs-md5-compared',
+ 'reference': 'https://www.linuxfromscratch.org/lfs/view/13.1-systemd/chapter03/packages.html',
+ 'secondary_mirrors': [{'url': 'https://github.com/RTEMS/sourceware-mirror-binutils-gdb',
+                        'kind': 'git-repository',
+                        'automatic_fallback': False,
+                        'release_archive_equivalence': 'not-asserted'}],
+ 'mirror_status': 'listed'}

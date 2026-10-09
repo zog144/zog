@@ -1,0 +1,60 @@
+# Data only; parsed with ast.literal_eval.
+{'project': 'gcc',
+ 'stage_id': 'final',
+ 'version': '15.3.0',
+ 'reference': 'https://www.linuxfromscratch.org/lfs/view/13.1-systemd/chapter08/gcc.html',
+ 'test_policy': 'Mandatory upstream tests. Unexpected results stop the graph; no automatic '
+                'known-failure waiver.',
+ 'bootstrap_contract': 'Verified source-built final-libc root. Compiler replacements require '
+                       'recorded old-file ownership.',
+ 'dependency_review': {'date': '2026-09-30',
+                       'inherited': ['binutils',
+                                     'gmp',
+                                     'mpfr',
+                                     'mpc',
+                                     'zlib',
+                                     'gettext',
+                                     'bison',
+                                     'flex',
+                                     'perl',
+                                     'texinfo',
+                                     'tcl',
+                                     'expect',
+                                     'dejagnu',
+                                     'glibc-static'],
+                       'selected': ['gawk-final with MPFR', 'zstd-final'],
+                       'not_selected': {'isl': 'Graphite disabled explicitly',
+                                        'gdb': 'Optional debugger-assisted tests unavailable; '
+                                               'retain unsupported counts',
+                                        'systemtap': 'Optional static trace probes not enabled',
+                                        'libxml2': 'COBOL not enabled',
+                                        'elfutils': 'libgdiagnostics explicitly disabled',
+                                        'multilib': 'disabled',
+                                        'ada/d/go/rust/offload': 'languages or offload not '
+                                                                 'selected',
+                                        'texlive/doxygen/graphviz': 'additional documentation '
+                                                                    'formats not selected',
+                                        'pytest/check-jsonschema': 'optional Python validation '
+                                                                   'coverage not claimed'}},
+ 'test_fixture_backports': [{'id': 'patches/strchr-c23.patch',
+                             'source': {'url': 'https://raw.githubusercontent.com/zog144/zog/8aeb6ad76402a9f91d6408e445190b4c03dd69f8/third-party/gcc/patches/strchr-c23.patch',
+                                        'sha256': '312cbc23d95b25d17141f2b90dec8a273b2eaacb21d2e0a8bc07f64d5b26baaf',
+                                        'destination': 'patches/strchr-c23.patch',
+                                        'archive': False},
+                             'scope': 'GCC testsuite only; no compiler implementation change',
+                             'upstream_commits': ['06f094958161f8c31746b33164a35820eecef4ee'],
+                             'adaptation': 'none',
+                             'retirement': 'Reassess on next GCC pin; remove when upstream fixture '
+                                           'supports the selected headers.'},
+                            {'id': 'patches/cpython-gcc15.patch',
+                             'source': {'url': 'https://raw.githubusercontent.com/zog144/zog/8aeb6ad76402a9f91d6408e445190b4c03dd69f8/third-party/gcc/patches/cpython-gcc15.patch',
+                                        'sha256': '5b302894ccebee465679e8770b6e60de2356ead428674b4873aaa1081fe18031',
+                                        'destination': 'patches/cpython-gcc15.patch',
+                                        'archive': False},
+                             'scope': 'GCC testsuite only; no compiler implementation change',
+                             'upstream_commits': ['c2c64cfcd07b1060a6c16d1695972938ea643c1f',
+                                                  'bc615c0d69e5587f7336c55cfb61f51f74429b60'],
+                             'adaptation': 'Retain GCC 15 callback and stmt_finder APIs; apply '
+                                           'upstream Python object model and recursion fixes.',
+                             'retirement': 'Reassess on next GCC pin; remove when upstream fixture '
+                                           'supports the selected headers.'}]}

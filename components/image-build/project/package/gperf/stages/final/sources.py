@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://ftp.gnu.org/gnu/gperf/gperf-3.3.tar.gz',
+  'sha256': 'fd87e0aba7e43ae054837afd6cd4db03a3f2693deb3619085e6ed9d8d9604ad8',
+  'destination': 'upstream',
+  'archive': True}]

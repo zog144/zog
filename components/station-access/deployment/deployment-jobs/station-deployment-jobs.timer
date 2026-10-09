@@ -1,0 +1,8 @@
+[Unit]
+Description=Poll explicitly queued deployment jobs
+[Timer]
+OnBootSec=30s
+OnUnitInactiveSec=10s
+Unit=station-deployment-jobs.service
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+{
+  "server": "https://registry.example.test",
+  "provider": "generic",
+  "identity_directory": "/var/lib/host-discover/identity",
+  "credential_directory": "/var/lib/host-discover/credentials"
+}

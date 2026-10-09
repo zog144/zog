@@ -1,0 +1,6 @@
+{
+  "server": "https://registry.example.org",
+  "server_ready": false,
+  "python": "python3.12",
+  "system_ca": true
+}

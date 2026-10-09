@@ -1,0 +1,16 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'architecture': 'x86_64',
+ 'stages': [{'id': 'pkgconf-final',
+             'project': 'pkgconf',
+             'stage': 'final',
+             'recipe': 'pkgconf/stages/final'},
+            {'id': 'cmake-final',
+             'project': 'cmake',
+             'stage': 'final',
+             'recipe': 'cmake/stages/final'},
+            {'id': 'curl-final',
+             'project': 'curl',
+             'stage': 'final',
+             'recipe': 'curl/stages/final'}],
+ 'targets': ['cmake-final', 'curl-final']}

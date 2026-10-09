@@ -1,0 +1,18 @@
+[Unit]
+Description=Protected Zog beacon supervisor request
+After=state.mount
+BindsTo=state.mount
+
+[Service]
+Type=exec
+User=root
+Group=root
+ExecStart=/usr/bin/host-discover-supervisor serve
+StandardInput=socket
+StandardOutput=journal
+StandardError=journal
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+RuntimeMaxSec=20
+TimeoutStopSec=2

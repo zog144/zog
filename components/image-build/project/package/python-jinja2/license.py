@@ -1,0 +1,18 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'python-jinja2',
+ 'version': '3.2.0.dev0',
+ 'source': {'url': 'https://codeload.github.com/pallets/jinja/tar.gz/5ef70112a1ff19c05324ff889dd30405b1002044',
+            'sha256': '76434a7f09c8a761d857853fa8d836037bc44ceb5d164a97507b4d765713e18a'},
+ 'status': 'declared',
+ 'expression': 'BSD-3-Clause',
+ 'scope': 'Top-level project terms; not blanket per-file release clearance.',
+ 'evidence': [{'path': 'jinja-5ef70112a1ff19c05324ff889dd30405b1002044/LICENSE.txt',
+               'sha256': '3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b',
+               'source_sha256': '76434a7f09c8a761d857853fa8d836037bc44ceb5d164a97507b4d765713e18a'}],
+ 'components': [{'scope': 'Bundled tests, documentation and auxiliary files',
+                 'expression': None,
+                 'status': 'unresolved',
+                 'notes': 'Complete per-file review pending; archive retained.'}],
+ 'patches': [],
+ 'notes': ['Original upstream notices retained; no Zog relicensing.']}

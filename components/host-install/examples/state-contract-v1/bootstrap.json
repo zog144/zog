@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "kind": "zog-host-bootstrap",
+  "profile": "state-contract-v1",
+  "installation_id": "00000001-0001-4001-8001-000000000001",
+  "configuration_revision": 1,
+  "mode": "fresh",
+  "required_features": [],
+  "state": {
+    "mount_point": "/state",
+    "identity_directory": "/state/host-discover/identity",
+    "trust_directory": "/state/host-discover/trust",
+    "control_directory": "/state/host-discover/control",
+    "filesystem_type": "ext4",
+    "partition_partuuid": "00000003-0003-4003-8003-000000000003",
+    "filesystem_uuid": "00000004-0004-4004-8004-000000000004",
+    "state_volume_id": "00000002-0002-4002-8002-000000000002",
+    "marker_sha256": "b07f6c614a2844f070ae4ca6282043a3dd629e3f738ec66cb553970d1438e6c7"
+  },
+  "initialization": {
+    "authorization_id": "00000006-0006-4006-8006-000000000006",
+    "policy": "explicit-install-transaction",
+    "expected_host_uuid": null,
+    "expected_fingerprint": null
+  },
+  "registries": [
+    {
+      "registry_id": "primary",
+      "origin": "https://registry.example.invalid",
+      "role": "control",
+      "ca": null
+    }
+  ],
+  "control_authority": {
+    "authority_id": "00000008-0008-4008-8008-000000000008",
+    "registry_id": "primary",
+    "replacement": "explicit-approved-transition-only",
+    "new_session_every_process_start": true,
+    "offline_commands": false
+  },
+  "installation_record": {
+    "path": "/etc/zog/host-install/installation.json",
+    "sha256": "20991fa830876b29bd22a7f61529fc48d5f156e43242f7fa2f075fda67e44566"
+  }
+}

@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz',
+  'sha256': 'a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44',
+  'destination': 'upstream',
+  'archive': True}]

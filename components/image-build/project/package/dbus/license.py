@@ -1,0 +1,30 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'dbus',
+ 'version': '1.16.2',
+ 'source': {'url': 'https://dbus.freedesktop.org/releases/dbus/dbus-1.16.2.tar.xz',
+            'sha256': '0ba2a1a4b16afe7bceb2c07e9ce99a8c2c3508e5dec290dbb643384bd6beb7e2'},
+ 'status': 'declared',
+ 'expression': 'LicenseRef-dbus-upstream-terms',
+ 'scope': 'Exact release notices; component exceptions require per-file review before public '
+          'redistribution.',
+ 'evidence': [{'path': 'COPYING',
+               'sha256': '150e5d08e1cb5e62b65967d7931acad2c42d98ec1bbb584bebb01921cbc853c2',
+               'source_sha256': '0ba2a1a4b16afe7bceb2c07e9ce99a8c2c3508e5dec290dbb643384bd6beb7e2'},
+              {'path': 'LICENSES/AFL-2.1.txt',
+               'sha256': '93bb4f7417aa775bab9026cc3d0af28aeb64451fc5a8ec651876785edd8eaf9b',
+               'source_sha256': '0ba2a1a4b16afe7bceb2c07e9ce99a8c2c3508e5dec290dbb643384bd6beb7e2'},
+              {'path': 'LICENSES/GPL-2.0-or-later.txt',
+               'sha256': 'aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3',
+               'source_sha256': '0ba2a1a4b16afe7bceb2c07e9ce99a8c2c3508e5dec290dbb643384bd6beb7e2'},
+              {'path': 'LICENSES/MIT.txt',
+               'sha256': 'b85dcd3e453d05982552c52b5fc9e0bdd6d23c6f8e844b984a88af32570b0cc0',
+               'source_sha256': '0ba2a1a4b16afe7bceb2c07e9ce99a8c2c3508e5dec290dbb643384bd6beb7e2'}],
+ 'components': [{'scope': 'Other source, documentation and bundled components',
+                 'expression': None,
+                 'status': 'unresolved',
+                 'notes': 'Top-level terms are not a blanket grant; retain all upstream source '
+                          'notices.'}],
+ 'patches': [],
+ 'notes': ['Exact release and listed notices inspected 2026-10-09. No upstream source patches. No '
+           'public-release audit claimed.']}

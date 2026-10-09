@@ -1,0 +1,10 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'version': '2.8.3',
+ 'homepage': 'https://github.com/libexpat/libexpat',
+ 'repository_url': 'https://github.com/libexpat/libexpat',
+ 'repository_status': 'recorded',
+ 'release_url': 'https://github.com/libexpat/libexpat/releases/download/R_2_8_3/expat-2.8.3.tar.xz',
+ 'sha256': 'f6256df90c906773d344da084402b7d3e4f22ed41b1a59c989098a83d3ea0c85',
+ 'verification_status': 'download-sha256-pinned-and-lfs-md5-checked',
+ 'reference': 'https://www.linuxfromscratch.org/lfs/view/13.1-systemd/chapter03/packages.html'}

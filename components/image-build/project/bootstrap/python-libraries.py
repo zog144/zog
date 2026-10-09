@@ -1,0 +1,16 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'architecture': 'x86_64',
+ 'stages': [{'id': 'openssl-final',
+             'project': 'openssl',
+             'stage': 'final',
+             'recipe': 'openssl/stages/final'},
+            {'id': 'sqlite-final',
+             'project': 'sqlite',
+             'stage': 'final',
+             'recipe': 'sqlite/stages/final'},
+            {'id': 'readline-final',
+             'project': 'readline',
+             'stage': 'final',
+             'recipe': 'readline/stages/final'}],
+ 'targets': ['openssl-final', 'sqlite-final']}

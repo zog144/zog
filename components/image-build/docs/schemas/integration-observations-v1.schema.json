@@ -1,0 +1,404 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "integration-observations-v1",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "producer",
+    "context",
+    "verification",
+    "relationships",
+    "sources",
+    "coverage",
+    "gaps",
+    "derivation"
+  ],
+  "properties": {
+    "schema": {
+      "const": "image-build-integration-observations-v1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "producer": {
+      "type": "object",
+      "required": [
+        "name",
+        "contract",
+        "implementation_digest"
+      ],
+      "properties": {
+        "name": {
+          "const": "image-build"
+        },
+        "contract": {
+          "const": "image-build-integration-observations-v1"
+        },
+        "implementation_digest": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "context": {
+      "type": "object",
+      "required": [
+        "generation_id",
+        "generation_record",
+        "root_inventory_digest"
+      ],
+      "properties": {
+        "generation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generation_record": {
+          "type": "string",
+          "minLength": 1
+        },
+        "root_inventory_digest": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "checks",
+        "results",
+        "coverage"
+      ],
+      "properties": {
+        "checks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "check_id",
+              "definition_digest",
+              "granularity"
+            ],
+            "properties": {
+              "check_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "definition_digest": {
+                "type": "string",
+                "pattern": "^sha256:[0-9a-f]{64}$"
+              },
+              "granularity": {
+                "const": "command"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "results": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "schema",
+              "id",
+              "check_id",
+              "definition_digest",
+              "subject",
+              "attempt_id",
+              "sequence",
+              "outcome",
+              "execution",
+              "environment_digest",
+              "evidence",
+              "granularity",
+              "timing",
+              "producer"
+            ],
+            "properties": {
+              "schema": {
+                "const": "image-build-verification-observation-v1"
+              },
+              "id": {
+                "type": "string",
+                "pattern": "^sha256:[0-9a-f]{64}$"
+              },
+              "check_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "definition_digest": {
+                "type": "string",
+                "pattern": "^sha256:[0-9a-f]{64}$"
+              },
+              "subject": {
+                "type": "object",
+                "required": [
+                  "kind",
+                  "generation_id",
+                  "root_inventory_digest"
+                ],
+                "properties": {
+                  "kind": {
+                    "const": "generation-candidate"
+                  },
+                  "generation_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "root_inventory_digest": {
+                    "type": "string",
+                    "pattern": "^sha256:[0-9a-f]{64}$"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "attempt_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sequence": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "outcome": {
+                "enum": [
+                  "PASS",
+                  "FAIL",
+                  "ERROR",
+                  "SKIP"
+                ]
+              },
+              "execution": {
+                "type": "object"
+              },
+              "environment_digest": {
+                "type": "string",
+                "pattern": "^sha256:[0-9a-f]{64}$"
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                },
+                "minItems": 1
+              },
+              "granularity": {
+                "const": "command"
+              },
+              "timing": {
+                "type": "object",
+                "required": [
+                  "started_at",
+                  "finished_at",
+                  "observed_at"
+                ],
+                "properties": {
+                  "started_at": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "finished_at": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "observed_at": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "producer": {
+                "type": "object",
+                "required": [
+                  "name",
+                  "contract"
+                ],
+                "properties": {
+                  "name": {
+                    "const": "image-build"
+                  },
+                  "contract": {
+                    "const": "image-build-verification-observation-v1"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "coverage": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "subject",
+          "relation",
+          "target",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "subject": {
+            "type": "object"
+          },
+          "relation": {
+            "enum": [
+              "needs-library",
+              "provides-soname",
+              "elf-interpreter",
+              "script-interpreter",
+              "declares-build-dependency",
+              "declares-test-dependency",
+              "declares-runtime-dependency",
+              "used-build-output"
+            ]
+          },
+          "target": {
+            "type": "object"
+          },
+          "evidence": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "package",
+          "project",
+          "output_record",
+          "build_inputs_record",
+          "source_selection_record",
+          "pin",
+          "archive",
+          "downloads",
+          "upstream",
+          "archive_revision_relationship",
+          "release_tags",
+          "gaps"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          },
+          "package": {
+            "type": "string",
+            "minLength": 1
+          },
+          "project": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "output_record": {
+            "type": "string",
+            "minLength": 1
+          },
+          "build_inputs_record": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_selection_record": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pin": {
+            "type": "object"
+          },
+          "archive": {
+            "type": "object"
+          },
+          "downloads": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "upstream": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "archive_revision_relationship": {
+            "const": "declared-not-independently-reproduced"
+          },
+          "release_tags": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "repository",
+                "tag"
+              ],
+              "properties": {
+                "repository": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "tag": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "gaps": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "derivation": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

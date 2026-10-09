@@ -1,0 +1,18 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'package': 'python-markupsafe',
+ 'version': '3.1.0.dev0',
+ 'source': {'url': 'https://codeload.github.com/pallets/markupsafe/tar.gz/4e111271b1494995708a9e878a10829b5e10c7ba',
+            'sha256': 'ed32259f070210aee6a4be32b4495d06e7dc86732f2227f1270300db8e199d39'},
+ 'status': 'declared',
+ 'expression': 'BSD-3-Clause',
+ 'scope': 'Top-level project terms; not blanket per-file release clearance.',
+ 'evidence': [{'path': 'markupsafe-4e111271b1494995708a9e878a10829b5e10c7ba/LICENSE.txt',
+               'sha256': '489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea',
+               'source_sha256': 'ed32259f070210aee6a4be32b4495d06e7dc86732f2227f1270300db8e199d39'}],
+ 'components': [{'scope': 'Bundled tests, documentation and auxiliary files',
+                 'expression': None,
+                 'status': 'unresolved',
+                 'notes': 'Complete per-file review pending; archive retained.'}],
+ 'patches': [],
+ 'notes': ['Original upstream notices retained; no Zog relicensing.']}

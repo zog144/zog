@@ -1,0 +1,21 @@
+[Unit]
+Description=Signed host discovery and scoped credential renewal
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=exec
+User=host-discover
+Group=host-discover
+SupplementaryGroups=archive-consumers
+WorkingDirectory=/opt/host-discover
+ExecStart=/opt/host-discover/venv/bin/host-discover --configuration /etc/host-discover/configuration.json
+Restart=on-failure
+RestartSec=10
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/host-discover/identity /var/lib/host-discover/credentials
+[Install]
+WantedBy=multi-user.target

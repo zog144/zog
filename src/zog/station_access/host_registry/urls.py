@@ -1,0 +1,6 @@
+from . import dns_setup_views
+from . import dns_destination_views
+from . import dns_membership_views, managed_views
+from django.urls import path
+from . import views, identity_views, operations_views
+urlpatterns = [path("dns-setup/",dns_setup_views.change), path("dns-destinations/",dns_destination_views.destinations), path("<uuid:host_id>/dns-destinations/<str:binding_id>/",dns_destination_views.assignment), path("<uuid:host_id>/managed-recovery/",managed_views.reconcile), path("<uuid:host_id>/managed-session/",managed_views.establish), path("<uuid:host_id>/dns-membership/",dns_membership_views.membership), path("<uuid:host_id>/removal-preview/",operations_views.removal_preview), path("<uuid:host_id>/removal/",operations_views.removal), path("<uuid:host_id>/station-login/reveal/",operations_views.reveal), path("<uuid:host_id>/mirror-role/",operations_views.mirror_role), path("enrollment/",identity_views.enrollment), path("identities/",identity_views.administration), path("identities/decision/",identity_views.decision), path("<uuid:host_id>/dns/",views.dns_configuration), path("",views.hosts), path("<uuid:host_id>/label/",views.label), path("<uuid:host_id>/heartbeat/",identity_views.heartbeat)]

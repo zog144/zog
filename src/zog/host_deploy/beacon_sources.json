@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "packages": {
+    "host-discover": {
+      "repository": "zog144/host-discover",
+      "commit": "31ce7800c5e0e60bf8ecebe0b3ba6440ed30ef91",
+      "files": {
+        "deployment/host-discover.service": "2663b6790c1c6cb7543d505f37e6ccb00c4ba3b5ce207b819ab680a6ea228bd8",
+        "src/zog/host_discover/__init__.py": "6db0695c4fcf05ba3f49a23cd3b98330bd10272c03d3fb9f0833e000c9431da1",
+        "src/zog/host_discover/__main__.py": "161dfcfea6949b99fc43aff764ee4ddeae43b6fdb20b09983a3a2e55728d4105",
+        "src/zog/host_discover/admission.py": "3d4a0c38eb1f95b0dc62bf4b755f22b8014deded360472cf39e3963259350dab",
+        "src/zog/host_discover/beacon.py": "5449c2b744db94ae12fe84bd6e40d7b1de81ea703617b012e9bef1dd9e6c7c9e",
+        "src/zog/host_discover/beacon_state.py": "9abc8cc715cf641c2103198e11d538665bba317f7380fd2a201b69d566f05886",
+        "src/zog/host_discover/bootstrap.py": "d2d05da752307c737187b61397980cb983e84250bf1f01f0fc1d2cd8f575b043",
+        "src/zog/host_discover/box_bridge.py": "b98c651487edb57ebdbe08a8e0ebcad4534db017f6bf49a819ee613aded5e3f2",
+        "src/zog/host_discover/daemon.py": "b35fbc757afbdcc9cbe705f9cc1fc13b769603c929fc9e98855267b17698df64",
+        "src/zog/host_discover/destinations.py": "d925570564e3d8f73d38cfc7aa176194d09cfe1e7754d4ddcdc50c27623d9d34",
+        "src/zog/host_discover/gateway.py": "43136a94942f63997cc7c87c5a95d6dbcbcec488ca81017c501d3d9369420c97",
+        "src/zog/host_discover/managed.py": "2b21ce14e6d94e877ee60eb4c7014b511013f7a7aef917e5a4767089aa5cc05f",
+        "src/zog/host_discover/managed_transport.py": "7da9ab5e4908caa56e874d38d802a1a0851690957d9e7d1a69cfb37281d559e7",
+        "src/zog/host_discover/recovery.py": "2e615fc3ecc34d38d88cb7e6f8382f1ba5b9e21c63bd8c64cd88c0155c69e34c",
+        "src/zog/host_discover/retry.py": "86f06c21a79347ee6d6e3ed0131cf1770c317305e99a14b9f1af925246cd1d06",
+        "src/zog/host_discover/roles.py": "80c954df778f87c0074bc914c6e3f16a6b0f3bdec849e4af5d7c1be975a39342",
+        "src/zog/host_discover/supervisor.py": "b48053444746bf1fd026eb8dbc1802be8c83648117bef29a7e03a7edb006ae04",
+        "pyproject.toml": "71fc14e2f6e9281926a44f074ede27032b7f838025fe581d270bf9520e0332e7"
+      }
+    },
+    "host-identify": {
+      "repository": "zog144/host-identify",
+      "commit": "adc0e141d50003a8807c829b125d110ef11704e9",
+      "files": {
+        "src/zog/host_identify/__init__.py": "152d2b134b93aa5b4f8b1a7c916779e2ec0b963891ba6f9b5c22cab86a17475c",
+        "src/zog/host_identify/archive.py": "2ce85cfb7191d657efe33d26ac9705415265d69fdf6e27518fff4afa1f3da861",
+        "src/zog/host_identify/initialization.py": "21f83cef3346b8f6eefb6b89435ec78ca85809a673cfbe99a578d20f11b8ee86",
+        "src/zog/host_identify/managed.py": "3f0f3712cfb97b974c1c04b65472fae166b62cacfd7553a75dc951fca64c0c9f",
+        "src/zog/host_identify/mirror_access.py": "4b0fad2ba1bb00b586e24d256cf6eedf4d4098fbf699a83aac94694a2ef6b6ea",
+        "src/zog/host_identify/mirror_fixture.py": "9af590d0b8e2da9eb8e4fe77a99235e16f6959d0a38cb759435e6d71e022dc62",
+        "src/zog/host_identify/recovery.py": "e1e5bdbe83b248963d16a45cd53bf1a0040d8e914c4516cbb8d17403df9bcae1",
+        "src/zog/host_identify/signatures.py": "f4cf582e534098b63fded00bab50f1c965b6dbdbf4173f4243bc2bb3aeeb28d4",
+        "src/zog/host_identify/storage.py": "ed735a80d4003c45ddfa19c78f718fd10f199318ae85184ed95dde17fac1bb1d",
+        "pyproject.toml": "944836d9b6750bd77f0469f08a7d3a7a14cf94609d4ce639a948279975430dad"
+      }
+    },
+    "host-install": {
+      "repository": "zog144/host-install",
+      "commit": "14dab557fa8b635b554652fffc9c3cb6ccfc138a",
+      "files": {
+        "src/zog/host_install/__init__.py": "78f6569e4d707c375afa10f6d6e97f19a099fe7b57167062feefb3ff0e425259",
+        "src/zog/host_install/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+        "src/zog/host_install/artifact.py": "5cf421b9913d4f296a43b48647ccf022879ec9fbf60f4c830627d43bd75ccc40",
+        "src/zog/host_install/beacon_profile.py": "0107e4935559a1ea75ea3453e38016f44b54bcb6e39c8b99b1afce6a10088fc1",
+        "src/zog/host_install/cli.py": "1034ae228a7f0638df3f5ab066afc09ba6445a84853fa585d2c980eac4ebb4ac",
+        "src/zog/host_install/filesystem.py": "472345f1f5dc572da03d693c37c0269690ce19c9a01275e931a7f4b02aea7251",
+        "src/zog/host_install/identity_worker.py": "867b2efba422e0ccd2c35795227f0f79a4f3316cf578b0881af496c98aeb3e74",
+        "src/zog/host_install/image.py": "3acbaa8f92c9cdda71fcf786fb0e892857bdbf108f483ec067afababc1e41c9c",
+        "src/zog/host_install/layout.py": "f2cb39f12c4143d332b72e07fa4f1198966022e0b48f67751b0aed0ff8dd8b6d",
+        "src/zog/host_install/manifest.py": "9aedcd87462281693af7d4c92eb40937b889468b4ab89930a99059659ed55a22",
+        "src/zog/host_install/preflight.py": "df30955f903380c5c619ff2574f2d56243d4f6b0a498d3adf53901ab0815bc34",
+        "src/zog/host_install/state_admission.py": "0789125a8b6ab5df491ff83dda664c277117e9709a2b73fa933a765c8bc7b6ef",
+        "src/zog/host_install/state_contract.py": "964d0a660904ba46b891ebe1c84fa90487d75bb4995a31963870b2eed47e231f",
+        "src/zog/host_install/state_gate.py": "34428a3fd4fa5dfd62f2e2ecf56cf7ba368632d223e84c8adde42eb918bfc23e",
+        "src/zog/host_install/state_initialize.py": "769ec94319cd672f5fff83589ffc0f1776c95886ff5243353e73df51344c22a2",
+        "src/zog/host_install/state_inspect.py": "95f0947c58d4014d43a985c132e94ae7b1c5224ff2ac21774f7c59f0fe81c600",
+        "src/zog/host_install/state_io.py": "ae7f817bc48550358a3c8bfcd0401129477775a0a8a235eee5e92d202398c172",
+        "src/zog/host_install/state_probe.py": "289aa4349e13b1cb61b4c142f881843c087431286c070f6f91c5ed88435e7e86",
+        "src/zog/host_install/state_provision.py": "4a0296cc9ea66e41281ea611ab0ebd9ec2d14f9f09da7d57ea368b1c920e33c6",
+        "pyproject.toml": "34ff107aa8a38ee0cb9b137196ba2da675cef1ae5c42f7f10747cb12e185efc7"
+      }
+    }
+  }
+}

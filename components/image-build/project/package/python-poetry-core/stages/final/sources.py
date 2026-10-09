@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://files.pythonhosted.org/packages/42/b5/50f1fda26c4fe5b1d6ce5cdf0391bdfa1ca12fdcb8ad68344d5cf678fc90/poetry_core-2.5.0.tar.gz',
+  'sha256': '81d04c9253b19d0604718268d781867c8f7b2128e5b25bbf1e84141eec6b89c4',
+  'destination': 'upstream',
+  'archive': True}]

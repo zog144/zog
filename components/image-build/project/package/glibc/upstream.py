@@ -1,0 +1,15 @@
+# Data only; parsed with ast.literal_eval.
+{'schema': 1,
+ 'version': '2.44',
+ 'homepage': 'https://www.gnu.org/software/libc/',
+ 'repository_url': None,
+ 'repository_status': 'not-recorded',
+ 'release_url': 'https://ftp.gnu.org/gnu/glibc/glibc-2.44.tar.xz',
+ 'sha256': '37f600f2bef3c5e8300147059568b2a2e40a7ad6ccc65ce942556d49429cc667',
+ 'verification_status': 'https-download-and-lfs-md5-compared',
+ 'reference': 'https://www.linuxfromscratch.org/lfs/view/13.1-systemd/chapter03/packages.html',
+ 'secondary_mirrors': [{'url': 'https://github.com/bminor/glibc',
+                        'kind': 'git-repository',
+                        'automatic_fallback': False,
+                        'release_archive_equivalence': 'not-asserted'}],
+ 'mirror_status': 'listed'}

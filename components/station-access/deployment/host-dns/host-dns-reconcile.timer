@@ -1,0 +1,10 @@
+[Unit]
+Description=Periodically reconcile host DNS
+[Timer]
+OnBootSec=60s
+OnUnitInactiveSec=5min
+RandomizedDelaySec=30s
+AccuracySec=5s
+Unit=host-dns-reconcile.service
+[Install]
+WantedBy=timers.target

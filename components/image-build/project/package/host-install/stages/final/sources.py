@@ -1,0 +1,5 @@
+# Data only; parsed with ast.literal_eval.
+[{'url': 'https://api.github.com/repos/zog144/host-install/tarball/23f6d3dc3d2eab23ab11d7716cf5662ca6fea5d0',
+  'sha256': '5faace39be6fa718358fe76cab697edf6e7e38b9a164ae85ccc01c4daf6f05f1',
+  'destination': 'upstream',
+  'archive': True}]

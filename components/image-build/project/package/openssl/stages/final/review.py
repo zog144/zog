@@ -1,0 +1,28 @@
+# Data only; parsed with ast.literal_eval.
+{'configure_options': ['linux-x86_64',
+                       '--prefix=/usr',
+                       '--libdir=lib',
+                       '--openssldir=/etc/ssl',
+                       'shared',
+                       'zlib',
+                       'enable-ktls',
+                       'enable-pie',
+                       'enable-ec_nistp_64_gcc_128',
+                       'enable-camellia',
+                       'enable-rfc3779',
+                       'enable-buildtest-c++',
+                       'no-fips',
+                       'no-md2',
+                       'no-rc5',
+                       'no-ec2m',
+                       'no-ssl3',
+                       'no-tls1',
+                       'no-tls1_1',
+                       'no-weak-ssl-ciphers',
+                       '-DOPENSSL_TLS_SECURITY_LEVEL=2'],
+ 'compiler_flags': '-O2 -g -fstack-protector-strong -D_FORTIFY_SOURCE=3 -fno-omit-frame-pointer',
+ 'sqlite_macros': [],
+ 'reviewed_on': '2026-10-03',
+ 'patch_policy': 'No distro patches applied; downstream FIPS/crypto-policies integration '
+                 'intentionally deferred. SQLite runs direct tcltest, not affected multiworker '
+                 'testrunner.'}

@@ -1,0 +1,7 @@
+include LICENSE THIRD-PARTY-NOTICES.md release-sources.json
+recursive-include LICENSES *
+recursive-include components *
+recursive-include docs *
+recursive-include third-party *
+global-exclude __pycache__ *.py[cod]
+prune .github

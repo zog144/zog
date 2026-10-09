@@ -1,0 +1,18 @@
+# TEMPLATE ONLY: current host-discover deliberately rejects managed /state.
+# Do not install this drop-in until its live admission integration is delivered.
+[Unit]
+Requires=host-install-identity.service
+After=state.mount host-install-identity.service
+BindsTo=state.mount
+
+[Service]
+User=host-discover
+Group=host-discover
+SupplementaryGroups=archive-consumers host-control
+ExecStartPre=/usr/bin/host-install state-inspect
+ExecStartPre=/usr/bin/host-install state-probe
+Restart=no
+UMask=0077
+# The daemon must independently verify consumed receipts and recovery holds,
+# load-existing only, obtain a fresh station session, and latch storage faults.
+# ExecStartPre output is never an admission token.
