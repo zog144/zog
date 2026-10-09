@@ -5,6 +5,27 @@ specific Zog image-build recipes. Files here are deliberately separated from
 Zog first-party code and are **not** relicensed under Zog's
 `BSD-3-Clause OR GPL-3.0-only` first-party grant.
 
+## strchr-c23.patch
+
+`patches/strchr-c23.patch` is the exact testsuite file diff from upstream GCC
+commit:
+
+`06f094958161f8c31746b33164a35820eecef4ee`
+
+Author: David Malcolm.
+
+The upstream commit changes only
+`gcc/testsuite/gcc.dg/analyzer/strchr-1.c` to avoid C23
+const-preserving `strchr` header behavior by using `__builtin_strchr` and
+matching mutable test arguments. Zog does not modify this diff.
+
+Applicable GCC upstream terms apply; image-build records this testsuite source
+scope as `GPL-3.0-or-later`.
+
+Expected SHA-256 for `patches/strchr-c23.patch`:
+
+`312cbc23d95b25d17141f2b90dec8a273b2eaacb21d2e0a8bc07f64d5b26baaf`
+
 ## cpython-gcc15.patch
 
 `patches/cpython-gcc15.patch` is a Zog-maintained GCC 15 test-suite backport
