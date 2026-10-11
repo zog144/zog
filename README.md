@@ -25,16 +25,17 @@ a root filesystem, frontend bundle, dependency trees or the recipe catalogue.
 | Source | Purpose |
 |---|---|
 | `src/zog/` | Fourteen installed component namespaces |
-| `components/` | Selected component tests, maintained docs and integration inputs |
-| `components/image-build/project/` | Version-bound recipes, source pins and catalogue |
+| `docs/` | Repository-wide and per-program human documentation |
+| `components/` | Component tests, fixtures, frontend/build inputs, recipes and integration support |
+| `components/image-build/project/` | Version-bound recipes, source pins and build inputs |
 | `components/station-access/frontend/` | React frontend source, npm lockfile and notice tooling |
 | `third-party/gcc/` | Explicitly attributed, separately licensed GCC test patches |
 | `release-sources.json` | Exact source revisions, exported hashes and transformations |
 | `src/zog/_release_manifest.json` | Component versions and internal relationships |
 
 The component repositories remain independently maintained. This snapshot selects
-exact revisions; it does not follow newer component branch heads. See
-[development and build notes](docs/DEVELOPMENT.md) and
+exact revisions; it does not follow newer component branch heads. See the [documentation index](docs/README.md),
+[development and build notes](docs/DEVELOPMENT.md), and
 [license/source boundaries](THIRD-PARTY-NOTICES.md).
 
 ## Components

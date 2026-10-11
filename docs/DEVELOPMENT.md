@@ -1,8 +1,11 @@
 # Development source and build notes
 
-The aggregate Python root is `src/zog`. Component support material is grouped under
-`components/<program>`. Box-control's private nested project root is flattened in
-this source export; station-access also has one component support directory.
+The aggregate Python root is `src/zog`. Human-facing documentation is centralized
+under `docs/<program>/`; see [the documentation index](README.md). Component support
+material that participates in tests, fixtures, frontend builds, recipes, service
+descriptors or integration remains under `components/<program>`. Box-control's
+private nested project root is flattened in this source export; station-access also
+has one component support directory.
 
 ## Build and inspect distributions
 

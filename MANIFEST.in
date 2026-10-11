@@ -3,5 +3,6 @@ recursive-include LICENSES *
 recursive-include components *
 recursive-include docs *
 recursive-include third-party *
+recursive-include tests *.py
 global-exclude __pycache__ *.py[cod]
 prune .github
