@@ -7,7 +7,7 @@ Python API locally; browser users never receive direct controller access.
 ## Local first use
 
 Use Linux and Python 3.12+. Install the aggregate Zog distribution as described in
-the [development guide](../../../docs/DEVELOPMENT.md), then from `components/station-access`:
+the [development guide](../DEVELOPMENT.md), then from `components/station-access`:
 
 ```sh
 python serve.py --state-directory /absolute/private/station-state
@@ -57,8 +57,8 @@ runtime as part of image/application construction and activated from immutable
 application state. The Python wheel does not carry Node/npm or build frontend assets at
 runtime.
 
-See the [aggregate frontend build notes](../../../docs/DEVELOPMENT.md#frontend-source-build) and the maintained
-[image-build integration contract](../integration/IMAGE-BUILD.md).
+See the [aggregate frontend build notes](../DEVELOPMENT.md#frontend-source-build) and the maintained
+[image-build integration contract](integration/IMAGE-BUILD.md).
 
 ## Workspace applications
 
