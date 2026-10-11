@@ -1,4 +1,4 @@
-> Historical pass-2 handoff. Current maintained interface: [Managed STATE](docs/MANAGED-STATE.md).
+> Historical pass-2 handoff. Current maintained interface: [Managed STATE](MANAGED-STATE.md).
 
 # host-install integration — pass 2
 
