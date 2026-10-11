@@ -87,78 +87,16 @@
       "origin": {
         "kind": "aggregate-document-or-metadata"
       },
+      "path": ".github/workflows/source-layout.yml",
+      "sha256": "8af89e0a44f1ae0afacc577d88bd97ee47f00156a048c5c9619e086101019e14"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "kind": "aggregate-document-or-metadata"
+      },
       "path": ".gitignore",
       "sha256": "1e61e311064d7c837db6967c73a413c302920c9f4d7fca0091de40d0b9f829d9"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "kind": "aggregate-document-or-metadata"
-      },
-      "path": "LICENSE",
-      "sha256": "0772f31456481c983bce81966b6915edfc6fafecbd9ead9a04f74d50b300f3d3"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "kind": "aggregate-document-or-metadata"
-      },
-      "path": "LICENSES/BSD-3-Clause.txt",
-      "sha256": "12b85fc1f9cc9f1cade627244cd8e2aab2c61a9da3f2547b8326aa3388d7b6f0"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "kind": "aggregate-document-or-metadata"
-      },
-      "path": "LICENSES/GPL-3.0-only.txt",
-      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "kind": "aggregate-document-or-metadata"
-      },
-      "path": "MANIFEST.in",
-      "sha256": "3913be78ec4763a946c7aa356726e93d94b065493f1bb57e7e2d722f5929f633"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "kind": "aggregate-document-or-metadata"
-      },
-      "path": "README.md",
-      "sha256": "08b36c4d1394d28306393f5569caaa3a86dd37a44882d6a5ce710fac5ba4d50c"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "kind": "aggregate-document-or-metadata"
-      },
-      "path": "THIRD-PARTY-NOTICES.md",
-      "sha256": "52eaf8e293d862b2601fb4cd1248b5d2fe299f2247c2c947ae8ef2050b38283b"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/NOTICE-CONTRACT.md",
-        "repository": "zog144/archive-mirror",
-        "revision": "648691fecc22494dc1aaf8dbe8b2f21b2ed67af3",
-        "source_sha256": "12e9f500f7e6aa9917d9a002921056456212b8f121b1c37b0c2e3b4b3e7b89cd"
-      },
-      "path": "components/archive-mirror/docs/NOTICE-CONTRACT.md",
-      "sha256": "12e9f500f7e6aa9917d9a002921056456212b8f121b1c37b0c2e3b4b3e7b89cd"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/REVIEWED-SOURCES.md",
-        "repository": "zog144/archive-mirror",
-        "revision": "648691fecc22494dc1aaf8dbe8b2f21b2ed67af3",
-        "source_sha256": "bd9047158b5b84817c82f0a2b3598c18adfbaac517bb6e290511f2711aad2a4a"
-      },
-      "path": "components/archive-mirror/docs/REVIEWED-SOURCES.md",
-      "sha256": "bd9047158b5b84817c82f0a2b3598c18adfbaac517bb6e290511f2711aad2a4a"
     },
     {
       "mode": "100644",
@@ -384,72 +322,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "APPLICATION-MOUNTS.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "1a7aaea72243083d1e008026d0e0a39c28d81b45e77b3d76ed7cf4c77076b867"
-      },
-      "path": "components/box-control/APPLICATION-MOUNTS.md",
-      "sha256": "1a7aaea72243083d1e008026d0e0a39c28d81b45e77b3d76ed7cf4c77076b867"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "ARCHITECTURE-FILESYSTEM.txt",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "1ea154f06210d92270306db7e076ff7dedc5dfb17f3890ffec8fcfcd001001a4"
-      },
-      "path": "components/box-control/ARCHITECTURE-FILESYSTEM.txt",
-      "sha256": "1ea154f06210d92270306db7e076ff7dedc5dfb17f3890ffec8fcfcd001001a4"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "IMAGE-BUILD-EXECUTION-TYPES-AND-MAPPING.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "436407e884226226ffad5be2a9ced69f9f99807ae19e949ca16b347a41b5b001"
-      },
-      "path": "components/box-control/IMAGE-BUILD-EXECUTION-TYPES-AND-MAPPING.md",
-      "sha256": "436407e884226226ffad5be2a9ced69f9f99807ae19e949ca16b347a41b5b001"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "PERSISTENT-APPLICATIONS.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "73817cda97b2bb78db9b0095bbe19a374eb5c83b7716c494e8637e7818ac6f4b"
-      },
-      "path": "components/box-control/PERSISTENT-APPLICATIONS.md",
-      "sha256": "73817cda97b2bb78db9b0095bbe19a374eb5c83b7716c494e8637e7818ac6f4b"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "box-control/REGISTRATION-RECOVERY.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "f80b8f6bdce44571f2e9ba742a5b98260e4ea9f405315f1dbc449817c543fab1"
-      },
-      "path": "components/box-control/REGISTRATION-RECOVERY.md",
-      "sha256": "f80b8f6bdce44571f2e9ba742a5b98260e4ea9f405315f1dbc449817c543fab1"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "WORKSPACE-APPLICATIONS.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "379cc77d331530e6a5ccc226c34b294cdd63972be081488c35635612f0c86265"
-      },
-      "path": "components/box-control/WORKSPACE-APPLICATIONS.md",
-      "sha256": "379cc77d331530e6a5ccc226c34b294cdd63972be081488c35635612f0c86265"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "box-control/application/hello/application.py",
         "repository": "zog144/box-control",
         "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
@@ -461,68 +333,13 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "box-control/catalogue/build-visibility.md",
+        "path": "ARCHITECTURE-FILESYSTEM.txt",
         "repository": "zog144/box-control",
         "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "c6fe671bcdc309d25d6c3c3230b7a21c152555137e0416d502ed7c4fa82d35c0"
+        "source_sha256": "1ea154f06210d92270306db7e076ff7dedc5dfb17f3890ffec8fcfcd001001a4"
       },
-      "path": "components/box-control/catalogue/build-visibility.md",
-      "sha256": "c6fe671bcdc309d25d6c3c3230b7a21c152555137e0416d502ed7c4fa82d35c0"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "box-control/catalogue/launch-preflight.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "15f4fa0e6fba7e02c700b1546689f6e1d39d41f6a42428fc8c28469178d289af"
-      },
-      "path": "components/box-control/catalogue/launch-preflight.md",
-      "sha256": "15f4fa0e6fba7e02c700b1546689f6e1d39d41f6a42428fc8c28469178d289af"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "box-control/catalogue/process-inspection.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "d2a86d2c903a9002ee548c55ccd87ee33cd72ab6f0f51b498a3d6a6b58c34b04"
-      },
-      "path": "components/box-control/catalogue/process-inspection.md",
-      "sha256": "d2a86d2c903a9002ee548c55ccd87ee33cd72ab6f0f51b498a3d6a6b58c34b04"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "box-control/catalogue/recovery-explanations.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "996f4bfd1dd40c1de29b783e3a26fdfc6e8adf1d3f83e0c3e4744cb34195a57f"
-      },
-      "path": "components/box-control/catalogue/recovery-explanations.md",
-      "sha256": "996f4bfd1dd40c1de29b783e3a26fdfc6e8adf1d3f83e0c3e4744cb34195a57f"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "box-control/catalogue/recovery-inspection.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "c01859b4a81467861d74d91860adfeb0a9a7e65844298044a9c263222add662c"
-      },
-      "path": "components/box-control/catalogue/recovery-inspection.md",
-      "sha256": "c01859b4a81467861d74d91860adfeb0a9a7e65844298044a9c263222add662c"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "box-control/catalogue/request-retention.md",
-        "repository": "zog144/box-control",
-        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
-        "source_sha256": "7b10b4c50caf2935ce212570227d572b107608043c9a188d7aa6c45e0650b9e2"
-      },
-      "path": "components/box-control/catalogue/request-retention.md",
-      "sha256": "7b10b4c50caf2935ce212570227d572b107608043c9a188d7aa6c45e0650b9e2"
+      "path": "components/box-control/ARCHITECTURE-FILESYSTEM.txt",
+      "sha256": "1ea154f06210d92270306db7e076ff7dedc5dfb17f3890ffec8fcfcd001001a4"
     },
     {
       "mode": "100644",
@@ -835,28 +652,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "docs/contract.md",
-        "repository": "zog144/build-record",
-        "revision": "60631ae4c6904e4812bf0d38f8703a6123935aa1",
-        "source_sha256": "735a5645b355b6660de92db69fde424fd3d02d25855cb9dee4646f4b572bcfe7"
-      },
-      "path": "components/build-record/docs/contract.md",
-      "sha256": "735a5645b355b6660de92db69fde424fd3d02d25855cb9dee4646f4b572bcfe7"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/generation-audit.md",
-        "repository": "zog144/build-record",
-        "revision": "60631ae4c6904e4812bf0d38f8703a6123935aa1",
-        "source_sha256": "1fb9fd835c74b3473c70346ba73a8a408f6df51327c6908128d686ee553e0b55"
-      },
-      "path": "components/build-record/docs/generation-audit.md",
-      "sha256": "1fb9fd835c74b3473c70346ba73a8a408f6df51327c6908128d686ee553e0b55"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "examples/local_pipeline.py",
         "repository": "zog144/build-record",
         "revision": "60631ae4c6904e4812bf0d38f8703a6123935aa1",
@@ -952,50 +747,6 @@
       },
       "path": "components/build-record/tests/test_source_provenance.py",
       "sha256": "caf4a02447911796797cd5ff2c37def84ef9e32538c308943a1390b72e9a75a8"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/ci.md",
-        "repository": "zog144/build-trace",
-        "revision": "1158030d0a8461554ebeda42ea095b25c10133dc",
-        "source_sha256": "d24a01667c826c09d1aaaef97c6900c3dc6540a89a87209b473cf65f7e202f0e"
-      },
-      "path": "components/build-trace/docs/ci.md",
-      "sha256": "d24a01667c826c09d1aaaef97c6900c3dc6540a89a87209b473cf65f7e202f0e"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/integration-observations.md",
-        "repository": "zog144/build-trace",
-        "revision": "1158030d0a8461554ebeda42ea095b25c10133dc",
-        "source_sha256": "b9c76ad782cb81405ad153316d3f188d5f7f3b9236d67a782b9d7117a439f56b"
-      },
-      "path": "components/build-trace/docs/integration-observations.md",
-      "sha256": "b9c76ad782cb81405ad153316d3f188d5f7f3b9236d67a782b9d7117a439f56b"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/schema.md",
-        "repository": "zog144/build-trace",
-        "revision": "1158030d0a8461554ebeda42ea095b25c10133dc",
-        "source_sha256": "b04f89ad180d79afaa3e9426776d5c42ed4d2bc62f21163f2714b90cd646883c"
-      },
-      "path": "components/build-trace/docs/schema.md",
-      "sha256": "b04f89ad180d79afaa3e9426776d5c42ed4d2bc62f21163f2714b90cd646883c"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/usage.md",
-        "repository": "zog144/build-trace",
-        "revision": "1158030d0a8461554ebeda42ea095b25c10133dc",
-        "source_sha256": "4104c9afaaf8f7e2560435b2c8476d130795e36949a55ffa45635cb8a95aca69"
-      },
-      "path": "components/build-trace/docs/usage.md",
-      "sha256": "4104c9afaaf8f7e2560435b2c8476d130795e36949a55ffa45635cb8a95aca69"
     },
     {
       "mode": "100644",
@@ -1139,149 +890,6 @@
       },
       "path": "components/build-trace/tests/test_trace.py",
       "sha256": "a238675d10b43a4d00f8f42a7b65970638d6492ea424e6b2b27ce5613df08d9c"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "ARTIFACTS.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "c51bb71d6b12ed2453a734d49d4dad1d12134f68daab81e1bb9d7abb5238f09c"
-      },
-      "path": "components/host-deploy/ARTIFACTS.md",
-      "sha256": "c51bb71d6b12ed2453a734d49d4dad1d12134f68daab81e1bb9d7abb5238f09c"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "AUTHENTICATION.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "6a5b0c51c650665ce8d0c77a99b88a4df6c1d5a86d9b370be213c3e3b17481bb"
-      },
-      "path": "components/host-deploy/AUTHENTICATION.md",
-      "sha256": "6a5b0c51c650665ce8d0c77a99b88a4df6c1d5a86d9b370be213c3e3b17481bb"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "CLOUD-DEADLINE.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "dfb90eb8420f129c3a6a0a1e1c16e00c201ebb69359caa0f3a43966bf91c98b6"
-      },
-      "path": "components/host-deploy/CLOUD-DEADLINE.md",
-      "sha256": "dfb90eb8420f129c3a6a0a1e1c16e00c201ebb69359caa0f3a43966bf91c98b6"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "DISCOVERY.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "fd399273d32e85569bfde47bf949c31bab552e61885176634b79d3496488ac85"
-      },
-      "path": "components/host-deploy/DISCOVERY.md",
-      "sha256": "fd399273d32e85569bfde47bf949c31bab552e61885176634b79d3496488ac85"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "GATEWAY-GITHUB.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "afeeb699664e7659fb88939f44c938e0904c53f9e97a078d401e9c58714ace63"
-      },
-      "path": "components/host-deploy/GATEWAY-GITHUB.md",
-      "sha256": "afeeb699664e7659fb88939f44c938e0904c53f9e97a078d401e9c58714ace63"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "GATEWAY-PROTOCOL.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "938a0f971e70f8a4fe8a023235b7761907c530347c9e6546a1384d3f2bae4bca"
-      },
-      "path": "components/host-deploy/GATEWAY-PROTOCOL.md",
-      "sha256": "938a0f971e70f8a4fe8a023235b7761907c530347c9e6546a1384d3f2bae4bca"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "IMAGE-BUILD-LANES.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "2d033217e69d6877646c786dd106458676a99423296e9a143548ac554b45044e"
-      },
-      "path": "components/host-deploy/IMAGE-BUILD-LANES.md",
-      "sha256": "2d033217e69d6877646c786dd106458676a99423296e9a143548ac554b45044e"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "JOBS.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "622f324a1aa179b2b353996a30a54e4f594dbe78810437a364ddd0fb90af8c23"
-      },
-      "path": "components/host-deploy/JOBS.md",
-      "sha256": "622f324a1aa179b2b353996a30a54e4f594dbe78810437a364ddd0fb90af8c23"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "REBOOT.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "262472ee4c1ca9199aabbbb7dcc0c3cc5955872293cd36d466d40fab4406ca1e"
-      },
-      "path": "components/host-deploy/REBOOT.md",
-      "sha256": "262472ee4c1ca9199aabbbb7dcc0c3cc5955872293cd36d466d40fab4406ca1e"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "RECOVERY.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "b0a61460c41164453d493cff0b332bab76dd20c3e8ff6ab9941581229d1c0df5"
-      },
-      "path": "components/host-deploy/RECOVERY.md",
-      "sha256": "b0a61460c41164453d493cff0b332bab76dd20c3e8ff6ab9941581229d1c0df5"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "S3.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "688123263861e315478e92c0c2257aff13c2f7f2ba62beffcc1d624be1161d71"
-      },
-      "path": "components/host-deploy/S3.md",
-      "sha256": "688123263861e315478e92c0c2257aff13c2f7f2ba62beffcc1d624be1161d71"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "STARTER-RECIPES.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "c262dabc093f10f6a5bbec6fab3f9e887e335d2e81e446aa8a08787f1149a249"
-      },
-      "path": "components/host-deploy/STARTER-RECIPES.md",
-      "sha256": "c262dabc093f10f6a5bbec6fab3f9e887e335d2e81e446aa8a08787f1149a249"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "STATION-DEPLOYMENT-JOBS.md",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "209e64748129113b226de04c1e652591bbcd58d7f6ba4bb624ef7a6b5207f837"
-      },
-      "path": "components/host-deploy/STATION-DEPLOYMENT-JOBS.md",
-      "sha256": "209e64748129113b226de04c1e652591bbcd58d7f6ba4bb624ef7a6b5207f837"
     },
     {
       "mode": "100644",
@@ -1597,17 +1205,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "HOST-INSTALL.md",
-        "repository": "zog144/host-discover",
-        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
-        "source_sha256": "c79d54dc7f24f7387c707042af6ca44268e31370bc6f9c2c076684302afa420a"
-      },
-      "path": "components/host-discover/HOST-INSTALL.md",
-      "sha256": "c79d54dc7f24f7387c707042af6ca44268e31370bc6f9c2c076684302afa420a"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "deployment/host-discover-beacon.service",
         "repository": "zog144/host-discover",
         "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
@@ -1663,29 +1260,6 @@
     {
       "mode": "100644",
       "origin": {
-        "adaptation": "adapt maintained documentation to aggregate layout and omit links to excluded historical component documents",
-        "path": "docs/MANAGED-STATE.md",
-        "repository": "zog144/host-discover",
-        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
-        "source_sha256": "acf69d92d7df9ec244eebf98b66743e529356bac89fbbcf72eab5b7c9895d33d"
-      },
-      "path": "components/host-discover/docs/MANAGED-STATE.md",
-      "sha256": "608b734911257a680d57d21281191d036c1aca70ad066e7c676afe934de64810"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/SESSION-RECOVERY.md",
-        "repository": "zog144/host-discover",
-        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
-        "source_sha256": "5d29612ae3741a12b11dbbdf16d7c3e164ceabe91d98a94db6cd6670c57ce4ed"
-      },
-      "path": "components/host-discover/docs/SESSION-RECOVERY.md",
-      "sha256": "5d29612ae3741a12b11dbbdf16d7c3e164ceabe91d98a94db6cd6670c57ce4ed"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "examples/configuration.json",
         "repository": "zog144/host-discover",
         "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
@@ -1697,17 +1271,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "tests/fixtures/host-install/README.md",
-        "repository": "zog144/host-discover",
-        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
-        "source_sha256": "84896d85c38e92f7aea6c2b30fdde9dac478c3bc42c5b9d94e0f11ab6dcd4b58"
-      },
-      "path": "components/host-discover/tests/fixtures/host-install/README.md",
-      "sha256": "84896d85c38e92f7aea6c2b30fdde9dac478c3bc42c5b9d94e0f11ab6dcd4b58"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "tests/fixtures/host-install/bundle.json",
         "repository": "zog144/host-discover",
         "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
@@ -1715,6 +1278,17 @@
       },
       "path": "components/host-discover/tests/fixtures/host-install/bundle.json",
       "sha256": "04cb54a439dd2f2590cdfdfac22c7118aefc57f5d3f33f4cb2f4ac3728f0bc1c"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "tests/fixtures/host-install/README.md",
+        "repository": "zog144/host-discover",
+        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
+        "source_sha256": "84896d85c38e92f7aea6c2b30fdde9dac478c3bc42c5b9d94e0f11ab6dcd4b58"
+      },
+      "path": "components/host-discover/tests/fixtures/host-install/README.md",
+      "sha256": "84896d85c38e92f7aea6c2b30fdde9dac478c3bc42c5b9d94e0f11ab6dcd4b58"
     },
     {
       "mode": "100644",
@@ -1807,17 +1381,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "tests/test_managed.py",
-        "repository": "zog144/host-discover",
-        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
-        "source_sha256": "f92f852cec962c11c6267bc35ea4b025e25907b545484ecceda3bf42359f9599"
-      },
-      "path": "components/host-discover/tests/test_managed.py",
-      "sha256": "f92f852cec962c11c6267bc35ea4b025e25907b545484ecceda3bf42359f9599"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "tests/test_managed_admission.py",
         "repository": "zog144/host-discover",
         "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
@@ -1825,6 +1388,17 @@
       },
       "path": "components/host-discover/tests/test_managed_admission.py",
       "sha256": "9e91f729c0e70f4141c7462fdca760f4cd32da478feba9f759fd70786d30fc69"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "tests/test_managed.py",
+        "repository": "zog144/host-discover",
+        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
+        "source_sha256": "f92f852cec962c11c6267bc35ea4b025e25907b545484ecceda3bf42359f9599"
+      },
+      "path": "components/host-discover/tests/test_managed.py",
+      "sha256": "f92f852cec962c11c6267bc35ea4b025e25907b545484ecceda3bf42359f9599"
     },
     {
       "mode": "100644",
@@ -1906,28 +1480,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "HOST-INSTALL.md",
-        "repository": "zog144/host-identify",
-        "revision": "40fd8d901e0434ba4f819a03fa3dc71f9767da64",
-        "source_sha256": "173742bbf2592196e3167a29cb6dc9bc95502cdde4f14ac983888fbef4f2d9a1"
-      },
-      "path": "components/host-identify/HOST-INSTALL.md",
-      "sha256": "173742bbf2592196e3167a29cb6dc9bc95502cdde4f14ac983888fbef4f2d9a1"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/MANAGED-PROTOCOL.md",
-        "repository": "zog144/host-identify",
-        "revision": "40fd8d901e0434ba4f819a03fa3dc71f9767da64",
-        "source_sha256": "6aaa413a4c8a78566fc89eebd77a52567169b57084a29abb44fa28c0f45a24d8"
-      },
-      "path": "components/host-identify/docs/MANAGED-PROTOCOL.md",
-      "sha256": "6aaa413a4c8a78566fc89eebd77a52567169b57084a29abb44fa28c0f45a24d8"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "tests/test_archive_storage.py",
         "repository": "zog144/host-identify",
         "revision": "40fd8d901e0434ba4f819a03fa3dc71f9767da64",
@@ -1968,61 +1520,6 @@
       },
       "path": "components/host-identify/tests/test_mirror_access.py",
       "sha256": "2ecc0906b6b9585d920cc2609dcf97af96b570e04d5aefafc1c700b73e385073"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/fixture-plan.md",
-        "repository": "zog144/host-install",
-        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
-        "source_sha256": "d44058507be20e7ff848b78fb0e1fdf5c6be65caa75947d2d254d12c65fbdcd2"
-      },
-      "path": "components/host-install/docs/fixture-plan.md",
-      "sha256": "d44058507be20e7ff848b78fb0e1fdf5c6be65caa75947d2d254d12c65fbdcd2"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/host-generation-provenance.md",
-        "repository": "zog144/host-install",
-        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
-        "source_sha256": "2a0cbe67d1ed62c80d9184c8b6c4b1c9f873c7152ef29501dbc77d41f66570d6"
-      },
-      "path": "components/host-install/docs/host-generation-provenance.md",
-      "sha256": "2a0cbe67d1ed62c80d9184c8b6c4b1c9f873c7152ef29501dbc77d41f66570d6"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/image-build-integration.md",
-        "repository": "zog144/host-install",
-        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
-        "source_sha256": "951920a47cb328797599c5f0e238df887c0820df1f5fb74a8603b477f314b10c"
-      },
-      "path": "components/host-install/docs/image-build-integration.md",
-      "sha256": "951920a47cb328797599c5f0e238df887c0820df1f5fb74a8603b477f314b10c"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/state-contract-v1.md",
-        "repository": "zog144/host-install",
-        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
-        "source_sha256": "ca3140b121d30dc2701285055fb0dd3be26a57b23b9f5b248f3d257609307b70"
-      },
-      "path": "components/host-install/docs/state-contract-v1.md",
-      "sha256": "ca3140b121d30dc2701285055fb0dd3be26a57b23b9f5b248f3d257609307b70"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "examples/state-contract-v1/README.md",
-        "repository": "zog144/host-install",
-        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
-        "source_sha256": "aadf4066cc570716ee9aee6a64004cf02603c8582eac469bd0568a9e55e8ba8f"
-      },
-      "path": "components/host-install/examples/state-contract-v1/README.md",
-      "sha256": "aadf4066cc570716ee9aee6a64004cf02603c8582eac469bd0568a9e55e8ba8f"
     },
     {
       "mode": "100644",
@@ -2078,6 +1575,17 @@
       },
       "path": "components/host-install/examples/state-contract-v1/marker.json",
       "sha256": "3915f519b412662d1467988fe4ac88ff67b5ad94df150655494bb29b34235d30"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "examples/state-contract-v1/README.md",
+        "repository": "zog144/host-install",
+        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
+        "source_sha256": "aadf4066cc570716ee9aee6a64004cf02603c8582eac469bd0568a9e55e8ba8f"
+      },
+      "path": "components/host-install/examples/state-contract-v1/README.md",
+      "sha256": "aadf4066cc570716ee9aee6a64004cf02603c8582eac469bd0568a9e55e8ba8f"
     },
     {
       "mode": "100644",
@@ -2247,17 +1755,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "tests/test_state.py",
-        "repository": "zog144/host-install",
-        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
-        "source_sha256": "7ada005fc8b5d5ac34b44c715140e7fa9ced6bb6ec1553417884d0fa833bcee0"
-      },
-      "path": "components/host-install/tests/test_state.py",
-      "sha256": "7ada005fc8b5d5ac34b44c715140e7fa9ced6bb6ec1553417884d0fa833bcee0"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "tests/test_state_admission.py",
         "repository": "zog144/host-install",
         "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
@@ -2280,288 +1777,13 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "BOOTSTRAP-STAGES.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "f00c4687c92909fbebfcf6d0421fb15a6138341c57028bad61ba2e67aa9987d8"
+        "path": "tests/test_state.py",
+        "repository": "zog144/host-install",
+        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
+        "source_sha256": "7ada005fc8b5d5ac34b44c715140e7fa9ced6bb6ec1553417884d0fa833bcee0"
       },
-      "path": "components/image-build/BOOTSTRAP-STAGES.md",
-      "sha256": "f00c4687c92909fbebfcf6d0421fb15a6138341c57028bad61ba2e67aa9987d8"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "CONTROLLER-INTEGRATION.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "7b261ef30d5eeb34bd08b23e8bd439dff13451c8595cc26d1942f99e29699ba7"
-      },
-      "path": "components/image-build/CONTROLLER-INTEGRATION.md",
-      "sha256": "7b261ef30d5eeb34bd08b23e8bd439dff13451c8595cc26d1942f99e29699ba7"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "LICENSING.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "64b782dd9d372e6d44e21e24fcc918f11f285a5be63b6fef7734901787e41387"
-      },
-      "path": "components/image-build/LICENSING.md",
-      "sha256": "64b782dd9d372e6d44e21e24fcc918f11f285a5be63b6fef7734901787e41387"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "MONTHLY-PINS.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "eae1bc0ee4bb5c35ecc15c57089d3f64489f29a84179adc10ec6f9449106bda9"
-      },
-      "path": "components/image-build/MONTHLY-PINS.md",
-      "sha256": "eae1bc0ee4bb5c35ecc15c57089d3f64489f29a84179adc10ec6f9449106bda9"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "NATIVE-BUILD-ENVIRONMENT.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "fa0d8130e5dc3e3790a4c4321093c9edd61c21dff24d2f92c3030659970f7de7"
-      },
-      "path": "components/image-build/NATIVE-BUILD-ENVIRONMENT.md",
-      "sha256": "fa0d8130e5dc3e3790a4c4321093c9edd61c21dff24d2f92c3030659970f7de7"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/application-software-artifacts.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "5bb41d4cbf1f0672edece4b21370e5febdfe7137dd65f1a71aa7e1901fe6b452"
-      },
-      "path": "components/image-build/docs/application-software-artifacts.md",
-      "sha256": "5bb41d4cbf1f0672edece4b21370e5febdfe7137dd65f1a71aa7e1901fe6b452"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/archive-mirror-sources.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "187d65360edd46f273ba90abce1e730f1538bffaabd8085cf1854fe94b363efa"
-      },
-      "path": "components/image-build/docs/archive-mirror-sources.md",
-      "sha256": "187d65360edd46f273ba90abce1e730f1538bffaabd8085cf1854fe94b363efa"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/boot-build-tools.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "1562baf69e3ac95a218c7ca8b437b953c1a60f7475ec6937fbdacbb729323065"
-      },
-      "path": "components/image-build/docs/boot-build-tools.md",
-      "sha256": "1562baf69e3ac95a218c7ca8b437b953c1a60f7475ec6937fbdacbb729323065"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/build-record-integration.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "3cd692fc817072cd9ec42f72db1b3b64b0eb59f2b51003a8b370d0db8b8c0073"
-      },
-      "path": "components/image-build/docs/build-record-integration.md",
-      "sha256": "3cd692fc817072cd9ec42f72db1b3b64b0eb59f2b51003a8b370d0db8b8c0073"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/build-trace-contract.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "73e83aef0e6976ee87821df23f70be2862e53de5e8945de988057052066908a7"
-      },
-      "path": "components/image-build/docs/build-trace-contract.md",
-      "sha256": "73e83aef0e6976ee87821df23f70be2862e53de5e8945de988057052066908a7"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/cryptography-bootstrap.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "172159ad64f65304d2311b1535a70b7acf5bce106f3f872ad6f4f1d99c173c72"
-      },
-      "path": "components/image-build/docs/cryptography-bootstrap.md",
-      "sha256": "172159ad64f65304d2311b1535a70b7acf5bce106f3f872ad6f4f1d99c173c72"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/host-boot-packages.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "370e17b72e69c61a162fa405e78433e71ffd9e920bb66560796fcbeeed7f0f6a"
-      },
-      "path": "components/image-build/docs/host-boot-packages.md",
-      "sha256": "370e17b72e69c61a162fa405e78433e71ffd9e920bb66560796fcbeeed7f0f6a"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/host-readiness.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "813bb5b2e9e3255061697d3e6ca6744a524211963be36570b6f4ff331e55a947"
-      },
-      "path": "components/image-build/docs/host-readiness.md",
-      "sha256": "813bb5b2e9e3255061697d3e6ca6744a524211963be36570b6f4ff331e55a947"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/http-signatures-bootstrap.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "99581c05517c107d486f5494927a71d2b72f8cb5ed5c9901961378a75e9bada7"
-      },
-      "path": "components/image-build/docs/http-signatures-bootstrap.md",
-      "sha256": "99581c05517c107d486f5494927a71d2b72f8cb5ed5c9901961378a75e9bada7"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/integration-observations.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "e015e2e3faf7f9f39c5eefe11161344566d2c0029525a43efadccf428de44cd7"
-      },
-      "path": "components/image-build/docs/integration-observations.md",
-      "sha256": "e015e2e3faf7f9f39c5eefe11161344566d2c0029525a43efadccf428de44cd7"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/maturin-bootstrap.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "523207cb3b28ffb6e52b393ea6fb95ebc6ff1202a41a6675e0ece0c18bb223dc"
-      },
-      "path": "components/image-build/docs/maturin-bootstrap.md",
-      "sha256": "523207cb3b28ffb6e52b393ea6fb95ebc6ff1202a41a6675e0ece0c18bb223dc"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/observation-snapshot-publication.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "7005a074602e83ffce05f9587c3e85e10ca9ceb248b463279d02e2f4a2ee897d"
-      },
-      "path": "components/image-build/docs/observation-snapshot-publication.md",
-      "sha256": "7005a074602e83ffce05f9587c3e85e10ca9ceb248b463279d02e2f4a2ee897d"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/payload-paths.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "05ff4b130e3cf6096ebab53bfa47a96b9616000490f678a25b6e08494b980b9d"
-      },
-      "path": "components/image-build/docs/payload-paths.md",
-      "sha256": "05ff4b130e3cf6096ebab53bfa47a96b9616000490f678a25b6e08494b980b9d"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/python-enrollment.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "642411e0777990144021b8448d4a6573f304303dc949dc6cd297b1e1ce00f5cf"
-      },
-      "path": "components/image-build/docs/python-enrollment.md",
-      "sha256": "642411e0777990144021b8448d4a6573f304303dc949dc6cd297b1e1ce00f5cf"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/python-libraries.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "1f081e7c5f1e7137b2facfb5124847cca2bbed1a1bbe5542bd079b622efc7a4e"
-      },
-      "path": "components/image-build/docs/python-libraries.md",
-      "sha256": "1f081e7c5f1e7137b2facfb5124847cca2bbed1a1bbe5542bd079b622efc7a4e"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/python-runtime.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "83b32cd18c02fa71bc18fd2e37c136391a20d4b255fa55f8c5839fbf67fc5853"
-      },
-      "path": "components/image-build/docs/python-runtime.md",
-      "sha256": "83b32cd18c02fa71bc18fd2e37c136391a20d4b255fa55f8c5839fbf67fc5853"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/registration-continuation.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "0741d35ef505c1cbbc5f2e5eb6acee7e486a9422efa4eaeae69b6d510a5c2c76"
-      },
-      "path": "components/image-build/docs/registration-continuation.md",
-      "sha256": "0741d35ef505c1cbbc5f2e5eb6acee7e486a9422efa4eaeae69b6d510a5c2c76"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/registration-recovery.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "47512f63582fb6adf479bb77a5e51666b6e11a0fffc586b236d98c5c30f24c15"
-      },
-      "path": "components/image-build/docs/registration-recovery.md",
-      "sha256": "47512f63582fb6adf479bb77a5e51666b6e11a0fffc586b236d98c5c30f24c15"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/remote-operations.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "e8cc1abdfd78166a9a048ca22cd06ab3e6271f4df732beb3af4320d7db5a12d2"
-      },
-      "path": "components/image-build/docs/remote-operations.md",
-      "sha256": "e8cc1abdfd78166a9a048ca22cd06ab3e6271f4df732beb3af4320d7db5a12d2"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/retained-compiler.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "0231f32b333033de9166b42cc6813d6b0b02079fc88a13c97825818dcf6bccf5"
-      },
-      "path": "components/image-build/docs/retained-compiler.md",
-      "sha256": "0231f32b333033de9166b42cc6813d6b0b02079fc88a13c97825818dcf6bccf5"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/rust-bootstrap.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "86f76b3f2fd6ae183f9c28821d58a50fb727cc26c76785b50978ab12fe27cee0"
-      },
-      "path": "components/image-build/docs/rust-bootstrap.md",
-      "sha256": "86f76b3f2fd6ae183f9c28821d58a50fb727cc26c76785b50978ab12fe27cee0"
+      "path": "components/host-install/tests/test_state.py",
+      "sha256": "7ada005fc8b5d5ac34b44c715140e7fa9ced6bb6ec1553417884d0fa833bcee0"
     },
     {
       "mode": "100644",
@@ -2595,39 +1817,6 @@
       },
       "path": "components/image-build/docs/schemas/verification-observation-v1.schema.json",
       "sha256": "dc5eaaf3bd7c7faef862526f180b4d8eb0eb3ff8b6288438f4880f84f11fde71"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/systemd-core.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "4ff46358ef7c1c5f6b5345f7ca81ac77ff6fa1c8883eff9f6f4cfd2d450ca94b"
-      },
-      "path": "components/image-build/docs/systemd-core.md",
-      "sha256": "4ff46358ef7c1c5f6b5345f7ca81ac77ff6fa1c8883eff9f6f4cfd2d450ca94b"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/systemd-native.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "7e2a802d12679996d3bf89ac25a745c75259278a5f02e9a02498da81db5d8afe"
-      },
-      "path": "components/image-build/docs/systemd-native.md",
-      "sha256": "7e2a802d12679996d3bf89ac25a745c75259278a5f02e9a02498da81db5d8afe"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/systemd-prerequisites.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "f65f9fb55e2f217ca81d7e20c07284020d1edcd42638463d06a380fad060231b"
-      },
-      "path": "components/image-build/docs/systemd-prerequisites.md",
-      "sha256": "f65f9fb55e2f217ca81d7e20c07284020d1edcd42638463d06a380fad060231b"
     },
     {
       "mode": "100644",
@@ -3112,50 +2301,6 @@
       },
       "path": "components/image-build/project/bootstrap/systemd-native.py",
       "sha256": "0a0f315a7010457c120d1b4a3ec5b7f22472a5da6d979154362039df76eeea45"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "project/catalogue/BOX-CONTROL-BUILD-EXECUTION-REQUEST.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "539701f279b527f1302c404a760df1c0caf99892434b32ff8d01d1907c38c64b"
-      },
-      "path": "components/image-build/project/catalogue/BOX-CONTROL-BUILD-EXECUTION-REQUEST.md",
-      "sha256": "539701f279b527f1302c404a760df1c0caf99892434b32ff8d01d1907c38c64b"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "project/catalogue/IMAGE-BUILD-ARCHITECTURE.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "d4b621674c658433f4ea106aa4aedd4a692b825891e3ca6851084ab7ec7286be"
-      },
-      "path": "components/image-build/project/catalogue/IMAGE-BUILD-ARCHITECTURE.md",
-      "sha256": "d4b621674c658433f4ea106aa4aedd4a692b825891e3ca6851084ab7ec7286be"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "project/catalogue/SEED-GENERATION.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "9e16ea82bec0eaed48bf3bf1ada96357fc45502de85c3f156671f5a1d08e15b9"
-      },
-      "path": "components/image-build/project/catalogue/SEED-GENERATION.md",
-      "sha256": "9e16ea82bec0eaed48bf3bf1ada96357fc45502de85c3f156671f5a1d08e15b9"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "project/catalogue/TOOLCHAIN-CATALOGUE.md",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "3bd1bc69ee061c9fddd0f6946d487ecb989d836de30be3a8790466afe679ba59"
-      },
-      "path": "components/image-build/project/catalogue/TOOLCHAIN-CATALOGUE.md",
-      "sha256": "3bd1bc69ee061c9fddd0f6946d487ecb989d836de30be3a8790466afe679ba59"
     },
     {
       "mode": "100644",
@@ -15647,17 +14792,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "tests/test_native.py",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "f9f35f03c2b1167caab988f4bdf33ee71946bb6ebbd913fc01428f4208dc59bb"
-      },
-      "path": "components/image-build/tests/test_native.py",
-      "sha256": "f9f35f03c2b1167caab988f4bdf33ee71946bb6ebbd913fc01428f4208dc59bb"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "tests/test_native_stage.py",
         "repository": "zog144/image-build",
         "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
@@ -15676,6 +14810,17 @@
       },
       "path": "components/image-build/tests/test_native_tools.py",
       "sha256": "91ee1462fb2b88e14a284da5d41f93ba4a2dba57771c9008201933d2bd62c2a0"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "tests/test_native.py",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "f9f35f03c2b1167caab988f4bdf33ee71946bb6ebbd913fc01428f4208dc59bb"
+      },
+      "path": "components/image-build/tests/test_native.py",
+      "sha256": "f9f35f03c2b1167caab988f4bdf33ee71946bb6ebbd913fc01428f4208dc59bb"
     },
     {
       "mode": "100644",
@@ -15933,17 +15078,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "tests/test_worker.py",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "7f6daae5ab6358b391023db144fc97b79dbb130a4e4a231f80e5e5cc29591886"
-      },
-      "path": "components/image-build/tests/test_worker.py",
-      "sha256": "7f6daae5ab6358b391023db144fc97b79dbb130a4e4a231f80e5e5cc29591886"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "adaptation": "replace specific legacy host identifier assertion with a general no-instance-ID assertion",
         "path": "tests/test_worker_identity.py",
         "repository": "zog144/image-build",
@@ -15956,13 +15090,13 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "docs/design.md",
-        "repository": "zog144/integrate-observe",
-        "revision": "d20e0ef972ea6f454b7de18f2e541b40e40e32a1",
-        "source_sha256": "830199625d5700203923f2343402d7411847bd7c97aa746ab4a2731ba024f901"
+        "path": "tests/test_worker.py",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "7f6daae5ab6358b391023db144fc97b79dbb130a4e4a231f80e5e5cc29591886"
       },
-      "path": "components/integrate-observe/docs/design.md",
-      "sha256": "830199625d5700203923f2343402d7411847bd7c97aa746ab4a2731ba024f901"
+      "path": "components/image-build/tests/test_worker.py",
+      "sha256": "7f6daae5ab6358b391023db144fc97b79dbb130a4e4a231f80e5e5cc29591886"
     },
     {
       "mode": "100644",
@@ -15974,40 +15108,6 @@
       },
       "path": "components/integrate-observe/tests/test_observer.py",
       "sha256": "bf2f694519981aa80605094b0c9f8556f5f7ae1f3017e5d3b26d4bc60867d6d5"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "ADOPTION-CUTOVER.md",
-        "repository": "zog144/network-register",
-        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
-        "source_sha256": "c95e8fde5a9e0e8556162b1b1060fc86ee8e400c2c4882d81cd09493ed220de5"
-      },
-      "path": "components/network-register/ADOPTION-CUTOVER.md",
-      "sha256": "c95e8fde5a9e0e8556162b1b1060fc86ee8e400c2c4882d81cd09493ed220de5"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "adaptation": "use reserved example domain",
-        "path": "HOST-DISCOVER-DNS-DESIGN.md",
-        "repository": "zog144/network-register",
-        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
-        "source_sha256": "55a35a5b86a1bd805c434e5a3b0933a6c59f66fd7fe143b638c0c1645c483382"
-      },
-      "path": "components/network-register/HOST-DISCOVER-DNS-DESIGN.md",
-      "sha256": "227b2b8add6634e852b4c785c95932d5a2ece338fd17d8effbaf5353910c7965"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "NAME-LIFECYCLE.md",
-        "repository": "zog144/network-register",
-        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
-        "source_sha256": "8ae8de9cee3e9cbfc4c125027fe5678bf2dd72251471be0b328b682e1daa2388"
-      },
-      "path": "components/network-register/NAME-LIFECYCLE.md",
-      "sha256": "8ae8de9cee3e9cbfc4c125027fe5678bf2dd72251471be0b328b682e1daa2388"
     },
     {
       "mode": "100644",
@@ -16034,17 +15134,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "tests/test_dns.py",
-        "repository": "zog144/network-register",
-        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
-        "source_sha256": "ae7213d9011cfb31548659eeaeedd5b9d71519d8919791bd3402a53efde5de88"
-      },
-      "path": "components/network-register/tests/test_dns.py",
-      "sha256": "ae7213d9011cfb31548659eeaeedd5b9d71519d8919791bd3402a53efde5de88"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "tests/test_dns_authority.py",
         "repository": "zog144/network-register",
         "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
@@ -16052,6 +15141,17 @@
       },
       "path": "components/network-register/tests/test_dns_authority.py",
       "sha256": "187227a0a6c8e254855ae57307034a4eddddfa9ad75ed951150451c430e1b296"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "tests/test_dns.py",
+        "repository": "zog144/network-register",
+        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
+        "source_sha256": "ae7213d9011cfb31548659eeaeedd5b9d71519d8919791bd3402a53efde5de88"
+      },
+      "path": "components/network-register/tests/test_dns.py",
+      "sha256": "ae7213d9011cfb31548659eeaeedd5b9d71519d8919791bd3402a53efde5de88"
     },
     {
       "mode": "100644",
@@ -16111,17 +15211,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "tests/test_porkbun.py",
-        "repository": "zog144/network-register",
-        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
-        "source_sha256": "b6e1377ae07a4084de9d303c3827451e035b563de093061ce98c2d4e880736af"
-      },
-      "path": "components/network-register/tests/test_porkbun.py",
-      "sha256": "b6e1377ae07a4084de9d303c3827451e035b563de093061ce98c2d4e880736af"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "tests/test_porkbun_dns.py",
         "repository": "zog144/network-register",
         "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
@@ -16133,6 +15222,17 @@
     {
       "mode": "100644",
       "origin": {
+        "path": "tests/test_porkbun.py",
+        "repository": "zog144/network-register",
+        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
+        "source_sha256": "b6e1377ae07a4084de9d303c3827451e035b563de093061ce98c2d4e880736af"
+      },
+      "path": "components/network-register/tests/test_porkbun.py",
+      "sha256": "b6e1377ae07a4084de9d303c3827451e035b563de093061ce98c2d4e880736af"
+    },
+    {
+      "mode": "100644",
+      "origin": {
         "path": "tests/test_reservations.py",
         "repository": "zog144/network-register",
         "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
@@ -16140,17 +15240,6 @@
       },
       "path": "components/network-register/tests/test_reservations.py",
       "sha256": "ff8e41f2a880dd01a259950ad0fef69a1f9829ac07bcab3c352efd1786698fe5"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "JOURNAL-BARRIER.md",
-        "repository": "zog144/root-control",
-        "revision": "3cc6cdc2c5e49232318d82797d3228c6072b9bdc",
-        "source_sha256": "63cf8f7b5ff06a6652ec11d1073a704e48c009b0ae20eb2f54222843073a50e2"
-      },
-      "path": "components/root-control/JOURNAL-BARRIER.md",
-      "sha256": "63cf8f7b5ff06a6652ec11d1073a704e48c009b0ae20eb2f54222843073a50e2"
     },
     {
       "mode": "100644",
@@ -16232,14 +15321,6 @@
     {
       "mode": "100644",
       "origin": {
-        "kind": "aggregate-document-or-metadata"
-      },
-      "path": "components/station-access/LICENSE",
-      "sha256": "2f00ce35b5a9f4593d654ef3cbe49d5daa3c03500d9bd86d9587449cc4833ed1"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "deployment/deployment-jobs/station-deployment-jobs.service",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -16291,251 +15372,6 @@
       },
       "path": "components/station-access/deployment/inventory-policy.json",
       "sha256": "26bcea1e70c7e69775a09d5da094711230366a85aef576abd1dd53e2c2283466"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/ARCHIVE-AUTHORIZATION.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "0433ef1f063ffa59163321715be006b30b95f6867816038b42cebebbafce1007"
-      },
-      "path": "components/station-access/docs/ARCHIVE-AUTHORIZATION.md",
-      "sha256": "0433ef1f063ffa59163321715be006b30b95f6867816038b42cebebbafce1007"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/BOX-CONTROL-ADAPTER.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "075768c70d3a536df7dfb427d33a04a3749332880b440e2ddf94f659c2d1aedc"
-      },
-      "path": "components/station-access/docs/BOX-CONTROL-ADAPTER.md",
-      "sha256": "075768c70d3a536df7dfb427d33a04a3749332880b440e2ddf94f659c2d1aedc"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/BOX-CONTROL-LOGS.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "37d6e85cfee7f01e9aaab54e57a03874390d53960a0a208fbea0cfa10b85535d"
-      },
-      "path": "components/station-access/docs/BOX-CONTROL-LOGS.md",
-      "sha256": "37d6e85cfee7f01e9aaab54e57a03874390d53960a0a208fbea0cfa10b85535d"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/CLOUD-CREDENTIALS.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "6b00455cea247858b04d4f7a4ff89e5dda28f45132f22d6e63cc7dec47d826fd"
-      },
-      "path": "components/station-access/docs/CLOUD-CREDENTIALS.md",
-      "sha256": "6b00455cea247858b04d4f7a4ff89e5dda28f45132f22d6e63cc7dec47d826fd"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/DEPLOYMENT-JOBS.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "97a88845beee7c58ade71b13f6de289a5605a18afbcf4c68b49ebdb9c2422ce2"
-      },
-      "path": "components/station-access/docs/DEPLOYMENT-JOBS.md",
-      "sha256": "97a88845beee7c58ade71b13f6de289a5605a18afbcf4c68b49ebdb9c2422ce2"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/DNS-DESTINATIONS.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "4b33529f195b05ad544a7d100c025fd4335eebd61aa8fd53d08cd447bbc0dcec"
-      },
-      "path": "components/station-access/docs/DNS-DESTINATIONS.md",
-      "sha256": "4b33529f195b05ad544a7d100c025fd4335eebd61aa8fd53d08cd447bbc0dcec"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/DNS-EVIDENCE.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "629851562eb241a837aa03ea5453a23e37b42b7b2d25a197124647a96b17480b"
-      },
-      "path": "components/station-access/docs/DNS-EVIDENCE.md",
-      "sha256": "629851562eb241a837aa03ea5453a23e37b42b7b2d25a197124647a96b17480b"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/DNS-MEMBERSHIP.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "922a9315436c7f263c1af0a34baf7a3b4689312a6d22d81d8094d1c4da880612"
-      },
-      "path": "components/station-access/docs/DNS-MEMBERSHIP.md",
-      "sha256": "922a9315436c7f263c1af0a34baf7a3b4689312a6d22d81d8094d1c4da880612"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/DNS-SETUP.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "7a8dda61b21e5089a5791e50ba2b29a85ab4a526cc9c9228c489ba5cd23a1ad5"
-      },
-      "path": "components/station-access/docs/DNS-SETUP.md",
-      "sha256": "7a8dda61b21e5089a5791e50ba2b29a85ab4a526cc9c9228c489ba5cd23a1ad5"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/GENERATION-PROVENANCE.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "7dc94fec068dcb996daf9ae48c6bb6c8d199ed28f5b0892a6ef006b6420852e1"
-      },
-      "path": "components/station-access/docs/GENERATION-PROVENANCE.md",
-      "sha256": "7dc94fec068dcb996daf9ae48c6bb6c8d199ed28f5b0892a6ef006b6420852e1"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/HOST-GENERATION-AND-EXPORT.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "db750178fd684f426e316a0d5442979ba8cbd070bb8803c8f90bb2cbb4ed205c"
-      },
-      "path": "components/station-access/docs/HOST-GENERATION-AND-EXPORT.md",
-      "sha256": "db750178fd684f426e316a0d5442979ba8cbd070bb8803c8f90bb2cbb4ed205c"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/MANAGED-SESSION-RECOVERY.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "b8ebb0044da5b42177bea96d2167bd839383c4b79a60c6395c13b7860126b5df"
-      },
-      "path": "components/station-access/docs/MANAGED-SESSION-RECOVERY.md",
-      "sha256": "b8ebb0044da5b42177bea96d2167bd839383c4b79a60c6395c13b7860126b5df"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/MANAGED-SESSIONS.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "93b6179c12752a77d027e9ae14be0c84c9f23afeda3e689fcbcb3dde46c109e6"
-      },
-      "path": "components/station-access/docs/MANAGED-SESSIONS.md",
-      "sha256": "93b6179c12752a77d027e9ae14be0c84c9f23afeda3e689fcbcb3dde46c109e6"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "adaptation": "use reserved example domain",
-        "path": "docs/MIRROR-STARTUP-CONTRACT.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "2c9f9684a1c80066fb80785862ed3890f9c5b2fb1b132064393bcc438b3f3255"
-      },
-      "path": "components/station-access/docs/MIRROR-STARTUP-CONTRACT.md",
-      "sha256": "af2f96d72ed33125a847a6800f6a8de78271fda9b36b3659f630ac80994d5a5c"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "adaptation": "adapt maintained documentation to aggregate layout and omit links to excluded historical component documents",
-        "path": "docs/PORKBUN-ONBOARDING.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "c84cfafe286bd15f1331cbc313ef7db42c65e974c184f43c934251c3efa76605"
-      },
-      "path": "components/station-access/docs/PORKBUN-ONBOARDING.md",
-      "sha256": "e9d1ae040d54563d4b59e1921f71c7ae04a024e8513918c315ebc16bd6f705f7"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "adaptation": "adapt maintained documentation to aggregate layout and omit links to excluded historical component documents",
-        "path": "docs/PORTAL.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "c8b956945676538ba222d4c2d573fc811413da1a3e813d25b84060880641bb88"
-      },
-      "path": "components/station-access/docs/PORTAL.md",
-      "sha256": "dce07322ff55f645ea93ceae4a16411ce553cb9ee54a4b85be4fa28ba588cbc1"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/PROVENANCE-ENCOUNTERS.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "263afe9d61005d14a3c38b80f13b0b1357f4f29e08f4a1f6328f48bca5f84ef6"
-      },
-      "path": "components/station-access/docs/PROVENANCE-ENCOUNTERS.md",
-      "sha256": "263afe9d61005d14a3c38b80f13b0b1357f4f29e08f4a1f6328f48bca5f84ef6"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/REGISTRIES-DEPLOYMENTS.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "f7c5dd14c3cb92a8bb18093b195c8ec24e3ba3e377f5072d13bb1fc43c6d6884"
-      },
-      "path": "components/station-access/docs/REGISTRIES-DEPLOYMENTS.md",
-      "sha256": "f7c5dd14c3cb92a8bb18093b195c8ec24e3ba3e377f5072d13bb1fc43c6d6884"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/USERS-AND-RELEASE.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "7667f1ba88de51e85b8c267b6871dc20bf438b26e6011b83d590342d5228c524"
-      },
-      "path": "components/station-access/docs/USERS-AND-RELEASE.md",
-      "sha256": "7667f1ba88de51e85b8c267b6871dc20bf438b26e6011b83d590342d5228c524"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/VNC-WORKSPACES.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "f5bc31d201625b732513d2d98caaa565c0710ac89bc60ae43ad3a14a8376ee82"
-      },
-      "path": "components/station-access/docs/VNC-WORKSPACES.md",
-      "sha256": "f5bc31d201625b732513d2d98caaa565c0710ac89bc60ae43ad3a14a8376ee82"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/WEBSOCKIFY.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "744945e42911c8cb058b15ca207dc97a027c40edb4111f8add7801c474506ad1"
-      },
-      "path": "components/station-access/docs/WEBSOCKIFY.md",
-      "sha256": "744945e42911c8cb058b15ca207dc97a027c40edb4111f8add7801c474506ad1"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "docs/WORKSPACE-PROVENANCE.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "dd5f69c24b16cb256fe2fd396a911f813ad64c0694bba37d1d17005b12e7dbad"
-      },
-      "path": "components/station-access/docs/WORKSPACE-PROVENANCE.md",
-      "sha256": "dd5f69c24b16cb256fe2fd396a911f813ad64c0694bba37d1d17005b12e7dbad"
     },
     {
       "mode": "100644",
@@ -16630,6 +15466,17 @@
     {
       "mode": "100644",
       "origin": {
+        "path": "frontend/src/api.ts",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "ea85f82014314f2c4659df2abf286aa4c272cc56ecae3797be9de70a33264c64"
+      },
+      "path": "components/station-access/frontend/src/api.ts",
+      "sha256": "ea85f82014314f2c4659df2abf286aa4c272cc56ecae3797be9de70a33264c64"
+    },
+    {
+      "mode": "100644",
+      "origin": {
         "path": "frontend/src/App.test.tsx",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -16652,28 +15499,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "frontend/src/LicenseLink.tsx",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "c6c3c9c9642130a10ffee15d738e1fc596c22bc29e054c50c3905f354c68a959"
-      },
-      "path": "components/station-access/frontend/src/LicenseLink.tsx",
-      "sha256": "c6c3c9c9642130a10ffee15d738e1fc596c22bc29e054c50c3905f354c68a959"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "frontend/src/api.ts",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "ea85f82014314f2c4659df2abf286aa4c272cc56ecae3797be9de70a33264c64"
-      },
-      "path": "components/station-access/frontend/src/api.ts",
-      "sha256": "ea85f82014314f2c4659df2abf286aa4c272cc56ecae3797be9de70a33264c64"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "frontend/src/auth/AuthProvider.tsx",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -16685,24 +15510,13 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "frontend/src/logs/LogViewer.test.tsx",
+        "path": "frontend/src/LicenseLink.tsx",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "7f77bfe92b53974a485265afc13c488d33edcb9e24149e3c72f93abaf5fa04f1"
+        "source_sha256": "c6c3c9c9642130a10ffee15d738e1fc596c22bc29e054c50c3905f354c68a959"
       },
-      "path": "components/station-access/frontend/src/logs/LogViewer.test.tsx",
-      "sha256": "7f77bfe92b53974a485265afc13c488d33edcb9e24149e3c72f93abaf5fa04f1"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "frontend/src/logs/LogViewer.tsx",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "0b1eb08edf55afa635065a16961eb82123ba778daac815a9b7efc33f80e6503f"
-      },
-      "path": "components/station-access/frontend/src/logs/LogViewer.tsx",
-      "sha256": "0b1eb08edf55afa635065a16961eb82123ba778daac815a9b7efc33f80e6503f"
+      "path": "components/station-access/frontend/src/LicenseLink.tsx",
+      "sha256": "c6c3c9c9642130a10ffee15d738e1fc596c22bc29e054c50c3905f354c68a959"
     },
     {
       "mode": "100644",
@@ -16725,6 +15539,28 @@
       },
       "path": "components/station-access/frontend/src/logs/buffer.ts",
       "sha256": "3ae760f83f204079dbf764793d6390627608a77d0b2b5849657dd67605dcb52b"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "frontend/src/logs/LogViewer.test.tsx",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "7f77bfe92b53974a485265afc13c488d33edcb9e24149e3c72f93abaf5fa04f1"
+      },
+      "path": "components/station-access/frontend/src/logs/LogViewer.test.tsx",
+      "sha256": "7f77bfe92b53974a485265afc13c488d33edcb9e24149e3c72f93abaf5fa04f1"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "frontend/src/logs/LogViewer.tsx",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "0b1eb08edf55afa635065a16961eb82123ba778daac815a9b7efc33f80e6503f"
+      },
+      "path": "components/station-access/frontend/src/logs/LogViewer.tsx",
+      "sha256": "0b1eb08edf55afa635065a16961eb82123ba778daac815a9b7efc33f80e6503f"
     },
     {
       "mode": "100644",
@@ -16978,6 +15814,28 @@
       },
       "path": "components/station-access/frontend/src/pages/HostDns.tsx",
       "sha256": "bf213ea6dfa86ed9829bab9f41d30db0cfc3acc47b79177173cffb6372c33e80"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "frontend/src/pages/hostFreshness.test.ts",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "35c8451c419e39bcccfd5aa06b4f29ecdc62b580ee13f6df326bd4f5f261b38f"
+      },
+      "path": "components/station-access/frontend/src/pages/hostFreshness.test.ts",
+      "sha256": "35c8451c419e39bcccfd5aa06b4f29ecdc62b580ee13f6df326bd4f5f261b38f"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "frontend/src/pages/hostFreshness.ts",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "841ca00713fe47fe0a339a055151d10b6db231d04a28104c12ddba69ac4034e0"
+      },
+      "path": "components/station-access/frontend/src/pages/hostFreshness.ts",
+      "sha256": "841ca00713fe47fe0a339a055151d10b6db231d04a28104c12ddba69ac4034e0"
     },
     {
       "mode": "100644",
@@ -17246,28 +16104,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "frontend/src/pages/hostFreshness.test.ts",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "35c8451c419e39bcccfd5aa06b4f29ecdc62b580ee13f6df326bd4f5f261b38f"
-      },
-      "path": "components/station-access/frontend/src/pages/hostFreshness.test.ts",
-      "sha256": "35c8451c419e39bcccfd5aa06b4f29ecdc62b580ee13f6df326bd4f5f261b38f"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "frontend/src/pages/hostFreshness.ts",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "841ca00713fe47fe0a339a055151d10b6db231d04a28104c12ddba69ac4034e0"
-      },
-      "path": "components/station-access/frontend/src/pages/hostFreshness.ts",
-      "sha256": "841ca00713fe47fe0a339a055151d10b6db231d04a28104c12ddba69ac4034e0"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "frontend/src/provenance/SoftwareProvenance.test.tsx",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -17367,17 +16203,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "integration/IMAGE-BUILD.md",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "7b322ab81e36f257381a90b38ff9187e688c52661305f851029150125ba35d9b"
-      },
-      "path": "components/station-access/integration/IMAGE-BUILD.md",
-      "sha256": "7b322ab81e36f257381a90b38ff9187e688c52661305f851029150125ba35d9b"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "integration/application.py",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -17385,6 +16210,14 @@
       },
       "path": "components/station-access/integration/application.py",
       "sha256": "c8b23ed37f65c361f5009a770bc04fa88573c7695c3eba27ce48e4645c389b7f"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "kind": "aggregate-document-or-metadata"
+      },
+      "path": "components/station-access/LICENSE",
+      "sha256": "2f00ce35b5a9f4593d654ef3cbe49d5daa3c03500d9bd86d9587449cc4833ed1"
     },
     {
       "mode": "100644",
@@ -17510,17 +16343,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "tests/host_registry/test_dns.py",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "ab014d114fd25a10d630961d2fdd4ee9e2f35e26007421bac3e1213b752b166c"
-      },
-      "path": "components/station-access/tests/host_registry/test_dns.py",
-      "sha256": "ab014d114fd25a10d630961d2fdd4ee9e2f35e26007421bac3e1213b752b166c"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "tests/host_registry/test_dns_cutover.py",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -17572,6 +16394,17 @@
       },
       "path": "components/station-access/tests/host_registry/test_dns_setup.py",
       "sha256": "2c65176264dfb6d7acb7842644b29bb7b3c3e9d7b5aa03effe856045358f31aa"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "tests/host_registry/test_dns.py",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "ab014d114fd25a10d630961d2fdd4ee9e2f35e26007421bac3e1213b752b166c"
+      },
+      "path": "components/station-access/tests/host_registry/test_dns.py",
+      "sha256": "ab014d114fd25a10d630961d2fdd4ee9e2f35e26007421bac3e1213b752b166c"
     },
     {
       "mode": "100644",
@@ -17983,10 +16816,1274 @@
     {
       "mode": "100644",
       "origin": {
+        "path": "docs/NOTICE-CONTRACT.md",
+        "repository": "zog144/archive-mirror",
+        "revision": "648691fecc22494dc1aaf8dbe8b2f21b2ed67af3",
+        "source_sha256": "12e9f500f7e6aa9917d9a002921056456212b8f121b1c37b0c2e3b4b3e7b89cd",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/archive-mirror/NOTICE-CONTRACT.md",
+      "sha256": "12e9f500f7e6aa9917d9a002921056456212b8f121b1c37b0c2e3b4b3e7b89cd"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/REVIEWED-SOURCES.md",
+        "repository": "zog144/archive-mirror",
+        "revision": "648691fecc22494dc1aaf8dbe8b2f21b2ed67af3",
+        "source_sha256": "bd9047158b5b84817c82f0a2b3598c18adfbaac517bb6e290511f2711aad2a4a",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/archive-mirror/REVIEWED-SOURCES.md",
+      "sha256": "bd9047158b5b84817c82f0a2b3598c18adfbaac517bb6e290511f2711aad2a4a"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "APPLICATION-MOUNTS.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "1a7aaea72243083d1e008026d0e0a39c28d81b45e77b3d76ed7cf4c77076b867",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/APPLICATION-MOUNTS.md",
+      "sha256": "1a7aaea72243083d1e008026d0e0a39c28d81b45e77b3d76ed7cf4c77076b867"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "box-control/catalogue/build-visibility.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "c6fe671bcdc309d25d6c3c3230b7a21c152555137e0416d502ed7c4fa82d35c0",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/catalogue/build-visibility.md",
+      "sha256": "c6fe671bcdc309d25d6c3c3230b7a21c152555137e0416d502ed7c4fa82d35c0"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "box-control/catalogue/launch-preflight.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "15f4fa0e6fba7e02c700b1546689f6e1d39d41f6a42428fc8c28469178d289af",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/catalogue/launch-preflight.md",
+      "sha256": "15f4fa0e6fba7e02c700b1546689f6e1d39d41f6a42428fc8c28469178d289af"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "box-control/catalogue/process-inspection.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "d2a86d2c903a9002ee548c55ccd87ee33cd72ab6f0f51b498a3d6a6b58c34b04",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/catalogue/process-inspection.md",
+      "sha256": "d2a86d2c903a9002ee548c55ccd87ee33cd72ab6f0f51b498a3d6a6b58c34b04"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "box-control/catalogue/recovery-explanations.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "996f4bfd1dd40c1de29b783e3a26fdfc6e8adf1d3f83e0c3e4744cb34195a57f",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/catalogue/recovery-explanations.md",
+      "sha256": "996f4bfd1dd40c1de29b783e3a26fdfc6e8adf1d3f83e0c3e4744cb34195a57f"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "box-control/catalogue/recovery-inspection.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "c01859b4a81467861d74d91860adfeb0a9a7e65844298044a9c263222add662c",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/catalogue/recovery-inspection.md",
+      "sha256": "c01859b4a81467861d74d91860adfeb0a9a7e65844298044a9c263222add662c"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "box-control/catalogue/request-retention.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "7b10b4c50caf2935ce212570227d572b107608043c9a188d7aa6c45e0650b9e2",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/catalogue/request-retention.md",
+      "sha256": "7b10b4c50caf2935ce212570227d572b107608043c9a188d7aa6c45e0650b9e2"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "IMAGE-BUILD-EXECUTION-TYPES-AND-MAPPING.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "436407e884226226ffad5be2a9ced69f9f99807ae19e949ca16b347a41b5b001",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/IMAGE-BUILD-EXECUTION-TYPES-AND-MAPPING.md",
+      "sha256": "436407e884226226ffad5be2a9ced69f9f99807ae19e949ca16b347a41b5b001"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "PERSISTENT-APPLICATIONS.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "73817cda97b2bb78db9b0095bbe19a374eb5c83b7716c494e8637e7818ac6f4b",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/PERSISTENT-APPLICATIONS.md",
+      "sha256": "73817cda97b2bb78db9b0095bbe19a374eb5c83b7716c494e8637e7818ac6f4b"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "box-control/REGISTRATION-RECOVERY.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "f80b8f6bdce44571f2e9ba742a5b98260e4ea9f405315f1dbc449817c543fab1",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/REGISTRATION-RECOVERY.md",
+      "sha256": "f80b8f6bdce44571f2e9ba742a5b98260e4ea9f405315f1dbc449817c543fab1"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "WORKSPACE-APPLICATIONS.md",
+        "repository": "zog144/box-control",
+        "revision": "014c8a058889c4b6de1ad58af76cb65ce5a94b7a",
+        "source_sha256": "379cc77d331530e6a5ccc226c34b294cdd63972be081488c35635612f0c86265",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/box-control/WORKSPACE-APPLICATIONS.md",
+      "sha256": "379cc77d331530e6a5ccc226c34b294cdd63972be081488c35635612f0c86265"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/contract.md",
+        "repository": "zog144/build-record",
+        "revision": "60631ae4c6904e4812bf0d38f8703a6123935aa1",
+        "source_sha256": "735a5645b355b6660de92db69fde424fd3d02d25855cb9dee4646f4b572bcfe7",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/build-record/contract.md",
+      "sha256": "735a5645b355b6660de92db69fde424fd3d02d25855cb9dee4646f4b572bcfe7"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/generation-audit.md",
+        "repository": "zog144/build-record",
+        "revision": "60631ae4c6904e4812bf0d38f8703a6123935aa1",
+        "source_sha256": "1fb9fd835c74b3473c70346ba73a8a408f6df51327c6908128d686ee553e0b55",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/build-record/generation-audit.md",
+      "sha256": "1fb9fd835c74b3473c70346ba73a8a408f6df51327c6908128d686ee553e0b55"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/ci.md",
+        "repository": "zog144/build-trace",
+        "revision": "1158030d0a8461554ebeda42ea095b25c10133dc",
+        "source_sha256": "d24a01667c826c09d1aaaef97c6900c3dc6540a89a87209b473cf65f7e202f0e",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/build-trace/ci.md",
+      "sha256": "d24a01667c826c09d1aaaef97c6900c3dc6540a89a87209b473cf65f7e202f0e"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/integration-observations.md",
+        "repository": "zog144/build-trace",
+        "revision": "1158030d0a8461554ebeda42ea095b25c10133dc",
+        "source_sha256": "b9c76ad782cb81405ad153316d3f188d5f7f3b9236d67a782b9d7117a439f56b",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/build-trace/integration-observations.md",
+      "sha256": "b9c76ad782cb81405ad153316d3f188d5f7f3b9236d67a782b9d7117a439f56b"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/schema.md",
+        "repository": "zog144/build-trace",
+        "revision": "1158030d0a8461554ebeda42ea095b25c10133dc",
+        "source_sha256": "b04f89ad180d79afaa3e9426776d5c42ed4d2bc62f21163f2714b90cd646883c",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/build-trace/schema.md",
+      "sha256": "b04f89ad180d79afaa3e9426776d5c42ed4d2bc62f21163f2714b90cd646883c"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/usage.md",
+        "repository": "zog144/build-trace",
+        "revision": "1158030d0a8461554ebeda42ea095b25c10133dc",
+        "source_sha256": "4104c9afaaf8f7e2560435b2c8476d130795e36949a55ffa45635cb8a95aca69",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/build-trace/usage.md",
+      "sha256": "4104c9afaaf8f7e2560435b2c8476d130795e36949a55ffa45635cb8a95aca69"
+    },
+    {
+      "mode": "100644",
+      "origin": {
         "kind": "aggregate-document-or-metadata"
       },
       "path": "docs/DEVELOPMENT.md",
-      "sha256": "4cc8911768c21df8d648d0678804bde078f23b82414f554dd1590a68d7de0bda"
+      "sha256": "d5f1589eef6faf68db3ec5fce02f65750b85eb1c953aac07fd106ca9c849b0d2"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "ARTIFACTS.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "c51bb71d6b12ed2453a734d49d4dad1d12134f68daab81e1bb9d7abb5238f09c",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/ARTIFACTS.md",
+      "sha256": "c51bb71d6b12ed2453a734d49d4dad1d12134f68daab81e1bb9d7abb5238f09c"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "AUTHENTICATION.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "6a5b0c51c650665ce8d0c77a99b88a4df6c1d5a86d9b370be213c3e3b17481bb",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/AUTHENTICATION.md",
+      "sha256": "6a5b0c51c650665ce8d0c77a99b88a4df6c1d5a86d9b370be213c3e3b17481bb"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "CLOUD-DEADLINE.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "dfb90eb8420f129c3a6a0a1e1c16e00c201ebb69359caa0f3a43966bf91c98b6",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/CLOUD-DEADLINE.md",
+      "sha256": "dfb90eb8420f129c3a6a0a1e1c16e00c201ebb69359caa0f3a43966bf91c98b6"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "DISCOVERY.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "fd399273d32e85569bfde47bf949c31bab552e61885176634b79d3496488ac85",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/DISCOVERY.md",
+      "sha256": "fd399273d32e85569bfde47bf949c31bab552e61885176634b79d3496488ac85"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "GATEWAY-GITHUB.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "afeeb699664e7659fb88939f44c938e0904c53f9e97a078d401e9c58714ace63",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/GATEWAY-GITHUB.md",
+      "sha256": "afeeb699664e7659fb88939f44c938e0904c53f9e97a078d401e9c58714ace63"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "GATEWAY-PROTOCOL.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "938a0f971e70f8a4fe8a023235b7761907c530347c9e6546a1384d3f2bae4bca",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/GATEWAY-PROTOCOL.md",
+      "sha256": "938a0f971e70f8a4fe8a023235b7761907c530347c9e6546a1384d3f2bae4bca"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "IMAGE-BUILD-LANES.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "2d033217e69d6877646c786dd106458676a99423296e9a143548ac554b45044e",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/IMAGE-BUILD-LANES.md",
+      "sha256": "2d033217e69d6877646c786dd106458676a99423296e9a143548ac554b45044e"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "JOBS.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "622f324a1aa179b2b353996a30a54e4f594dbe78810437a364ddd0fb90af8c23",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/JOBS.md",
+      "sha256": "622f324a1aa179b2b353996a30a54e4f594dbe78810437a364ddd0fb90af8c23"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "REBOOT.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "262472ee4c1ca9199aabbbb7dcc0c3cc5955872293cd36d466d40fab4406ca1e",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/REBOOT.md",
+      "sha256": "262472ee4c1ca9199aabbbb7dcc0c3cc5955872293cd36d466d40fab4406ca1e"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "RECOVERY.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "b0a61460c41164453d493cff0b332bab76dd20c3e8ff6ab9941581229d1c0df5",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/RECOVERY.md",
+      "sha256": "b0a61460c41164453d493cff0b332bab76dd20c3e8ff6ab9941581229d1c0df5"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "S3.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "688123263861e315478e92c0c2257aff13c2f7f2ba62beffcc1d624be1161d71",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/S3.md",
+      "sha256": "688123263861e315478e92c0c2257aff13c2f7f2ba62beffcc1d624be1161d71"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "STARTER-RECIPES.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "c262dabc093f10f6a5bbec6fab3f9e887e335d2e81e446aa8a08787f1149a249",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/STARTER-RECIPES.md",
+      "sha256": "c262dabc093f10f6a5bbec6fab3f9e887e335d2e81e446aa8a08787f1149a249"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "STATION-DEPLOYMENT-JOBS.md",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "209e64748129113b226de04c1e652591bbcd58d7f6ba4bb624ef7a6b5207f837",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-deploy/STATION-DEPLOYMENT-JOBS.md",
+      "sha256": "209e64748129113b226de04c1e652591bbcd58d7f6ba4bb624ef7a6b5207f837"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "HOST-INSTALL.md",
+        "repository": "zog144/host-discover",
+        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
+        "source_sha256": "c79d54dc7f24f7387c707042af6ca44268e31370bc6f9c2c076684302afa420a",
+        "adaptation": "relocate program documentation under aggregate docs/<program> and rebase relative Markdown links"
+      },
+      "path": "docs/host-discover/HOST-INSTALL.md",
+      "sha256": "0d5bab3abba8a175fd006323ae9bb5ec61a7a8c637697fafbea53afd02ed0baf"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "adaptation": "adapt maintained documentation to aggregate layout and omit links to excluded historical component documents; relocate program documentation under aggregate docs/<program>",
+        "path": "docs/MANAGED-STATE.md",
+        "repository": "zog144/host-discover",
+        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
+        "source_sha256": "acf69d92d7df9ec244eebf98b66743e529356bac89fbbcf72eab5b7c9895d33d"
+      },
+      "path": "docs/host-discover/MANAGED-STATE.md",
+      "sha256": "608b734911257a680d57d21281191d036c1aca70ad066e7c676afe934de64810"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/SESSION-RECOVERY.md",
+        "repository": "zog144/host-discover",
+        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
+        "source_sha256": "5d29612ae3741a12b11dbbdf16d7c3e164ceabe91d98a94db6cd6670c57ce4ed",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-discover/SESSION-RECOVERY.md",
+      "sha256": "5d29612ae3741a12b11dbbdf16d7c3e164ceabe91d98a94db6cd6670c57ce4ed"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "HOST-INSTALL.md",
+        "repository": "zog144/host-identify",
+        "revision": "40fd8d901e0434ba4f819a03fa3dc71f9767da64",
+        "source_sha256": "173742bbf2592196e3167a29cb6dc9bc95502cdde4f14ac983888fbef4f2d9a1",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-identify/HOST-INSTALL.md",
+      "sha256": "173742bbf2592196e3167a29cb6dc9bc95502cdde4f14ac983888fbef4f2d9a1"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/MANAGED-PROTOCOL.md",
+        "repository": "zog144/host-identify",
+        "revision": "40fd8d901e0434ba4f819a03fa3dc71f9767da64",
+        "source_sha256": "6aaa413a4c8a78566fc89eebd77a52567169b57084a29abb44fa28c0f45a24d8",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-identify/MANAGED-PROTOCOL.md",
+      "sha256": "6aaa413a4c8a78566fc89eebd77a52567169b57084a29abb44fa28c0f45a24d8"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/fixture-plan.md",
+        "repository": "zog144/host-install",
+        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
+        "source_sha256": "d44058507be20e7ff848b78fb0e1fdf5c6be65caa75947d2d254d12c65fbdcd2",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-install/fixture-plan.md",
+      "sha256": "d44058507be20e7ff848b78fb0e1fdf5c6be65caa75947d2d254d12c65fbdcd2"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/host-generation-provenance.md",
+        "repository": "zog144/host-install",
+        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
+        "source_sha256": "2a0cbe67d1ed62c80d9184c8b6c4b1c9f873c7152ef29501dbc77d41f66570d6",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-install/host-generation-provenance.md",
+      "sha256": "2a0cbe67d1ed62c80d9184c8b6c4b1c9f873c7152ef29501dbc77d41f66570d6"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/image-build-integration.md",
+        "repository": "zog144/host-install",
+        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
+        "source_sha256": "951920a47cb328797599c5f0e238df887c0820df1f5fb74a8603b477f314b10c",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-install/image-build-integration.md",
+      "sha256": "951920a47cb328797599c5f0e238df887c0820df1f5fb74a8603b477f314b10c"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/state-contract-v1.md",
+        "repository": "zog144/host-install",
+        "revision": "e931dc7cc41e7b5a00da862b13f26325c3bd7a17",
+        "source_sha256": "ca3140b121d30dc2701285055fb0dd3be26a57b23b9f5b248f3d257609307b70",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/host-install/state-contract-v1.md",
+      "sha256": "ca3140b121d30dc2701285055fb0dd3be26a57b23b9f5b248f3d257609307b70"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/application-software-artifacts.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "5bb41d4cbf1f0672edece4b21370e5febdfe7137dd65f1a71aa7e1901fe6b452",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/application-software-artifacts.md",
+      "sha256": "5bb41d4cbf1f0672edece4b21370e5febdfe7137dd65f1a71aa7e1901fe6b452"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/archive-mirror-sources.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "187d65360edd46f273ba90abce1e730f1538bffaabd8085cf1854fe94b363efa",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/archive-mirror-sources.md",
+      "sha256": "187d65360edd46f273ba90abce1e730f1538bffaabd8085cf1854fe94b363efa"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/boot-build-tools.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "1562baf69e3ac95a218c7ca8b437b953c1a60f7475ec6937fbdacbb729323065",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/boot-build-tools.md",
+      "sha256": "1562baf69e3ac95a218c7ca8b437b953c1a60f7475ec6937fbdacbb729323065"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "BOOTSTRAP-STAGES.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "f00c4687c92909fbebfcf6d0421fb15a6138341c57028bad61ba2e67aa9987d8",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/BOOTSTRAP-STAGES.md",
+      "sha256": "f00c4687c92909fbebfcf6d0421fb15a6138341c57028bad61ba2e67aa9987d8"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/build-record-integration.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "3cd692fc817072cd9ec42f72db1b3b64b0eb59f2b51003a8b370d0db8b8c0073",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/build-record-integration.md",
+      "sha256": "3cd692fc817072cd9ec42f72db1b3b64b0eb59f2b51003a8b370d0db8b8c0073"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/build-trace-contract.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "73e83aef0e6976ee87821df23f70be2862e53de5e8945de988057052066908a7",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/build-trace-contract.md",
+      "sha256": "73e83aef0e6976ee87821df23f70be2862e53de5e8945de988057052066908a7"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "project/catalogue/BOX-CONTROL-BUILD-EXECUTION-REQUEST.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "539701f279b527f1302c404a760df1c0caf99892434b32ff8d01d1907c38c64b",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/catalogue/BOX-CONTROL-BUILD-EXECUTION-REQUEST.md",
+      "sha256": "539701f279b527f1302c404a760df1c0caf99892434b32ff8d01d1907c38c64b"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "project/catalogue/IMAGE-BUILD-ARCHITECTURE.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "d4b621674c658433f4ea106aa4aedd4a692b825891e3ca6851084ab7ec7286be",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/catalogue/IMAGE-BUILD-ARCHITECTURE.md",
+      "sha256": "d4b621674c658433f4ea106aa4aedd4a692b825891e3ca6851084ab7ec7286be"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "project/catalogue/SEED-GENERATION.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "9e16ea82bec0eaed48bf3bf1ada96357fc45502de85c3f156671f5a1d08e15b9",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/catalogue/SEED-GENERATION.md",
+      "sha256": "9e16ea82bec0eaed48bf3bf1ada96357fc45502de85c3f156671f5a1d08e15b9"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "project/catalogue/TOOLCHAIN-CATALOGUE.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "3bd1bc69ee061c9fddd0f6946d487ecb989d836de30be3a8790466afe679ba59",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/catalogue/TOOLCHAIN-CATALOGUE.md",
+      "sha256": "3bd1bc69ee061c9fddd0f6946d487ecb989d836de30be3a8790466afe679ba59"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "CONTROLLER-INTEGRATION.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "7b261ef30d5eeb34bd08b23e8bd439dff13451c8595cc26d1942f99e29699ba7",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/CONTROLLER-INTEGRATION.md",
+      "sha256": "7b261ef30d5eeb34bd08b23e8bd439dff13451c8595cc26d1942f99e29699ba7"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/cryptography-bootstrap.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "172159ad64f65304d2311b1535a70b7acf5bce106f3f872ad6f4f1d99c173c72",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/cryptography-bootstrap.md",
+      "sha256": "172159ad64f65304d2311b1535a70b7acf5bce106f3f872ad6f4f1d99c173c72"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/host-boot-packages.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "370e17b72e69c61a162fa405e78433e71ffd9e920bb66560796fcbeeed7f0f6a",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/host-boot-packages.md",
+      "sha256": "370e17b72e69c61a162fa405e78433e71ffd9e920bb66560796fcbeeed7f0f6a"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/host-readiness.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "813bb5b2e9e3255061697d3e6ca6744a524211963be36570b6f4ff331e55a947",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/host-readiness.md",
+      "sha256": "813bb5b2e9e3255061697d3e6ca6744a524211963be36570b6f4ff331e55a947"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/http-signatures-bootstrap.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "99581c05517c107d486f5494927a71d2b72f8cb5ed5c9901961378a75e9bada7",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/http-signatures-bootstrap.md",
+      "sha256": "99581c05517c107d486f5494927a71d2b72f8cb5ed5c9901961378a75e9bada7"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/integration-observations.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "e015e2e3faf7f9f39c5eefe11161344566d2c0029525a43efadccf428de44cd7",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/integration-observations.md",
+      "sha256": "e015e2e3faf7f9f39c5eefe11161344566d2c0029525a43efadccf428de44cd7"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "LICENSING.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "64b782dd9d372e6d44e21e24fcc918f11f285a5be63b6fef7734901787e41387",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/LICENSING.md",
+      "sha256": "64b782dd9d372e6d44e21e24fcc918f11f285a5be63b6fef7734901787e41387"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/maturin-bootstrap.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "523207cb3b28ffb6e52b393ea6fb95ebc6ff1202a41a6675e0ece0c18bb223dc",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/maturin-bootstrap.md",
+      "sha256": "523207cb3b28ffb6e52b393ea6fb95ebc6ff1202a41a6675e0ece0c18bb223dc"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "MONTHLY-PINS.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "eae1bc0ee4bb5c35ecc15c57089d3f64489f29a84179adc10ec6f9449106bda9",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/MONTHLY-PINS.md",
+      "sha256": "eae1bc0ee4bb5c35ecc15c57089d3f64489f29a84179adc10ec6f9449106bda9"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "NATIVE-BUILD-ENVIRONMENT.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "fa0d8130e5dc3e3790a4c4321093c9edd61c21dff24d2f92c3030659970f7de7",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/NATIVE-BUILD-ENVIRONMENT.md",
+      "sha256": "fa0d8130e5dc3e3790a4c4321093c9edd61c21dff24d2f92c3030659970f7de7"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/observation-snapshot-publication.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "7005a074602e83ffce05f9587c3e85e10ca9ceb248b463279d02e2f4a2ee897d",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/observation-snapshot-publication.md",
+      "sha256": "7005a074602e83ffce05f9587c3e85e10ca9ceb248b463279d02e2f4a2ee897d"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/payload-paths.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "05ff4b130e3cf6096ebab53bfa47a96b9616000490f678a25b6e08494b980b9d",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/payload-paths.md",
+      "sha256": "05ff4b130e3cf6096ebab53bfa47a96b9616000490f678a25b6e08494b980b9d"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/python-enrollment.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "642411e0777990144021b8448d4a6573f304303dc949dc6cd297b1e1ce00f5cf",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/python-enrollment.md",
+      "sha256": "642411e0777990144021b8448d4a6573f304303dc949dc6cd297b1e1ce00f5cf"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/python-libraries.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "1f081e7c5f1e7137b2facfb5124847cca2bbed1a1bbe5542bd079b622efc7a4e",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/python-libraries.md",
+      "sha256": "1f081e7c5f1e7137b2facfb5124847cca2bbed1a1bbe5542bd079b622efc7a4e"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/python-runtime.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "83b32cd18c02fa71bc18fd2e37c136391a20d4b255fa55f8c5839fbf67fc5853",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/python-runtime.md",
+      "sha256": "83b32cd18c02fa71bc18fd2e37c136391a20d4b255fa55f8c5839fbf67fc5853"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/registration-continuation.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "0741d35ef505c1cbbc5f2e5eb6acee7e486a9422efa4eaeae69b6d510a5c2c76",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/registration-continuation.md",
+      "sha256": "0741d35ef505c1cbbc5f2e5eb6acee7e486a9422efa4eaeae69b6d510a5c2c76"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/registration-recovery.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "47512f63582fb6adf479bb77a5e51666b6e11a0fffc586b236d98c5c30f24c15",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/registration-recovery.md",
+      "sha256": "47512f63582fb6adf479bb77a5e51666b6e11a0fffc586b236d98c5c30f24c15"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/remote-operations.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "e8cc1abdfd78166a9a048ca22cd06ab3e6271f4df732beb3af4320d7db5a12d2",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/remote-operations.md",
+      "sha256": "e8cc1abdfd78166a9a048ca22cd06ab3e6271f4df732beb3af4320d7db5a12d2"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/retained-compiler.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "0231f32b333033de9166b42cc6813d6b0b02079fc88a13c97825818dcf6bccf5",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/retained-compiler.md",
+      "sha256": "0231f32b333033de9166b42cc6813d6b0b02079fc88a13c97825818dcf6bccf5"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/rust-bootstrap.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "86f76b3f2fd6ae183f9c28821d58a50fb727cc26c76785b50978ab12fe27cee0",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/rust-bootstrap.md",
+      "sha256": "86f76b3f2fd6ae183f9c28821d58a50fb727cc26c76785b50978ab12fe27cee0"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/systemd-core.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "4ff46358ef7c1c5f6b5345f7ca81ac77ff6fa1c8883eff9f6f4cfd2d450ca94b",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/systemd-core.md",
+      "sha256": "4ff46358ef7c1c5f6b5345f7ca81ac77ff6fa1c8883eff9f6f4cfd2d450ca94b"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/systemd-native.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "7e2a802d12679996d3bf89ac25a745c75259278a5f02e9a02498da81db5d8afe",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/systemd-native.md",
+      "sha256": "7e2a802d12679996d3bf89ac25a745c75259278a5f02e9a02498da81db5d8afe"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/systemd-prerequisites.md",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "f65f9fb55e2f217ca81d7e20c07284020d1edcd42638463d06a380fad060231b",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/image-build/systemd-prerequisites.md",
+      "sha256": "f65f9fb55e2f217ca81d7e20c07284020d1edcd42638463d06a380fad060231b"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/design.md",
+        "repository": "zog144/integrate-observe",
+        "revision": "d20e0ef972ea6f454b7de18f2e541b40e40e32a1",
+        "source_sha256": "830199625d5700203923f2343402d7411847bd7c97aa746ab4a2731ba024f901",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/integrate-observe/design.md",
+      "sha256": "830199625d5700203923f2343402d7411847bd7c97aa746ab4a2731ba024f901"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "ADOPTION-CUTOVER.md",
+        "repository": "zog144/network-register",
+        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
+        "source_sha256": "c95e8fde5a9e0e8556162b1b1060fc86ee8e400c2c4882d81cd09493ed220de5",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/network-register/ADOPTION-CUTOVER.md",
+      "sha256": "c95e8fde5a9e0e8556162b1b1060fc86ee8e400c2c4882d81cd09493ed220de5"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "adaptation": "use reserved example domain; relocate program documentation under aggregate docs/<program>",
+        "path": "HOST-DISCOVER-DNS-DESIGN.md",
+        "repository": "zog144/network-register",
+        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
+        "source_sha256": "55a35a5b86a1bd805c434e5a3b0933a6c59f66fd7fe143b638c0c1645c483382"
+      },
+      "path": "docs/network-register/HOST-DISCOVER-DNS-DESIGN.md",
+      "sha256": "227b2b8add6634e852b4c785c95932d5a2ece338fd17d8effbaf5353910c7965"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "NAME-LIFECYCLE.md",
+        "repository": "zog144/network-register",
+        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
+        "source_sha256": "8ae8de9cee3e9cbfc4c125027fe5678bf2dd72251471be0b328b682e1daa2388",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/network-register/NAME-LIFECYCLE.md",
+      "sha256": "8ae8de9cee3e9cbfc4c125027fe5678bf2dd72251471be0b328b682e1daa2388"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "kind": "aggregate-document-or-metadata"
+      },
+      "path": "docs/README.md",
+      "sha256": "583b50f2203ef651a08b893d7e88e83f9a97675c041206c06479935d3170af42"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "JOURNAL-BARRIER.md",
+        "repository": "zog144/root-control",
+        "revision": "3cc6cdc2c5e49232318d82797d3228c6072b9bdc",
+        "source_sha256": "63cf8f7b5ff06a6652ec11d1073a704e48c009b0ae20eb2f54222843073a50e2",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/root-control/JOURNAL-BARRIER.md",
+      "sha256": "63cf8f7b5ff06a6652ec11d1073a704e48c009b0ae20eb2f54222843073a50e2"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/ARCHIVE-AUTHORIZATION.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "0433ef1f063ffa59163321715be006b30b95f6867816038b42cebebbafce1007",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/ARCHIVE-AUTHORIZATION.md",
+      "sha256": "0433ef1f063ffa59163321715be006b30b95f6867816038b42cebebbafce1007"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/BOX-CONTROL-ADAPTER.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "075768c70d3a536df7dfb427d33a04a3749332880b440e2ddf94f659c2d1aedc",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/BOX-CONTROL-ADAPTER.md",
+      "sha256": "075768c70d3a536df7dfb427d33a04a3749332880b440e2ddf94f659c2d1aedc"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/BOX-CONTROL-LOGS.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "37d6e85cfee7f01e9aaab54e57a03874390d53960a0a208fbea0cfa10b85535d",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/BOX-CONTROL-LOGS.md",
+      "sha256": "37d6e85cfee7f01e9aaab54e57a03874390d53960a0a208fbea0cfa10b85535d"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/CLOUD-CREDENTIALS.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "6b00455cea247858b04d4f7a4ff89e5dda28f45132f22d6e63cc7dec47d826fd",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/CLOUD-CREDENTIALS.md",
+      "sha256": "6b00455cea247858b04d4f7a4ff89e5dda28f45132f22d6e63cc7dec47d826fd"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/DEPLOYMENT-JOBS.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "97a88845beee7c58ade71b13f6de289a5605a18afbcf4c68b49ebdb9c2422ce2",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/DEPLOYMENT-JOBS.md",
+      "sha256": "97a88845beee7c58ade71b13f6de289a5605a18afbcf4c68b49ebdb9c2422ce2"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/DNS-DESTINATIONS.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "4b33529f195b05ad544a7d100c025fd4335eebd61aa8fd53d08cd447bbc0dcec",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/DNS-DESTINATIONS.md",
+      "sha256": "4b33529f195b05ad544a7d100c025fd4335eebd61aa8fd53d08cd447bbc0dcec"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/DNS-EVIDENCE.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "629851562eb241a837aa03ea5453a23e37b42b7b2d25a197124647a96b17480b",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/DNS-EVIDENCE.md",
+      "sha256": "629851562eb241a837aa03ea5453a23e37b42b7b2d25a197124647a96b17480b"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/DNS-MEMBERSHIP.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "922a9315436c7f263c1af0a34baf7a3b4689312a6d22d81d8094d1c4da880612",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/DNS-MEMBERSHIP.md",
+      "sha256": "922a9315436c7f263c1af0a34baf7a3b4689312a6d22d81d8094d1c4da880612"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/DNS-SETUP.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "7a8dda61b21e5089a5791e50ba2b29a85ab4a526cc9c9228c489ba5cd23a1ad5",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/DNS-SETUP.md",
+      "sha256": "7a8dda61b21e5089a5791e50ba2b29a85ab4a526cc9c9228c489ba5cd23a1ad5"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/GENERATION-PROVENANCE.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "7dc94fec068dcb996daf9ae48c6bb6c8d199ed28f5b0892a6ef006b6420852e1",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/GENERATION-PROVENANCE.md",
+      "sha256": "7dc94fec068dcb996daf9ae48c6bb6c8d199ed28f5b0892a6ef006b6420852e1"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/HOST-GENERATION-AND-EXPORT.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "db750178fd684f426e316a0d5442979ba8cbd070bb8803c8f90bb2cbb4ed205c",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/HOST-GENERATION-AND-EXPORT.md",
+      "sha256": "db750178fd684f426e316a0d5442979ba8cbd070bb8803c8f90bb2cbb4ed205c"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "integration/IMAGE-BUILD.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "7b322ab81e36f257381a90b38ff9187e688c52661305f851029150125ba35d9b",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/integration/IMAGE-BUILD.md",
+      "sha256": "7b322ab81e36f257381a90b38ff9187e688c52661305f851029150125ba35d9b"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/MANAGED-SESSION-RECOVERY.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "b8ebb0044da5b42177bea96d2167bd839383c4b79a60c6395c13b7860126b5df",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/MANAGED-SESSION-RECOVERY.md",
+      "sha256": "b8ebb0044da5b42177bea96d2167bd839383c4b79a60c6395c13b7860126b5df"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/MANAGED-SESSIONS.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "93b6179c12752a77d027e9ae14be0c84c9f23afeda3e689fcbcb3dde46c109e6",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/MANAGED-SESSIONS.md",
+      "sha256": "93b6179c12752a77d027e9ae14be0c84c9f23afeda3e689fcbcb3dde46c109e6"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "adaptation": "use reserved example domain; relocate program documentation under aggregate docs/<program>",
+        "path": "docs/MIRROR-STARTUP-CONTRACT.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "2c9f9684a1c80066fb80785862ed3890f9c5b2fb1b132064393bcc438b3f3255"
+      },
+      "path": "docs/station-access/MIRROR-STARTUP-CONTRACT.md",
+      "sha256": "af2f96d72ed33125a847a6800f6a8de78271fda9b36b3659f630ac80994d5a5c"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "adaptation": "adapt maintained documentation to aggregate layout and omit links to excluded historical component documents; relocate program documentation under aggregate docs/<program>",
+        "path": "docs/PORKBUN-ONBOARDING.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "c84cfafe286bd15f1331cbc313ef7db42c65e974c184f43c934251c3efa76605"
+      },
+      "path": "docs/station-access/PORKBUN-ONBOARDING.md",
+      "sha256": "e9d1ae040d54563d4b59e1921f71c7ae04a024e8513918c315ebc16bd6f705f7"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "adaptation": "adapt maintained documentation to aggregate layout and omit links to excluded historical component documents; relocate program documentation under aggregate docs/<program> and rebase relative Markdown links",
+        "path": "docs/PORTAL.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "c8b956945676538ba222d4c2d573fc811413da1a3e813d25b84060880641bb88"
+      },
+      "path": "docs/station-access/PORTAL.md",
+      "sha256": "ef5ef23a52c3e4e96d0bcc158c99e05eb3955b25184d8fde9a43925ad87c63ce"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/PROVENANCE-ENCOUNTERS.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "263afe9d61005d14a3c38b80f13b0b1357f4f29e08f4a1f6328f48bca5f84ef6",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/PROVENANCE-ENCOUNTERS.md",
+      "sha256": "263afe9d61005d14a3c38b80f13b0b1357f4f29e08f4a1f6328f48bca5f84ef6"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/REGISTRIES-DEPLOYMENTS.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "f7c5dd14c3cb92a8bb18093b195c8ec24e3ba3e377f5072d13bb1fc43c6d6884",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/REGISTRIES-DEPLOYMENTS.md",
+      "sha256": "f7c5dd14c3cb92a8bb18093b195c8ec24e3ba3e377f5072d13bb1fc43c6d6884"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/USERS-AND-RELEASE.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "7667f1ba88de51e85b8c267b6871dc20bf438b26e6011b83d590342d5228c524",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/USERS-AND-RELEASE.md",
+      "sha256": "7667f1ba88de51e85b8c267b6871dc20bf438b26e6011b83d590342d5228c524"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/VNC-WORKSPACES.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "f5bc31d201625b732513d2d98caaa565c0710ac89bc60ae43ad3a14a8376ee82",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/VNC-WORKSPACES.md",
+      "sha256": "f5bc31d201625b732513d2d98caaa565c0710ac89bc60ae43ad3a14a8376ee82"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/WEBSOCKIFY.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "744945e42911c8cb058b15ca207dc97a027c40edb4111f8add7801c474506ad1",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/WEBSOCKIFY.md",
+      "sha256": "744945e42911c8cb058b15ca207dc97a027c40edb4111f8add7801c474506ad1"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "docs/WORKSPACE-PROVENANCE.md",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "dd5f69c24b16cb256fe2fd396a911f813ad64c0694bba37d1d17005b12e7dbad",
+        "adaptation": "relocate program documentation under aggregate docs/<program>"
+      },
+      "path": "docs/station-access/WORKSPACE-PROVENANCE.md",
+      "sha256": "dd5f69c24b16cb256fe2fd396a911f813ad64c0694bba37d1d17005b12e7dbad"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "kind": "aggregate-document-or-metadata"
+      },
+      "path": "LICENSE",
+      "sha256": "0772f31456481c983bce81966b6915edfc6fafecbd9ead9a04f74d50b300f3d3"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "kind": "aggregate-document-or-metadata"
+      },
+      "path": "LICENSES/BSD-3-Clause.txt",
+      "sha256": "12b85fc1f9cc9f1cade627244cd8e2aab2c61a9da3f2547b8326aa3388d7b6f0"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "kind": "aggregate-document-or-metadata"
+      },
+      "path": "LICENSES/GPL-3.0-only.txt",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "kind": "aggregate-document-or-metadata"
+      },
+      "path": "MANIFEST.in",
+      "sha256": "7b124cb313532b0a0e4adf0800b5f38361fb66e078005aee3a43d1919eff10b1"
     },
     {
       "mode": "100644",
@@ -17995,6 +18092,14 @@
       },
       "path": "pyproject.toml",
       "sha256": "4cfc2a0dfd7542d562746116fac7f4c3affe170b5a097e55ea5fd68738ae09e1"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "kind": "aggregate-document-or-metadata"
+      },
+      "path": "README.md",
+      "sha256": "3ecb02727d9504cb7c01261079623502b7803899abf261c190cb1febb6656d9d"
     },
     {
       "mode": "100644",
@@ -18114,6 +18219,17 @@
     {
       "mode": "100644",
       "origin": {
+        "path": "src/zog/archive_mirror/migrations/__init__.py",
+        "repository": "zog144/archive-mirror",
+        "revision": "648691fecc22494dc1aaf8dbe8b2f21b2ed67af3",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "path": "src/zog/archive_mirror/migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "mode": "100644",
+      "origin": {
         "path": "src/zog/archive_mirror/migrations/0001_initial.py",
         "repository": "zog144/archive-mirror",
         "revision": "648691fecc22494dc1aaf8dbe8b2f21b2ed67af3",
@@ -18143,17 +18259,6 @@
       },
       "path": "src/zog/archive_mirror/migrations/0003_reviewed_sources.py",
       "sha256": "fb4584399a050face913dd65b415e0b30e1fa77629221b241967c168eadaa716"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "src/zog/archive_mirror/migrations/__init__.py",
-        "repository": "zog144/archive-mirror",
-        "revision": "648691fecc22494dc1aaf8dbe8b2f21b2ed67af3",
-        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "path": "src/zog/archive_mirror/migrations/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "mode": "100644",
@@ -19203,17 +19308,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/host_deploy/remote.py",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "f09fee775c08adf7f63c0557270b272b9fec972c1fd4a533cf4209cbf6847576"
-      },
-      "path": "src/zog/host_deploy/remote.py",
-      "sha256": "f09fee775c08adf7f63c0557270b272b9fec972c1fd4a533cf4209cbf6847576"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/host_deploy/remote_control.py",
         "repository": "zog144/host-deploy",
         "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
@@ -19221,6 +19315,17 @@
       },
       "path": "src/zog/host_deploy/remote_control.py",
       "sha256": "247cae9acf89d463f619b4aaf3676c1069ca2c78b8d17b7c4eda8976a11d1193"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/host_deploy/remote.py",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "f09fee775c08adf7f63c0557270b272b9fec972c1fd4a533cf4209cbf6847576"
+      },
+      "path": "src/zog/host_deploy/remote.py",
+      "sha256": "f09fee775c08adf7f63c0557270b272b9fec972c1fd4a533cf4209cbf6847576"
     },
     {
       "mode": "100644",
@@ -19236,17 +19341,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/host_deploy/station.py",
-        "repository": "zog144/host-deploy",
-        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
-        "source_sha256": "cbd91f1ca32ab71d52f4b21543196f3334bedffa6c39957f8ad0e219680af938"
-      },
-      "path": "src/zog/host_deploy/station.py",
-      "sha256": "cbd91f1ca32ab71d52f4b21543196f3334bedffa6c39957f8ad0e219680af938"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/host_deploy/station_remote.py",
         "repository": "zog144/host-deploy",
         "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
@@ -19254,6 +19348,17 @@
       },
       "path": "src/zog/host_deploy/station_remote.py",
       "sha256": "1132c58754c0f20e0433d9caff845bfa2f52b23bf6a238a9eb515c157599d93c"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/host_deploy/station.py",
+        "repository": "zog144/host-deploy",
+        "revision": "21d5368398b9765357fcc180ca037c6c2279f24f",
+        "source_sha256": "cbd91f1ca32ab71d52f4b21543196f3334bedffa6c39957f8ad0e219680af938"
+      },
+      "path": "src/zog/host_deploy/station.py",
+      "sha256": "cbd91f1ca32ab71d52f4b21543196f3334bedffa6c39957f8ad0e219680af938"
     },
     {
       "mode": "100644",
@@ -19313,17 +19418,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/host_discover/beacon.py",
-        "repository": "zog144/host-discover",
-        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
-        "source_sha256": "5449c2b744db94ae12fe84bd6e40d7b1de81ea703617b012e9bef1dd9e6c7c9e"
-      },
-      "path": "src/zog/host_discover/beacon.py",
-      "sha256": "5449c2b744db94ae12fe84bd6e40d7b1de81ea703617b012e9bef1dd9e6c7c9e"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/host_discover/beacon_state.py",
         "repository": "zog144/host-discover",
         "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
@@ -19331,6 +19425,17 @@
       },
       "path": "src/zog/host_discover/beacon_state.py",
       "sha256": "9abc8cc715cf641c2103198e11d538665bba317f7380fd2a201b69d566f05886"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/host_discover/beacon.py",
+        "repository": "zog144/host-discover",
+        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
+        "source_sha256": "5449c2b744db94ae12fe84bd6e40d7b1de81ea703617b012e9bef1dd9e6c7c9e"
+      },
+      "path": "src/zog/host_discover/beacon.py",
+      "sha256": "5449c2b744db94ae12fe84bd6e40d7b1de81ea703617b012e9bef1dd9e6c7c9e"
     },
     {
       "mode": "100644",
@@ -19390,17 +19495,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/host_discover/managed.py",
-        "repository": "zog144/host-discover",
-        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
-        "source_sha256": "2b21ce14e6d94e877ee60eb4c7014b511013f7a7aef917e5a4767089aa5cc05f"
-      },
-      "path": "src/zog/host_discover/managed.py",
-      "sha256": "2b21ce14e6d94e877ee60eb4c7014b511013f7a7aef917e5a4767089aa5cc05f"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/host_discover/managed_transport.py",
         "repository": "zog144/host-discover",
         "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
@@ -19408,6 +19502,17 @@
       },
       "path": "src/zog/host_discover/managed_transport.py",
       "sha256": "7da9ab5e4908caa56e874d38d802a1a0851690957d9e7d1a69cfb37281d559e7"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/host_discover/managed.py",
+        "repository": "zog144/host-discover",
+        "revision": "aef758740ac3a3c47618e3bc6f7e66c16e1eb8d1",
+        "source_sha256": "2b21ce14e6d94e877ee60eb4c7014b511013f7a7aef917e5a4767089aa5cc05f"
+      },
+      "path": "src/zog/host_discover/managed.py",
+      "sha256": "2b21ce14e6d94e877ee60eb4c7014b511013f7a7aef917e5a4767089aa5cc05f"
     },
     {
       "mode": "100644",
@@ -20094,17 +20199,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/image_build/developer/seed.py",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "755a5d0975cf56813dd2df2a0ffc1c4e6f4382bd8c140a84861378f99b2fcb10"
-      },
-      "path": "src/zog/image_build/developer/seed.py",
-      "sha256": "755a5d0975cf56813dd2df2a0ffc1c4e6f4382bd8c140a84861378f99b2fcb10"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/image_build/developer/seed_build.py",
         "repository": "zog144/image-build",
         "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
@@ -20112,6 +20206,17 @@
       },
       "path": "src/zog/image_build/developer/seed_build.py",
       "sha256": "85e6ff6ae1bb396a18d6814fc2f422bee587510e1575b6723175dd501503d8f4"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/image_build/developer/seed.py",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "755a5d0975cf56813dd2df2a0ffc1c4e6f4382bd8c140a84861378f99b2fcb10"
+      },
+      "path": "src/zog/image_build/developer/seed.py",
+      "sha256": "755a5d0975cf56813dd2df2a0ffc1c4e6f4382bd8c140a84861378f99b2fcb10"
     },
     {
       "mode": "100644",
@@ -20270,17 +20375,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/image_build/host_trust.py",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "b6173e5024ef696ea018dc8ab10c9380ee971f23a17050d41ef363fa1de36e58"
-      },
-      "path": "src/zog/image_build/host_trust.py",
-      "sha256": "b6173e5024ef696ea018dc8ab10c9380ee971f23a17050d41ef363fa1de36e58"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/image_build/host_trust_assembly.py",
         "repository": "zog144/image-build",
         "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
@@ -20288,6 +20382,17 @@
       },
       "path": "src/zog/image_build/host_trust_assembly.py",
       "sha256": "5377f5a7c220387ce0f2616e09101aca86c4db4365458c635d4ea96cb4860298"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/image_build/host_trust.py",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "b6173e5024ef696ea018dc8ab10c9380ee971f23a17050d41ef363fa1de36e58"
+      },
+      "path": "src/zog/image_build/host_trust.py",
+      "sha256": "b6173e5024ef696ea018dc8ab10c9380ee971f23a17050d41ef363fa1de36e58"
     },
     {
       "mode": "100644",
@@ -20358,17 +20463,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/image_build/native.py",
-        "repository": "zog144/image-build",
-        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
-        "source_sha256": "1c7da03ba048d90a6d58f5864f0cd5330b389dcfa7a054ddd30245b98080fc7e"
-      },
-      "path": "src/zog/image_build/native.py",
-      "sha256": "1c7da03ba048d90a6d58f5864f0cd5330b389dcfa7a054ddd30245b98080fc7e"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/image_build/native_stage.py",
         "repository": "zog144/image-build",
         "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
@@ -20387,6 +20481,17 @@
       },
       "path": "src/zog/image_build/native_tools.py",
       "sha256": "9d7867e457fd371775ddbf0f22763879f439e70aeb25a0df9db1b65ca0c8cbf0"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/image_build/native.py",
+        "repository": "zog144/image-build",
+        "revision": "004bf0eae67a220348926248a06fa6447070cbfb",
+        "source_sha256": "1c7da03ba048d90a6d58f5864f0cd5330b389dcfa7a054ddd30245b98080fc7e"
+      },
+      "path": "src/zog/image_build/native.py",
+      "sha256": "1c7da03ba048d90a6d58f5864f0cd5330b389dcfa7a054ddd30245b98080fc7e"
     },
     {
       "mode": "100644",
@@ -20732,17 +20837,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/network_register/dns.py",
-        "repository": "zog144/network-register",
-        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
-        "source_sha256": "9d3a37c0a614189632bbea4ec0b6973ae0b1319fa82c3875c970d0ee1b2e4031"
-      },
-      "path": "src/zog/network_register/dns.py",
-      "sha256": "9d3a37c0a614189632bbea4ec0b6973ae0b1319fa82c3875c970d0ee1b2e4031"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/network_register/dns_authority.py",
         "repository": "zog144/network-register",
         "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
@@ -20750,6 +20844,17 @@
       },
       "path": "src/zog/network_register/dns_authority.py",
       "sha256": "dad4a4fca8c492fe8d58fe64632b39eb0d15735b3355aa602cc19ed4549a4ffd"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/network_register/dns.py",
+        "repository": "zog144/network-register",
+        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
+        "source_sha256": "9d3a37c0a614189632bbea4ec0b6973ae0b1319fa82c3875c970d0ee1b2e4031"
+      },
+      "path": "src/zog/network_register/dns.py",
+      "sha256": "9d3a37c0a614189632bbea4ec0b6973ae0b1319fa82c3875c970d0ee1b2e4031"
     },
     {
       "mode": "100644",
@@ -20842,17 +20947,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/network_register/porkbun.py",
-        "repository": "zog144/network-register",
-        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
-        "source_sha256": "63042c2287aab31fb78fb21fbfae9131a9b40c6927101db647e7c8442e3d3998"
-      },
-      "path": "src/zog/network_register/porkbun.py",
-      "sha256": "63042c2287aab31fb78fb21fbfae9131a9b40c6927101db647e7c8442e3d3998"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/network_register/porkbun_dns.py",
         "repository": "zog144/network-register",
         "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
@@ -20860,6 +20954,17 @@
       },
       "path": "src/zog/network_register/porkbun_dns.py",
       "sha256": "8f978a0c5abb26017c1767984855d6dad4a594d63de58053bd183cf00a005782"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/network_register/porkbun.py",
+        "repository": "zog144/network-register",
+        "revision": "c9af90c46cc62ad883c113ef0017a71389ee970b",
+        "source_sha256": "63042c2287aab31fb78fb21fbfae9131a9b40c6927101db647e7c8442e3d3998"
+      },
+      "path": "src/zog/network_register/porkbun.py",
+      "sha256": "63042c2287aab31fb78fb21fbfae9131a9b40c6927101db647e7c8442e3d3998"
     },
     {
       "mode": "100644",
@@ -20963,17 +21068,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/root_control/journal.py",
-        "repository": "zog144/root-control",
-        "revision": "3cc6cdc2c5e49232318d82797d3228c6072b9bdc",
-        "source_sha256": "6fe29cfeca03e358371418e1f9f407715d7b7051794799a336744d4c14d39428"
-      },
-      "path": "src/zog/root_control/journal.py",
-      "sha256": "6fe29cfeca03e358371418e1f9f407715d7b7051794799a336744d4c14d39428"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/root_control/journal_barrier.py",
         "repository": "zog144/root-control",
         "revision": "3cc6cdc2c5e49232318d82797d3228c6072b9bdc",
@@ -20981,6 +21075,17 @@
       },
       "path": "src/zog/root_control/journal_barrier.py",
       "sha256": "2646a211a6fd8ce7a3e3ac600be3e22f8b589b181d49d7f3badfe6748c570fb8"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/root_control/journal.py",
+        "repository": "zog144/root-control",
+        "revision": "3cc6cdc2c5e49232318d82797d3228c6072b9bdc",
+        "source_sha256": "6fe29cfeca03e358371418e1f9f407715d7b7051794799a336744d4c14d39428"
+      },
+      "path": "src/zog/root_control/journal.py",
+      "sha256": "6fe29cfeca03e358371418e1f9f407715d7b7051794799a336744d4c14d39428"
     },
     {
       "mode": "100644",
@@ -21216,6 +21321,17 @@
     {
       "mode": "100644",
       "origin": {
+        "path": "src/zog/station_access/archive_inventory/migrations/__init__.py",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "path": "src/zog/station_access/archive_inventory/migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "mode": "100644",
+      "origin": {
         "path": "src/zog/station_access/archive_inventory/migrations/0001_initial.py",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -21234,17 +21350,6 @@
       },
       "path": "src/zog/station_access/archive_inventory/migrations/0002_noticebundle.py",
       "sha256": "910651e66c4b2a46a7677bd0a46667e0354518c268ee7496efcd7cb304598022"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "src/zog/station_access/archive_inventory/migrations/__init__.py",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "path": "src/zog/station_access/archive_inventory/migrations/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "mode": "100644",
@@ -21502,17 +21607,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/station_access/host_registry/dns_membership.py",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "1adeaec25b37d868beff51a7c01b3b7fb40933fe5c57fcc31c8ddbd135d5e0a7"
-      },
-      "path": "src/zog/station_access/host_registry/dns_membership.py",
-      "sha256": "1adeaec25b37d868beff51a7c01b3b7fb40933fe5c57fcc31c8ddbd135d5e0a7"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/station_access/host_registry/dns_membership_views.py",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -21520,6 +21614,17 @@
       },
       "path": "src/zog/station_access/host_registry/dns_membership_views.py",
       "sha256": "f041bed5877fc026b8e6ad10b34f4b7172d52b98c48d5956f53382e6b1188567"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/station_access/host_registry/dns_membership.py",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "1adeaec25b37d868beff51a7c01b3b7fb40933fe5c57fcc31c8ddbd135d5e0a7"
+      },
+      "path": "src/zog/station_access/host_registry/dns_membership.py",
+      "sha256": "1adeaec25b37d868beff51a7c01b3b7fb40933fe5c57fcc31c8ddbd135d5e0a7"
     },
     {
       "mode": "100644",
@@ -21535,17 +21640,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/station_access/host_registry/dns_setup.py",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "a1a61b443911664574734e2fa5aaabb10f5cf9758ec06820029619f58ac64f4d"
-      },
-      "path": "src/zog/station_access/host_registry/dns_setup.py",
-      "sha256": "a1a61b443911664574734e2fa5aaabb10f5cf9758ec06820029619f58ac64f4d"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/station_access/host_registry/dns_setup_views.py",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -21553,6 +21647,17 @@
       },
       "path": "src/zog/station_access/host_registry/dns_setup_views.py",
       "sha256": "62b9c2f2e4c56968b8a29c8b703158fed5ebe5c2eba59b6e7e5f876cb1ff9c83"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/station_access/host_registry/dns_setup.py",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "a1a61b443911664574734e2fa5aaabb10f5cf9758ec06820029619f58ac64f4d"
+      },
+      "path": "src/zog/station_access/host_registry/dns_setup.py",
+      "sha256": "a1a61b443911664574734e2fa5aaabb10f5cf9758ec06820029619f58ac64f4d"
     },
     {
       "mode": "100644",
@@ -21579,17 +21684,6 @@
     {
       "mode": "100644",
       "origin": {
-        "path": "src/zog/station_access/host_registry/identity.py",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "a1297a2055cba3ded9f2a2a24cc17ec3f278bc05cf31c280d27aaa1cd39403dc"
-      },
-      "path": "src/zog/station_access/host_registry/identity.py",
-      "sha256": "a1297a2055cba3ded9f2a2a24cc17ec3f278bc05cf31c280d27aaa1cd39403dc"
-    },
-    {
-      "mode": "100644",
-      "origin": {
         "path": "src/zog/station_access/host_registry/identity_views.py",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -21597,6 +21691,17 @@
       },
       "path": "src/zog/station_access/host_registry/identity_views.py",
       "sha256": "63ace63e8440bc86dca24117656f816ef6fed260f73fb83cf4234cca2129010e"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "src/zog/station_access/host_registry/identity.py",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "a1297a2055cba3ded9f2a2a24cc17ec3f278bc05cf31c280d27aaa1cd39403dc"
+      },
+      "path": "src/zog/station_access/host_registry/identity.py",
+      "sha256": "a1297a2055cba3ded9f2a2a24cc17ec3f278bc05cf31c280d27aaa1cd39403dc"
     },
     {
       "mode": "100644",
@@ -21777,6 +21882,17 @@
     {
       "mode": "100644",
       "origin": {
+        "path": "src/zog/station_access/host_registry/migrations/__init__.py",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "path": "src/zog/station_access/host_registry/migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "mode": "100644",
+      "origin": {
         "path": "src/zog/station_access/host_registry/migrations/0001_initial.py",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -21916,17 +22032,6 @@
       },
       "path": "src/zog/station_access/host_registry/migrations/0013_dnsdestination_additionaldnsassignment.py",
       "sha256": "058faba188dfad1ae5bcb0d36c9c6b19b0147235412a1aac905787bf60036a39"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "src/zog/station_access/host_registry/migrations/__init__.py",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "path": "src/zog/station_access/host_registry/migrations/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "mode": "100644",
@@ -22129,6 +22234,17 @@
     {
       "mode": "100644",
       "origin": {
+        "path": "src/zog/station_access/migrations/__init__.py",
+        "repository": "zog144/station-access",
+        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "path": "src/zog/station_access/migrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "mode": "100644",
+      "origin": {
         "path": "src/zog/station_access/migrations/0001_initial.py",
         "repository": "zog144/station-access",
         "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
@@ -22169,17 +22285,6 @@
       },
       "path": "src/zog/station_access/migrations/0004_workspace_controller_adapter.py",
       "sha256": "6a5b4358f812936ea71cc31ce780b7c291276d28464b6116d7b50bb17b7a9442"
-    },
-    {
-      "mode": "100644",
-      "origin": {
-        "path": "src/zog/station_access/migrations/__init__.py",
-        "repository": "zog144/station-access",
-        "revision": "ab2b1cc0b74787adf7dd81d99b1de5f099fe7460",
-        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "path": "src/zog/station_access/migrations/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "mode": "100644",
@@ -22472,18 +22577,24 @@
       "origin": {
         "kind": "aggregate-document-or-metadata"
       },
-      "path": "third-party/gcc/COPYING",
-      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+      "path": "tests/test_documentation_layout.py",
+      "sha256": "1017c4a5c7f0d7da2985678bd51ef66bd7c4919c9d3f4df6b3987b8e811a55b5"
     },
     {
       "mode": "100644",
       "origin": {
-        "path": "third-party/gcc/README.md",
-        "repository": "zog144/zog",
-        "revision": "8aeb6ad76402a9f91d6408e445190b4c03dd69f8"
+        "kind": "aggregate-document-or-metadata"
       },
-      "path": "third-party/gcc/README.md",
-      "sha256": "5fbabb90926ba1cc484848324f550a911bc1f8cc09c35b30f7af970ea6d415fd"
+      "path": "THIRD-PARTY-NOTICES.md",
+      "sha256": "52eaf8e293d862b2601fb4cd1248b5d2fe299f2247c2c947ae8ef2050b38283b"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "kind": "aggregate-document-or-metadata"
+      },
+      "path": "third-party/gcc/COPYING",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
     },
     {
       "mode": "100644",
@@ -22504,6 +22615,16 @@
       },
       "path": "third-party/gcc/patches/strchr-c23.patch",
       "sha256": "312cbc23d95b25d17141f2b90dec8a273b2eaacb21d2e0a8bc07f64d5b26baaf"
+    },
+    {
+      "mode": "100644",
+      "origin": {
+        "path": "third-party/gcc/README.md",
+        "repository": "zog144/zog",
+        "revision": "8aeb6ad76402a9f91d6408e445190b4c03dd69f8"
+      },
+      "path": "third-party/gcc/README.md",
+      "sha256": "5fbabb90926ba1cc484848324f550a911bc1f8cc09c35b30f7af970ea6d415fd"
     }
   ],
   "license_expression": "BSD-3-Clause OR GPL-3.0-only",
